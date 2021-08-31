@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 660 990" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<clipPath id="c0_222"><path d="M86.9,203.2l-1.2,-2.4l-1.2,-2.3H576.2l-1.1,2.3l-1.2,2.4Z"/></clipPath>
+<clipPath id="c1_222"><path d="M577.3,309.1L575,307.9l-2.4,-1.2V201.9l2.4,-1.2l2.3,-1.1V309.1Z"/></clipPath>
+<clipPath id="c2_222"><path d="M84.5,310.2l1.2,-2.4l1.2,-2.3h487l1.2,2.3l1.1,2.4Z"/></clipPath>
+<clipPath id="c3_222"><path d="M83.5,309.1V199.6l2.3,1.1l2.4,1.2V306.7l-2.4,1.2l-2.3,1.2Z"/></clipPath>
+<clipPath id="c4_222"><path d="M85.6,675.8v-4.7h95.6v4.7Z"/></clipPath>
+<clipPath id="c5_222"><path d="M180.9,675.8v-4.7H274v4.7Z"/></clipPath>
+<clipPath id="c6_222"><path d="M273.7,675.8v-4.7h85.9v4.7Z"/></clipPath>
+<clipPath id="c7_222"><path d="M85.6,915.9v-5.1H574.4v5.1Z"/></clipPath>
+<style type="text/css"><![CDATA[
+.g0_222{
+fill: none;
+stroke: #231F20;
+stroke-width: 0.381;
+stroke-linecap: round;
+stroke-linejoin: miter;
+}
+.g1_222{
+fill: #231F20;
+}
+.g2_222{
+fill: none;
+stroke: #231F20;
+stroke-width: 0.763;
+stroke-linecap: round;
+stroke-linejoin: miter;
+}
+]]></style>
+</defs>
+<path clip-path="url(#c0_222)" d="M85.6,200.8H575.1" class="g0_222"/>
+<path clip-path="url(#c1_222)" d="M575,200.7V308" class="g0_222"/>
+<path clip-path="url(#c2_222)" d="M575.1,307.8H85.6" class="g0_222"/>
+<path clip-path="url(#c3_222)" d="M85.8,308V200.7" class="g0_222"/>
+<path fill-rule="evenodd" d="M85.6,394.6H181v22H85.6v-22Z" class="g1_222"/>
+<path fill-rule="evenodd" d="M181,394.6h92.8v22H181v-22Z" class="g1_222"/>
+<path fill-rule="evenodd" d="M273.8,394.6h85.8v22H273.8v-22Z" class="g1_222"/>
+<path clip-path="url(#c4_222)" d="M181.2,673.5H85.6" class="g0_222"/>
+<path clip-path="url(#c5_222)" d="M274,673.5H180.9" class="g0_222"/>
+<path clip-path="url(#c6_222)" d="M359.6,673.5H273.7" class="g0_222"/>
+<path clip-path="url(#c7_222)" d="M85.6,913.4H574.4" class="g2_222"/>
+<image preserveAspectRatio="none" x="285" y="209" width="90" height="90" xlink:href="img/1.jpg"/>
+</svg>

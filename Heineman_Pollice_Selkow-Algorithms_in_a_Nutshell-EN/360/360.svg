@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 660 990" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<clipPath id="c0_360"><path d="M85.6,548v-4.7h69.5V548Z"/></clipPath>
+<clipPath id="c1_360"><path d="M154.8,548v-4.7h48.8V548Z"/></clipPath>
+<clipPath id="c2_360"><path d="M203.3,548v-4.7H252V548Z"/></clipPath>
+<clipPath id="c3_360"><path d="M251.7,548v-4.7h48.8V548Z"/></clipPath>
+<clipPath id="c4_360"><path d="M300.2,548v-4.7H405.7V548Z"/></clipPath>
+<clipPath id="c5_360"><path d="M405.4,548v-4.7h169V548Z"/></clipPath>
+<clipPath id="c6_360"><path d="M85.6,915.9v-5.1H574.4v5.1Z"/></clipPath>
+<style type="text/css"><![CDATA[
+.g0_360{
+fill: #231F20;
+}
+.g1_360{
+fill: none;
+stroke: #231F20;
+stroke-width: 0.381;
+stroke-linecap: round;
+stroke-linejoin: miter;
+}
+.g2_360{
+fill: none;
+stroke: #231F20;
+stroke-width: 0.763;
+stroke-linecap: round;
+stroke-linejoin: miter;
+}
+]]></style>
+</defs>
+<path fill-rule="evenodd" d="M85.6,321.3H155v22H85.6v-22Z" class="g0_360"/>
+<path fill-rule="evenodd" d="M155,321.3h48.4v22H155v-22Z" class="g0_360"/>
+<path fill-rule="evenodd" d="M203.4,321.3h48.5v22H203.4v-22Z" class="g0_360"/>
+<path fill-rule="evenodd" d="M251.9,321.3h48.4v22H251.9v-22Z" class="g0_360"/>
+<path fill-rule="evenodd" d="M300.3,321.3H405.5v22H300.3v-22Z" class="g0_360"/>
+<path fill-rule="evenodd" d="M405.5,321.3H574.4v22H405.5v-22Z" class="g0_360"/>
+<path clip-path="url(#c0_360)" d="M155.1,545.7H85.6" class="g1_360"/>
+<path clip-path="url(#c1_360)" d="M203.6,545.7H154.8" class="g1_360"/>
+<path clip-path="url(#c2_360)" d="M252,545.7H203.3" class="g1_360"/>
+<path clip-path="url(#c3_360)" d="M300.5,545.7H251.7" class="g1_360"/>
+<path clip-path="url(#c4_360)" d="M405.7,545.7H300.2" class="g1_360"/>
+<path clip-path="url(#c5_360)" d="M574.4,545.7h-169" class="g1_360"/>
+<path clip-path="url(#c6_360)" d="M85.6,913.4H574.4" class="g2_360"/>
+</svg>

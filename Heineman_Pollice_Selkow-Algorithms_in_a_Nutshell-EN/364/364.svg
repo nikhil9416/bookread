@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 660 990" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<clipPath id="c0_364"><path d="M85.6,716.8v-4.7h81.3v4.7Z"/></clipPath>
+<clipPath id="c1_364"><path d="M166.6,716.8v-4.7h36.7v4.7Z"/></clipPath>
+<clipPath id="c2_364"><path d="M203,716.8v-4.7h48.5v4.7Z"/></clipPath>
+<clipPath id="c3_364"><path d="M251.2,716.8v-4.7h38.1v4.7Z"/></clipPath>
+<clipPath id="c4_364"><path d="M289,716.8v-4.7H422.1v4.7Z"/></clipPath>
+<clipPath id="c5_364"><path d="M421.8,716.8v-4.7H574.4v4.7Z"/></clipPath>
+<clipPath id="c6_364"><path d="M85.6,915.9v-5.1H574.4v5.1Z"/></clipPath>
+<style type="text/css"><![CDATA[
+.g0_364{
+fill: #231F20;
+}
+.g1_364{
+fill: none;
+stroke: #231F20;
+stroke-width: 0.381;
+stroke-linecap: round;
+stroke-linejoin: miter;
+}
+.g2_364{
+fill: none;
+stroke: #231F20;
+stroke-width: 0.763;
+stroke-linecap: round;
+stroke-linejoin: miter;
+}
+]]></style>
+</defs>
+<path fill-rule="evenodd" d="M85.6,442.9h81.1v22H85.6v-22Z" class="g0_364"/>
+<path fill-rule="evenodd" d="M166.7,442.9h36.5v22H166.7v-22Z" class="g0_364"/>
+<path fill-rule="evenodd" d="M203.2,442.9h48.2v22H203.2v-22Z" class="g0_364"/>
+<path fill-rule="evenodd" d="M251.4,442.9h37.7v22H251.4v-22Z" class="g0_364"/>
+<path fill-rule="evenodd" d="M289.1,442.9H422v22H289.1v-22Z" class="g0_364"/>
+<path fill-rule="evenodd" d="M422,442.9H574.4v22H422v-22Z" class="g0_364"/>
+<path clip-path="url(#c0_364)" d="M166.9,714.4H85.6" class="g1_364"/>
+<path clip-path="url(#c1_364)" d="M203.3,714.4H166.6" class="g1_364"/>
+<path clip-path="url(#c2_364)" d="M251.5,714.4H203" class="g1_364"/>
+<path clip-path="url(#c3_364)" d="M289.3,714.4H251.2" class="g1_364"/>
+<path clip-path="url(#c4_364)" d="M422.1,714.4H289" class="g1_364"/>
+<path clip-path="url(#c5_364)" d="M574.4,714.4H421.8" class="g1_364"/>
+<path clip-path="url(#c6_364)" d="M85.6,913.4H574.4" class="g2_364"/>
+</svg>

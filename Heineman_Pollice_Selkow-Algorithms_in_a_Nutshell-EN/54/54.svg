@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 660 990" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<clipPath id="c0_54"><path d="M85.6,915.9v-5.1H574.4v5.1Z"/></clipPath>
+<style type="text/css"><![CDATA[
+.g0_54{
+fill: #231F20;
+}
+.g1_54{
+fill: none;
+stroke: #231F20;
+stroke-width: 0.763;
+stroke-linecap: round;
+stroke-linejoin: miter;
+}
+]]></style>
+</defs>
+<path fill-rule="evenodd" d="M85.6,801.3H240.1v22H85.6v-22Z" class="g0_54"/>
+<path fill-rule="evenodd" d="M240.1,801.3H374.9v22H240.1v-22Z" class="g0_54"/>
+<path fill-rule="evenodd" d="M374.9,801.3H549.6v22H374.9v-22Z" class="g0_54"/>
+<path clip-path="url(#c0_54)" d="M85.6,913.4H574.4" class="g1_54"/>
+</svg>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 660 990" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<clipPath id="c0_134"><path d="M86.9,272l-1.2,-2.3l-1.2,-2.4H576.2l-1.1,2.4l-1.2,2.3Z"/></clipPath>
+<clipPath id="c1_134"><path d="M577.3,450L575,448.9l-2.4,-1.2V270.8l2.4,-1.2l2.3,-1.2V450Z"/></clipPath>
+<clipPath id="c2_134"><path d="M84.5,451.1l1.2,-2.3l1.2,-2.4h487l1.2,2.4l1.1,2.3Z"/></clipPath>
+<clipPath id="c3_134"><path d="M83.5,450V268.4l2.3,1.2l2.4,1.2V447.7l-2.4,1.2L83.5,450Z"/></clipPath>
+<clipPath id="c4_134"><path d="M86.9,494.6l-1.2,-2.4l-1.2,-2.3H576.2l-1.1,2.3l-1.2,2.4Z"/></clipPath>
+<clipPath id="c5_134"><path d="M577.3,859L575,857.8l-2.4,-1.2V493.3l2.4,-1.2l2.3,-1.1V859Z"/></clipPath>
+<clipPath id="c6_134"><path d="M84.5,860.1l1.2,-2.4l1.2,-2.4h487l1.2,2.4l1.1,2.4Z"/></clipPath>
+<clipPath id="c7_134"><path d="M83.5,859V491l2.3,1.1l2.4,1.2V856.6l-2.4,1.2L83.5,859Z"/></clipPath>
+<clipPath id="c8_134"><path d="M85.6,915.9v-5.1H574.4v5.1Z"/></clipPath>
+<style type="text/css"><![CDATA[
+.g0_134{
+fill: none;
+stroke: #231F20;
+stroke-width: 0.381;
+stroke-linecap: round;
+stroke-linejoin: miter;
+}
+.g1_134{
+fill: none;
+stroke: #231F20;
+stroke-width: 0.763;
+stroke-linecap: round;
+stroke-linejoin: miter;
+}
+]]></style>
+</defs>
+<path clip-path="url(#c0_134)" d="M85.6,269.7H575.1" class="g0_134"/>
+<path clip-path="url(#c1_134)" d="M575,269.5V449" class="g0_134"/>
+<path clip-path="url(#c2_134)" d="M575.1,448.8H85.6" class="g0_134"/>
+<path clip-path="url(#c3_134)" d="M85.8,449V269.5" class="g0_134"/>
+<path clip-path="url(#c4_134)" d="M85.6,492.2H575.1" class="g0_134"/>
+<path clip-path="url(#c5_134)" d="M575,492V857.9" class="g0_134"/>
+<path clip-path="url(#c6_134)" d="M575.1,857.7H85.6" class="g0_134"/>
+<path clip-path="url(#c7_134)" d="M85.8,857.9V492" class="g0_134"/>
+<path clip-path="url(#c8_134)" d="M85.6,913.4H574.4" class="g1_134"/>
+<image preserveAspectRatio="none" x="195" y="278" width="271" height="162" xlink:href="img/1.jpg"/>
+<image preserveAspectRatio="none" x="246" y="500" width="169" height="349" xlink:href="img/2.jpg"/>
+</svg>
