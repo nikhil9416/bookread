@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 907 1045" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<clipPath id="c0_620"><path d="M154.1,246.1V159h74.5v87.1Z"/></clipPath>
+<clipPath id="c1_620"><path d="M-2.6,1047.7V-2.6H910.2V1047.7Z"/></clipPath>
+<style type="text/css"><![CDATA[
+.g0_620{
+fill: none;
+stroke: #000000;
+stroke-width: 1.527;
+stroke-linecap: butt;
+stroke-linejoin: miter;
+stroke-miterlimit: 4;
+}
+.g1_620{
+fill: #FFFFFF;
+}
+.g2_620{
+fill: none;
+stroke: #FFFFFF;
+stroke-width: 1.527;
+stroke-linecap: butt;
+stroke-linejoin: miter;
+stroke-miterlimit: 4;
+}
+.g3_620{
+fill: none;
+stroke: #636363;
+stroke-width: 1.527;
+stroke-linecap: butt;
+stroke-linejoin: miter;
+stroke-miterlimit: 4;
+}
+.g4_620{
+fill: none;
+stroke: #FFFFFF;
+stroke-width: 1.909;
+stroke-linecap: butt;
+stroke-linejoin: miter;
+}
+.g5_620{
+fill: none;
+stroke: #000000;
+stroke-width: 0.381;
+stroke-linecap: butt;
+stroke-linejoin: miter;
+}
+]]></style>
+</defs>
+<path d="M136.3,202.6V890.9H762.4V202.6H136.3Z" class="g0_620"/>
+<path d="M134.3,188.6v61.8H370.5V188.6H134.3Z" class="g1_620"/>
+<path d="M134.3,188.6v61.8H370.5V188.6H134.3Z" class="g2_620"/>
+<image clip-path="url(#c0_620)" preserveAspectRatio="none" x="154" y="159" width="75" height="87" xlink:href="img/1.jpg"/>
+<path d="M314.5,463.4c1.4,.3,2.8,.1,4.2,.2c1.3,.1,2.5,.4,3.8,.4c2.1,.1,4.3,0,6.4,0c3.9,0,7.9,.1,11.8,.6c1.4,.2,3.1,.1,4.5,0c1.8,-.2,3.5,-.2,5.3,-.2c3.7,0,7.4,-.4,11.1,-.4c-2.6,.1,-5.2,-.4,-7.7,-.4c-2.1,0,-4.1,0,-6.1,-.3c-3.7,-.4,-7.6,-.6,-11.4,-.6c-3.2,0,-6.6,.3,-9.8,-.1c-2.3,-.3,-5.3,.3,-7.3,.4" class="g3_620"/>
+<g clip-path="url(#c1_620)">
+<path d="M-4.5,13.7H-27.4m939.5,0H935M-4.5,1031.2H-27.4m939.5,0H935M13.7,-4.5V-27.4m0,1077v22.9m880,-1077V-27.4m0,1077v22.9" class="g4_620"/>
+<path d="M-4.5,13.7H-27.4m939.5,0H935M-4.5,1031.2H-27.4m939.5,0H935M13.7,-4.5V-27.4m0,1077v22.9m880,-1077V-27.4m0,1077v22.9" class="g5_620"/>
+</g>
+</svg>

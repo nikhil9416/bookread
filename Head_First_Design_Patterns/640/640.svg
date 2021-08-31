@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 907 1045" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<clipPath id="c0_640"><path d="M509.9,912.2L463.6,679.9l150.2,-30l46.3,232.4L509.9,912.2Z"/></clipPath>
+<clipPath id="c1_640"><path d="M178.7,495.7V244.2H363.6V495.7Z"/></clipPath>
+<clipPath id="c2_640"><path d="M773.6,687.9L668.4,642l-1.7,3.9h-96v-7.5H823v49.5Z"/></clipPath>
+<clipPath id="c3_640"><path d="M772.1,932.8v-144l37.2,-85.4L772.1,687.2v-.1H823V932.8Z"/></clipPath>
+<clipPath id="c4_640"><path d="M721.8,932.8V904.1l51,-116.9V932.8Z"/></clipPath>
+<clipPath id="c5_640"><path d="M570.7,932.8v-6H674.4V901.3l40.9,17.8l7.3,-16.7v30.4Z"/></clipPath>
+<clipPath id="c6_640"><path d="M715.3,919.1v0L674.4,901.3V645.9h-7.7l1.7,-3.9l140.9,61.4l-94,215.7Z"/></clipPath>
+<clipPath id="c7_640"><path d="M459.6,926.8V645.9H570.7V926.8Z"/></clipPath>
+<clipPath id="c8_640"><path d="M570.7,926.8V645.9h96L574.4,857.7l100,43.6v25.5Z"/></clipPath>
+<clipPath id="c9_640"><path d="M674.4,901.3l-100,-43.6L666.7,645.9h7.7V901.3Z"/></clipPath>
+<clipPath id="ca_640"><path d="M174,510.8V239.5H379V510.8Z"/></clipPath>
+<clipPath id="cb_640"><path d="M-2.6,1047.7V-2.6H910.2V1047.7Z"/></clipPath>
+<style type="text/css"><![CDATA[
+.g0_640{
+fill: none;
+stroke: #636363;
+stroke-width: 1.527;
+stroke-linecap: butt;
+stroke-linejoin: miter;
+stroke-miterlimit: 4;
+}
+.g1_640{
+fill: none;
+stroke: #FFFFFF;
+stroke-width: 1.909;
+stroke-linecap: butt;
+stroke-linejoin: miter;
+}
+.g2_640{
+fill: none;
+stroke: #000000;
+stroke-width: 0.381;
+stroke-linecap: butt;
+stroke-linejoin: miter;
+}
+]]></style>
+</defs>
+<image clip-path="url(#c2_640)" preserveAspectRatio="none" x="570" y="638" width="253" height="50" xlink:href="img/1.jpg"/>
+<image clip-path="url(#c3_640)" preserveAspectRatio="none" x="772" y="687" width="51" height="246" xlink:href="img/2.jpg"/>
+<image clip-path="url(#c4_640)" preserveAspectRatio="none" x="722" y="785" width="51" height="148" xlink:href="img/3.jpg"/>
+<image clip-path="url(#c5_640)" preserveAspectRatio="none" x="570" y="883" width="153" height="50" xlink:href="img/4.jpg"/>
+<image clip-path="url(#c6_640)" preserveAspectRatio="none" x="574" y="642" width="236" height="277" xlink:href="img/5.png"/>
+<image clip-path="url(#c7_640)" preserveAspectRatio="none" x="459" y="646" width="112" height="281" xlink:href="img/6.jpg"/>
+<image clip-path="url(#c8_640)" preserveAspectRatio="none" x="570" y="646" width="105" height="281" xlink:href="img/7.jpg"/>
+<image clip-path="url(#c9_640)" preserveAspectRatio="none" x="574" y="643" width="194" height="259" xlink:href="img/8.png"/>
+<g clip-path="url(#c0_640)">
+<image clip-path="url(#c0_640)" preserveAspectRatio="none" x="459" y="647" width="204" height="268" xlink:href="img/9.jpg"/>
+</g>
+<image clip-path="url(#ca_640)" preserveAspectRatio="none" x="174" y="239" width="205" height="272" xlink:href="img/10.jpg"/>
+<g clip-path="url(#c1_640)">
+<image clip-path="url(#c1_640)" preserveAspectRatio="none" x="177" y="243" width="188" height="254" xlink:href="img/11.jpg"/>
+</g>
+<path d="M428.5,520.6c-1.7,.8,-2.6,1.7,-4,3c-6.2,5.4,-13.2,9.6,-19.6,14.6c-4,3.1,-7.9,6.2,-12.3,8.9c-5.2,3.2,-10.9,7.1,-16.9,8.6c-9.2,2.4,-18.5,-.8,-24.5,-8.2c-3.3,-4.1,-5.4,-8.8,-5.8,-14c-.1,-1.8,-.6,-3.4,-.7,-5.1c-1.4,.2,-2.2,2.8,-2.6,3.7c-2.1,4.2,-3.8,8.4,-5,13c-.1,-1.6,1.2,-3.9,1.8,-5.3c1.5,-3.7,4.3,-8.7,4,-12.8c1.4,.5,2.7,1.8,4.3,2.4c2,.8,4.1,1.5,6.2,2c1.7,.5,6.1,1.9,8.2,1.7m274.3,76.3c0,3.6,-.2,7.1,-.4,10.6c0,1,-.3,1.8,-.4,2.7c0,.4,.1,.8,-.1,1.1c-.5,-1.1,-.7,-2.3,-1.4,-3.3c-.5,-.8,-1.3,-1.3,-2,-1.9c-.4,-.3,-1.2,-.7,-1.5,-1.2c.4,-.3,1.2,.4,1.5,.6c1.6,1.2,1.8,3.4,2.9,4.8c.6,.8,.7,.6,1.3,0c.5,-.4,.9,-.8,1.4,-1.2c1.1,-.8,2.7,-1.7,3.5,-2.9" class="g0_640"/>
+<g clip-path="url(#cb_640)">
+<path d="M-4.5,13.7H-27.4m939.5,0H935M-4.5,1031.2H-27.4m939.5,0H935M13.7,-4.5V-27.4m0,1077v22.9m880,-1077V-27.4m0,1077v22.9" class="g1_640"/>
+<path d="M-4.5,13.7H-27.4m939.5,0H935M-4.5,1031.2H-27.4m939.5,0H935M13.7,-4.5V-27.4m0,1077v22.9m880,-1077V-27.4m0,1077v22.9" class="g2_640"/>
+</g>
+</svg>
