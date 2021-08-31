@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta charset="utf-8" />
+</head>
+
+<body style="margin: 0;">
+
+<div id="p266" style="overflow: hidden; position: relative; background-color: white; width: 909px; height: 1286px;">
+
+<!-- Begin shared CSS values -->
+<style class="shared-css" type="text/css" >
+.t {
+	transform-origin: bottom left;
+	z-index: 2;
+	position: absolute;
+	white-space: pre;
+	overflow: visible;
+	line-height: 1.5;
+}
+.text-container {
+	white-space: pre;
+}
+@supports (-webkit-touch-callout: none) {
+	.text-container {
+		white-space: normal;
+	}
+}
+</style>
+<!-- End shared CSS values -->
+
+
+<!-- Begin inline CSS -->
+<style type="text/css" >
+
+#t1_266{left:450px;bottom:46px;letter-spacing:-0.13px;}
+#t2_266{left:65px;bottom:1188px;letter-spacing:0.15px;word-spacing:1.19px;}
+#t3_266{left:65px;bottom:1159px;letter-spacing:0.14px;word-spacing:-0.11px;}
+#t4_266{left:65px;bottom:1101px;letter-spacing:0.2px;word-spacing:0.05px;}
+#t5_266{left:65px;bottom:1038px;letter-spacing:0.15px;word-spacing:-0.15px;}
+#t6_266{left:65px;bottom:988px;letter-spacing:0.15px;word-spacing:-0.09px;}
+#t7_266{left:102px;bottom:959px;letter-spacing:0.15px;word-spacing:-0.28px;}
+#t8_266{left:102px;bottom:930px;letter-spacing:0.15px;word-spacing:-0.29px;}
+#t9_266{left:102px;bottom:901px;letter-spacing:0.16px;word-spacing:-0.29px;}
+#ta_266{left:102px;bottom:872px;letter-spacing:0.16px;word-spacing:-0.28px;}
+#tb_266{left:102px;bottom:843px;letter-spacing:0.15px;word-spacing:-0.15px;}
+#tc_266{left:65px;bottom:814px;}
+#td_266{left:65px;bottom:756px;letter-spacing:0.24px;word-spacing:-0.16px;}
+#te_266{left:65px;bottom:694px;letter-spacing:0.16px;word-spacing:4.12px;}
+#tf_266{left:65px;bottom:665px;letter-spacing:0.13px;}
+#tg_266{left:65px;bottom:614px;letter-spacing:0.14px;word-spacing:-0.07px;}
+#th_266{left:102px;bottom:585px;letter-spacing:0.11px;}
+#ti_266{left:65px;bottom:556px;}
+#tj_266{left:65px;bottom:506px;letter-spacing:0.16px;word-spacing:4.92px;}
+#tk_266{left:65px;bottom:477px;letter-spacing:0.12px;}
+#tl_266{left:390px;bottom:3px;letter-spacing:0.13px;}
+
+.s1_266{font-size:14px;font-family:TimesNewRomanPSMT_390;color:#000;}
+.s2_266{font-size:18px;font-family:Georgia_397;color:#000;}
+.s3_266{font-size:21px;font-family:Georgia-Bold_391;color:#000;}
+.s4_266{font-size:15px;font-family:Helvetica, Arial, sans-serif;color:#00F;}
+</style>
+<!-- End inline CSS -->
+
+<!-- Begin embedded font definitions -->
+<style id="fonts266" type="text/css" >
+
+@font-face {
+	font-family: Georgia-Bold_391;
+	src: url("fonts/Georgia-Bold_391.woff") format("woff");
+}
+
+@font-face {
+	font-family: Georgia_397;
+	src: url("fonts/Georgia_397.woff") format("woff");
+}
+
+@font-face {
+	font-family: TimesNewRomanPSMT_390;
+	src: url("fonts/TimesNewRomanPSMT_390.woff") format("woff");
+}
+
+</style>
+<!-- End embedded font definitions -->
+
+<!-- Begin page background -->
+<div id="pg266Overlay" style="width:100%; height:100%; position:absolute; z-index:1; background-color:rgba(0,0,0,0); -webkit-user-select: none;"></div>
+<div id="pg266" style="-webkit-user-select: none;"><object width="909" height="1286" data="266/266.svg" type="image/svg+xml" id="pdf266" style="width:909px; height:1286px; -moz-transform:scale(1); z-index: 0;"></object></div>
+<!-- End page background -->
+
+
+<!-- Begin text definitions (Positioned/styled in CSS) -->
+<div class="text-container"><span id="t1_266" class="t s1_266">266 </span>
+<span id="t2_266" class="t s2_266">evolve the Java API. Let’s look at an example in detail to see the consequences of modifying an </span>
+<span id="t3_266" class="t s2_266">interface that’s already been published. </span>
+<span id="t4_266" class="t s3_266">9.1.1. API version 1 </span>
+<span id="t5_266" class="t s2_266">The first version of your Resizable interface has the following methods: </span>
+<span id="t6_266" class="t s2_266">public interface Resizable extends Drawable{ </span>
+<span id="t7_266" class="t s2_266">int getWidth(); </span>
+<span id="t8_266" class="t s2_266">int getHeight(); </span>
+<span id="t9_266" class="t s2_266">void setWidth(int width); </span>
+<span id="ta_266" class="t s2_266">void setHeight(int height); </span>
+<span id="tb_266" class="t s2_266">void setAbsoluteSize(int width, int height); </span>
+<span id="tc_266" class="t s2_266">} </span>
+<span id="td_266" class="t s3_266">User implementation </span>
+<span id="te_266" class="t s2_266">One of your most loyal users decides to create his own implementation of Resizable called </span>
+<span id="tf_266" class="t s2_266">Ellipse: </span>
+<span id="tg_266" class="t s2_266">public class Ellipse implements Resizable { </span>
+<span id="th_266" class="t s2_266">... </span>
+<span id="ti_266" class="t s2_266">} </span>
+<span id="tj_266" class="t s2_266">He’s created a game that processes different types of Resizable shapes (including his own </span>
+<span id="tk_266" class="t s2_266">Ellipse): </span>
+<span id="tl_266" class="t s4_266">www.it-ebooks.info </span></div>
+<!-- End text definitions -->
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta charset="utf-8" />
+</head>
+
+<body style="margin: 0;">
+
+<div id="p283" style="overflow: hidden; position: relative; background-color: white; width: 909px; height: 1286px;">
+
+<!-- Begin shared CSS values -->
+<style class="shared-css" type="text/css" >
+.t {
+	transform-origin: bottom left;
+	z-index: 2;
+	position: absolute;
+	white-space: pre;
+	overflow: visible;
+	line-height: 1.5;
+}
+.text-container {
+	white-space: pre;
+}
+@supports (-webkit-touch-callout: none) {
+	.text-container {
+		white-space: normal;
+	}
+}
+</style>
+<!-- End shared CSS values -->
+
+
+<!-- Begin inline CSS -->
+<style type="text/css" >
+
+#t1_283{left:450px;bottom:46px;letter-spacing:-0.13px;}
+#t2_283{left:65px;bottom:1180px;letter-spacing:0.24px;word-spacing:0.01px;}
+#t3_283{left:65px;bottom:882px;letter-spacing:0.16px;word-spacing:2.23px;}
+#t4_283{left:65px;bottom:853px;letter-spacing:0.14px;word-spacing:1.37px;}
+#t5_283{left:65px;bottom:824px;letter-spacing:0.16px;word-spacing:1.44px;}
+#t6_283{left:65px;bottom:795px;letter-spacing:0.14px;word-spacing:-0.15px;}
+#t7_283{left:65px;bottom:745px;letter-spacing:0.15px;word-spacing:2.14px;}
+#t8_283{left:65px;bottom:716px;letter-spacing:0.14px;word-spacing:-0.15px;}
+#t9_283{left:65px;bottom:665px;letter-spacing:0.13px;word-spacing:-0.08px;}
+#ta_283{left:102px;bottom:636px;letter-spacing:0.15px;word-spacing:-0.28px;}
+#tb_283{left:65px;bottom:607px;}
+#tc_283{left:65px;bottom:557px;letter-spacing:0.15px;word-spacing:0.22px;}
+#td_283{left:65px;bottom:528px;letter-spacing:0.15px;word-spacing:1.26px;}
+#te_283{left:65px;bottom:499px;letter-spacing:0.16px;word-spacing:-0.24px;}
+#tf_283{left:65px;bottom:401px;word-spacing:0.18px;}
+#tg_283{left:65px;bottom:351px;letter-spacing:0.16px;word-spacing:2.73px;}
+#th_283{left:65px;bottom:322px;letter-spacing:0.14px;word-spacing:1.71px;}
+#ti_283{left:65px;bottom:292px;letter-spacing:0.14px;word-spacing:0.66px;}
+#tj_283{left:65px;bottom:263px;letter-spacing:0.16px;word-spacing:1.55px;}
+#tk_283{left:65px;bottom:235px;letter-spacing:0.15px;word-spacing:0.39px;}
+#tl_283{left:65px;bottom:205px;letter-spacing:0.14px;word-spacing:-0.18px;}
+#tm_283{left:390px;bottom:3px;letter-spacing:0.13px;}
+
+.s1_283{font-size:14px;font-family:TimesNewRomanPSMT_390;color:#000;}
+.s2_283{font-size:21px;font-family:Georgia-Bold_391;color:#000;}
+.s3_283{font-size:18px;font-family:Georgia_397;color:#000;}
+.s4_283{font-size:16px;font-family:Georgia-Bold_391;color:#000;}
+.s5_283{font-size:15px;font-family:Helvetica, Arial, sans-serif;color:#00F;}
+</style>
+<!-- End inline CSS -->
+
+<!-- Begin embedded font definitions -->
+<style id="fonts283" type="text/css" >
+
+@font-face {
+	font-family: Georgia-Bold_391;
+	src: url("fonts/Georgia-Bold_391.woff") format("woff");
+}
+
+@font-face {
+	font-family: Georgia_397;
+	src: url("fonts/Georgia_397.woff") format("woff");
+}
+
+@font-face {
+	font-family: TimesNewRomanPSMT_390;
+	src: url("fonts/TimesNewRomanPSMT_390.woff") format("woff");
+}
+
+</style>
+<!-- End embedded font definitions -->
+
+<!-- Begin page background -->
+<div id="pg283Overlay" style="width:100%; height:100%; position:absolute; z-index:1; background-color:rgba(0,0,0,0); -webkit-user-select: none;"></div>
+<div id="pg283" style="-webkit-user-select: none;"><object width="909" height="1286" data="283/283.svg" type="image/svg+xml" id="pdf283" style="width:909px; height:1286px; -moz-transform:scale(1); z-index: 0;"></object></div>
+<!-- End page background -->
+
+
+<!-- Begin text definitions (Positioned/styled in CSS) -->
+<div class="text-container"><span id="t1_283" class="t s1_283">283 </span>
+<span id="t2_283" class="t s2_283">Figure 9.8. The diamond problem </span>
+<span id="t3_283" class="t s3_283">Now what happens if B also has a default hello method with the same signature? Rule 2 says </span>
+<span id="t4_283" class="t s3_283">that you select the most specific default-providing interface. Because B is more specific than A, </span>
+<span id="t5_283" class="t s3_283">the default method declaration from B will be selected. If both B and C declare a hello method </span>
+<span id="t6_283" class="t s3_283">with the same signature, you have a conflict and need to solve it explicitly, as we showed earlier. </span>
+<span id="t7_283" class="t s3_283">Just as a side note, you may be wondering what happens if you add an abstract hello method </span>
+<span id="t8_283" class="t s3_283">(one that’s not default) in interface C as follows (still no methods in A and B): </span>
+<span id="t9_283" class="t s3_283">public interface C extends A { </span>
+<span id="ta_283" class="t s3_283">void hello(); </span>
+<span id="tb_283" class="t s3_283">} </span>
+<span id="tc_283" class="t s3_283">The new abstract hello method in C takes priority over the default hello method from interface A </span>
+<span id="td_283" class="t s3_283">because C is more specific. Therefore, class D now needs to provide an explicit implementation </span>
+<span id="te_283" class="t s3_283">for hello; otherwise the program won’t compile. </span>
+<span id="tf_283" class="t s4_283">C++ diamond problem </span>
+<span id="tg_283" class="t s3_283">The diamond problem is more complicated in C++. First, C++ allows multiple inheritance of </span>
+<span id="th_283" class="t s3_283">classes. By default, if a class D inherits from classes B and C, and classes B and C both inherit </span>
+<span id="ti_283" class="t s3_283">from A, then class D will actually have access to a copy of a B object and a copy of a C object. As </span>
+<span id="tj_283" class="t s3_283">a result, uses of methods from A have to be explicitly qualified: are they coming from B or are </span>
+<span id="tk_283" class="t s3_283">they coming from C? In addition, classes have state, so modifying member variables from B isn’t </span>
+<span id="tl_283" class="t s3_283">reflected on the copy of the C object. </span>
+<span id="tm_283" class="t s5_283">www.it-ebooks.info </span></div>
+<!-- End text definitions -->
+
+
+</div>
+</body>
+</html>

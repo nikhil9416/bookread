@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta charset="utf-8" />
+</head>
+
+<body style="margin: 0;">
+
+<div id="p465" style="overflow: hidden; position: relative; background-color: white; width: 909px; height: 1286px;">
+
+<!-- Begin shared CSS values -->
+<style class="shared-css" type="text/css" >
+.t {
+	transform-origin: bottom left;
+	z-index: 2;
+	position: absolute;
+	white-space: pre;
+	overflow: visible;
+	line-height: 1.5;
+}
+.text-container {
+	white-space: pre;
+}
+@supports (-webkit-touch-callout: none) {
+	.text-container {
+		white-space: normal;
+	}
+}
+</style>
+<!-- End shared CSS values -->
+
+
+<!-- Begin inline CSS -->
+<style type="text/css" >
+
+#t1_465{left:450px;bottom:46px;letter-spacing:-0.13px;}
+#t2_465{left:65px;bottom:1180px;letter-spacing:0.22px;word-spacing:-0.01px;}
+#t3_465{left:65px;bottom:1132px;letter-spacing:0.26px;}
+#t4_465{left:65px;bottom:1070px;letter-spacing:0.15px;word-spacing:-0.12px;}
+#t5_465{left:65px;bottom:1020px;letter-spacing:0.15px;word-spacing:-0.2px;}
+#t6_465{left:102px;bottom:991px;letter-spacing:0.17px;word-spacing:-0.09px;}
+#t7_465{left:102px;bottom:962px;letter-spacing:0.18px;word-spacing:-0.51px;}
+#t8_465{left:138px;bottom:933px;letter-spacing:0.16px;}
+#t9_465{left:102px;bottom:904px;letter-spacing:0.15px;word-spacing:-0.34px;}
+#ta_465{left:138px;bottom:875px;letter-spacing:0.16px;}
+#tb_465{left:102px;bottom:846px;}
+#tc_465{left:102px;bottom:817px;letter-spacing:0.16px;word-spacing:-0.17px;}
+#td_465{left:65px;bottom:788px;}
+#te_465{left:65px;bottom:737px;letter-spacing:0.16px;word-spacing:0.92px;}
+#tf_465{left:65px;bottom:708px;letter-spacing:0.15px;word-spacing:1.65px;}
+#tg_465{left:65px;bottom:679px;letter-spacing:0.18px;word-spacing:6.4px;}
+#th_465{left:65px;bottom:650px;letter-spacing:0.16px;word-spacing:0.09px;}
+#ti_465{left:65px;bottom:621px;letter-spacing:0.16px;word-spacing:4.03px;}
+#tj_465{left:65px;bottom:592px;letter-spacing:0.15px;word-spacing:0.25px;}
+#tk_465{left:65px;bottom:563px;letter-spacing:0.16px;word-spacing:2.56px;}
+#tl_465{left:65px;bottom:534px;letter-spacing:0.16px;word-spacing:-0.17px;}
+#tm_465{left:65px;bottom:476px;letter-spacing:0.22px;}
+#tn_465{left:242px;bottom:477px;letter-spacing:0.14px;}
+#to_465{left:296px;bottom:476px;letter-spacing:0.24px;word-spacing:-0.07px;}
+#tp_465{left:545px;bottom:477px;letter-spacing:0.22px;}
+#tq_465{left:390px;bottom:3px;letter-spacing:0.13px;}
+
+.s1_465{font-size:14px;font-family:TimesNewRomanPSMT_390;color:#000;}
+.s2_465{font-size:21px;font-family:Georgia-Bold_391;color:#000;}
+.s3_465{font-size:18px;font-family:Georgia_397;color:#000;}
+.s4_465{font-size:18px;font-family:Georgia-Bold_391;color:#000;}
+.s5_465{font-size:15px;font-family:Helvetica, Arial, sans-serif;color:#00F;}
+</style>
+<!-- End inline CSS -->
+
+<!-- Begin embedded font definitions -->
+<style id="fonts465" type="text/css" >
+
+@font-face {
+	font-family: Georgia-Bold_391;
+	src: url("fonts/Georgia-Bold_391.woff") format("woff");
+}
+
+@font-face {
+	font-family: Georgia_397;
+	src: url("fonts/Georgia_397.woff") format("woff");
+}
+
+@font-face {
+	font-family: TimesNewRomanPSMT_390;
+	src: url("fonts/TimesNewRomanPSMT_390.woff") format("woff");
+}
+
+</style>
+<!-- End embedded font definitions -->
+
+<!-- Begin page background -->
+<div id="pg465Overlay" style="width:100%; height:100%; position:absolute; z-index:1; background-color:rgba(0,0,0,0); -webkit-user-select: none;"></div>
+<div id="pg465" style="-webkit-user-select: none;"><object width="909" height="1286" data="465/465.svg" type="image/svg+xml" id="pdf465" style="width:909px; height:1286px; -moz-transform:scale(1); z-index: 0;"></object></div>
+<!-- End page background -->
+
+
+<!-- Begin text definitions (Positioned/styled in CSS) -->
+<div class="text-container"><span id="t1_465" class="t s1_465">465 </span>
+<span id="t2_465" class="t s2_465">C.1.1. Implementing the Results interface with the </span>
+<span id="t3_465" class="t s2_465">ForkingStreamConsumer </span>
+<span id="t4_465" class="t s3_465">The getResults method can be implemented as follows: </span>
+<span id="t5_465" class="t s3_465">public Results getResults() { </span>
+<span id="t6_465" class="t s3_465">ForkingStreamConsumer&lt;T&gt; consumer = build(); </span>
+<span id="t7_465" class="t s3_465">try { </span>
+<span id="t8_465" class="t s3_465">stream.sequential().forEach(consumer); </span>
+<span id="t9_465" class="t s3_465">} finally { </span>
+<span id="ta_465" class="t s3_465">consumer.finish(); </span>
+<span id="tb_465" class="t s3_465">} </span>
+<span id="tc_465" class="t s3_465">return consumer; </span>
+<span id="td_465" class="t s3_465">} </span>
+<span id="te_465" class="t s3_465">The ForkingStreamConsumer implements both the Results interface defined previously and the </span>
+<span id="tf_465" class="t s3_465">Consumer interface. As you’ll see when we analyze its implementation in more detail, its main </span>
+<span id="tg_465" class="t s3_465">task is to consume all the elements in the stream and multiplex them to a number of </span>
+<span id="th_465" class="t s3_465">BlockingQueues equal to the number of operations submitted via the fork method. Note that it is </span>
+<span id="ti_465" class="t s3_465">ensured that the stream is sequential, because if the method forEach were performed on a </span>
+<span id="tj_465" class="t s3_465">parallel stream, its elements could be pushed to the queues out of order. The finish method adds </span>
+<span id="tk_465" class="t s3_465">special elements to those queues to signal that there are no more items to be processed. The </span>
+<span id="tl_465" class="t s3_465">build method used to create the ForkingStreamConsumer is shown in the next listing. </span>
+<span id="tm_465" class="t s2_465">Listing C.2. The </span><span id="tn_465" class="t s4_465">build </span><span id="to_465" class="t s2_465">method used to create </span><span id="tp_465" class="t s4_465">ForkingStreamConsumer </span>
+<span id="tq_465" class="t s5_465">www.it-ebooks.info </span></div>
+<!-- End text definitions -->
+
+
+</div>
+</body>
+</html>

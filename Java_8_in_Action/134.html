@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta charset="utf-8" />
+</head>
+
+<body style="margin: 0;">
+
+<div id="p134" style="overflow: hidden; position: relative; background-color: white; width: 909px; height: 1286px;">
+
+<!-- Begin shared CSS values -->
+<style class="shared-css" type="text/css" >
+.t {
+	transform-origin: bottom left;
+	z-index: 2;
+	position: absolute;
+	white-space: pre;
+	overflow: visible;
+	line-height: 1.5;
+}
+.text-container {
+	white-space: pre;
+}
+@supports (-webkit-touch-callout: none) {
+	.text-container {
+		white-space: normal;
+	}
+}
+</style>
+<!-- End shared CSS values -->
+
+
+<!-- Begin inline CSS -->
+<style type="text/css" >
+
+#t1_134{left:450px;bottom:46px;letter-spacing:-0.13px;}
+#t2_134{left:65px;bottom:1180px;letter-spacing:0.2px;word-spacing:0.09px;}
+#t3_134{left:256px;bottom:1181px;letter-spacing:0.19px;}
+#t4_134{left:326px;bottom:1180px;letter-spacing:0.24px;word-spacing:-0.01px;}
+#t5_134{left:65px;bottom:548px;letter-spacing:0.15px;word-spacing:0.65px;}
+#t6_134{left:65px;bottom:519px;letter-spacing:0.15px;word-spacing:0.61px;}
+#t7_134{left:65px;bottom:490px;letter-spacing:0.15px;word-spacing:0.6px;}
+#t8_134{left:65px;bottom:461px;letter-spacing:0.15px;word-spacing:0.63px;}
+#t9_134{left:65px;bottom:432px;letter-spacing:0.16px;word-spacing:2.51px;}
+#ta_134{left:65px;bottom:403px;letter-spacing:0.15px;word-spacing:1.6px;}
+#tb_134{left:65px;bottom:374px;letter-spacing:0.14px;word-spacing:-0.13px;}
+#tc_134{left:65px;bottom:324px;letter-spacing:0.15px;word-spacing:1.61px;}
+#td_134{left:65px;bottom:295px;letter-spacing:0.16px;word-spacing:1.29px;}
+#te_134{left:65px;bottom:266px;letter-spacing:0.15px;word-spacing:-0.16px;}
+#tf_134{left:65px;bottom:215px;letter-spacing:0.16px;word-spacing:-0.17px;}
+#tg_134{left:390px;bottom:3px;letter-spacing:0.13px;}
+
+.s1_134{font-size:14px;font-family:TimesNewRomanPSMT_390;color:#000;}
+.s2_134{font-size:21px;font-family:Georgia-Bold_391;color:#000;}
+.s3_134{font-size:18px;font-family:Georgia-Bold_391;color:#000;}
+.s4_134{font-size:18px;font-family:Georgia_397;color:#000;}
+.s5_134{font-size:15px;font-family:Helvetica, Arial, sans-serif;color:#00F;}
+</style>
+<!-- End inline CSS -->
+
+<!-- Begin embedded font definitions -->
+<style id="fonts134" type="text/css" >
+
+@font-face {
+	font-family: Georgia-Bold_391;
+	src: url("fonts/Georgia-Bold_391.woff") format("woff");
+}
+
+@font-face {
+	font-family: Georgia_397;
+	src: url("fonts/Georgia_397.woff") format("woff");
+}
+
+@font-face {
+	font-family: TimesNewRomanPSMT_390;
+	src: url("fonts/TimesNewRomanPSMT_390.woff") format("woff");
+}
+
+</style>
+<!-- End embedded font definitions -->
+
+<!-- Begin page background -->
+<div id="pg134Overlay" style="width:100%; height:100%; position:absolute; z-index:1; background-color:rgba(0,0,0,0); -webkit-user-select: none;"></div>
+<div id="pg134" style="-webkit-user-select: none;"><object width="909" height="1286" data="134/134.svg" type="image/svg+xml" id="pdf134" style="width:909px; height:1286px; -moz-transform:scale(1); z-index: 0;"></object></div>
+<!-- End page background -->
+
+
+<!-- Begin text definitions (Positioned/styled in CSS) -->
+<div class="text-container"><span id="t1_134" class="t s1_134">134 </span>
+<span id="t2_134" class="t s2_134">Figure 5.7. Using </span><span id="t3_134" class="t s3_134">reduce </span><span id="t4_134" class="t s2_134">to sum the numbers in a stream </span>
+<span id="t5_134" class="t s4_134">Let’s take an in-depth look into how the reduce operation happens to sum a stream of numbers. </span>
+<span id="t6_134" class="t s4_134">First, 0 is used as the first parameter of the lambda (a), and 4 is consumed from the stream and </span>
+<span id="t7_134" class="t s4_134">used as the second parameter (b). 0 + 4 produces 4, and it becomes the new accumulated value. </span>
+<span id="t8_134" class="t s4_134">Then the lambda is called again with the accumulated value and the next element of the stream, </span>
+<span id="t9_134" class="t s4_134">5, which produces the new accumulated value, 9. Moving forward, the lambda is called again </span>
+<span id="ta_134" class="t s4_134">with the accumulated value and the next element, 3, which produces 12. Finally, the lambda is </span>
+<span id="tb_134" class="t s4_134">called with 12 and the last element of the stream, 9, which produces the final value, 21. </span>
+<span id="tc_134" class="t s4_134">You can make this code more concise by using a method reference. In Java 8 the Integer class </span>
+<span id="td_134" class="t s4_134">now comes with a static sum method to add two numbers, which is just what you want instead </span>
+<span id="te_134" class="t s4_134">of repeatedly writing out the same code as lambda: </span>
+<span id="tf_134" class="t s4_134">int sum = numbers.stream().reduce(0, Integer::sum); </span>
+<span id="tg_134" class="t s5_134">www.it-ebooks.info </span></div>
+<!-- End text definitions -->
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 811 1017" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<style type="text/css"><![CDATA[
+.g0_94{
+fill: #FFFFFF;
+}
+.g1_94{
+fill: none;
+stroke: #000000;
+stroke-width: 0.759;
+stroke-linecap: butt;
+stroke-linejoin: miter;
+}
+.g2_94{
+}
+.g3_94{
+fill: none;
+stroke: #000000;
+stroke-width: 1.147;
+stroke-linecap: butt;
+stroke-linejoin: round;
+stroke-miterlimit: 11;
+}
+.g4_94{
+fill: none;
+stroke: #000000;
+stroke-width: 0.916;
+stroke-linecap: butt;
+stroke-linejoin: miter;
+stroke-miterlimit: 2;
+}
+.g5_94{
+fill: none;
+stroke: #000000;
+stroke-width: 1.375;
+stroke-linecap: butt;
+stroke-linejoin: miter;
+stroke-dasharray: 3,2;
+}
+.g6_94{
+fill: none;
+stroke: #000000;
+stroke-width: 1.375;
+stroke-linecap: butt;
+stroke-linejoin: miter;
+}
+.g7_94{
+fill: none;
+stroke: #000000;
+stroke-width: 0.461;
+stroke-linecap: butt;
+stroke-linejoin: miter;
+}
+]]></style>
+</defs>
+<path d="M145.8,809H632.9V576.6H145.8Z" class="g0_94"/>
+<path d="M224.2,761.5V701.1" class="g1_94"/>
+<path d="M226.4,702.7l-2.2,-8.3l-2.2,8.3h4.4Z" class="g2_94"/>
+<path d="M164.8,647.8H285.2v46.9H164.8Zm-2.3,113.7H282.9v46.9H162.5Zm176.4,-114H459.3v46.9H338.9Zm173,-.6H632.2v46.9H511.9Z" class="g3_94"/>
+<path fill-rule="evenodd" d="M338.7,671l-7.9,4.6v-9.1l7.9,4.5Z" class="g0_94"/>
+<path d="M338.7,671l-7.9,4.6v-9.1l7.9,4.5Z" class="g4_94"/>
+<path fill-rule="evenodd" d="M466.6,677.7l6.5,-6.4l-6.3,-6.5l-6.6,6.3l6.4,6.6Z" class="g2_94"/>
+<path d="M466.6,677.7l6.5,-6.4l-6.3,-6.5l-6.6,6.3l6.4,6.6Z" class="g4_94"/>
+<path d="M284.6,671.2h46" class="g5_94"/>
+<path d="M472.5,671.2h39.4" class="g6_94"/>
+<path d="M213.4,619.6c15.6,16.1,85.2,9,95.4,41.1" class="g7_94"/>
+<path d="M306.4,660.6l3.2,3.3l1.2,-4.5l-4.4,1.2Z" class="g2_94"/>
+<path d="M363.5,791.3c-37.6,1.2,-81.1,-63.1,-124.3,-62.1" class="g7_94"/>
+<path d="M239.8,726.9l-3.9,2.5l4.1,2.1l-.2,-4.6Z" class="g2_94"/>
+<path d="M480.8,608.6c-5.7,16.8,19.2,12.3,8.7,35.9" class="g7_94"/>
+<path d="M487.6,642.9l.5,4.6l3.7,-2.7l-4.2,-1.9Z" class="g2_94"/>
+</svg>

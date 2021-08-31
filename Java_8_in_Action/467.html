@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta charset="utf-8" />
+</head>
+
+<body style="margin: 0;">
+
+<div id="p467" style="overflow: hidden; position: relative; background-color: white; width: 909px; height: 1286px;">
+
+<!-- Begin shared CSS values -->
+<style class="shared-css" type="text/css" >
+.t {
+	transform-origin: bottom left;
+	z-index: 2;
+	position: absolute;
+	white-space: pre;
+	overflow: visible;
+	line-height: 1.5;
+}
+.text-container {
+	white-space: pre;
+}
+@supports (-webkit-touch-callout: none) {
+	.text-container {
+		white-space: normal;
+	}
+}
+</style>
+<!-- End shared CSS values -->
+
+
+<!-- Begin inline CSS -->
+<style type="text/css" >
+
+#t1_467{left:450px;bottom:46px;letter-spacing:-0.13px;}
+#t2_467{left:65px;bottom:1180px;letter-spacing:0.21px;}
+#t3_467{left:159px;bottom:1180px;letter-spacing:0.23px;}
+#t4_467{left:220px;bottom:1180px;}
+#t5_467{left:254px;bottom:1181px;letter-spacing:0.22px;}
+#t6_467{left:513px;bottom:1180px;letter-spacing:0.34px;}
+#t7_467{left:553px;bottom:1180px;letter-spacing:0.27px;}
+#t8_467{left:612px;bottom:1180px;letter-spacing:0.25px;}
+#t9_467{left:707px;bottom:1180px;letter-spacing:0.25px;}
+#ta_467{left:824px;bottom:1180px;letter-spacing:0.34px;}
+#tb_467{left:65px;bottom:1132px;letter-spacing:0.22px;word-spacing:0.05px;}
+#tc_467{left:65px;bottom:453px;letter-spacing:0.16px;word-spacing:2.28px;}
+#td_467{left:65px;bottom:424px;letter-spacing:0.16px;word-spacing:3.34px;}
+#te_467{left:65px;bottom:395px;letter-spacing:0.15px;}
+#tf_467{left:65px;bottom:345px;letter-spacing:0.16px;word-spacing:2.7px;}
+#tg_467{left:65px;bottom:316px;letter-spacing:0.16px;word-spacing:4.76px;}
+#th_467{left:65px;bottom:287px;letter-spacing:0.18px;word-spacing:-0.04px;}
+#ti_467{left:65px;bottom:257px;letter-spacing:0.16px;word-spacing:3.56px;}
+#tj_467{left:65px;bottom:228px;letter-spacing:0.16px;word-spacing:0.25px;}
+#tk_467{left:65px;bottom:199px;letter-spacing:0.14px;word-spacing:-0.21px;}
+#tl_467{left:65px;bottom:149px;letter-spacing:0.16px;word-spacing:3.94px;}
+#tm_467{left:65px;bottom:120px;letter-spacing:0.16px;word-spacing:1.22px;}
+#tn_467{left:65px;bottom:91px;letter-spacing:0.13px;word-spacing:-0.25px;}
+#to_467{left:390px;bottom:3px;letter-spacing:0.13px;}
+
+.s1_467{font-size:14px;font-family:TimesNewRomanPSMT_390;color:#000;}
+.s2_467{font-size:21px;font-family:Georgia-Bold_391;color:#000;}
+.s3_467{font-size:18px;font-family:Georgia-Bold_391;color:#000;}
+.s4_467{font-size:18px;font-family:Georgia_397;color:#000;}
+.s5_467{font-size:15px;font-family:Helvetica, Arial, sans-serif;color:#00F;}
+</style>
+<!-- End inline CSS -->
+
+<!-- Begin embedded font definitions -->
+<style id="fonts467" type="text/css" >
+
+@font-face {
+	font-family: Georgia-Bold_391;
+	src: url("fonts/Georgia-Bold_391.woff") format("woff");
+}
+
+@font-face {
+	font-family: Georgia_397;
+	src: url("fonts/Georgia_397.woff") format("woff");
+}
+
+@font-face {
+	font-family: TimesNewRomanPSMT_390;
+	src: url("fonts/TimesNewRomanPSMT_390.woff") format("woff");
+}
+
+</style>
+<!-- End embedded font definitions -->
+
+<!-- Begin page background -->
+<div id="pg467Overlay" style="width:100%; height:100%; position:absolute; z-index:1; background-color:rgba(0,0,0,0); -webkit-user-select: none;"></div>
+<div id="pg467" style="-webkit-user-select: none;"><object width="909" height="1286" data="467/467.svg" type="image/svg+xml" id="pdf467" style="width:909px; height:1286px; -moz-transform:scale(1); z-index: 0;"></object></div>
+<!-- End page background -->
+
+
+<!-- Begin text definitions (Positioned/styled in CSS) -->
+<div class="text-container"><span id="t1_467" class="t s1_467">467 </span>
+<span id="t2_467" class="t s2_467">Listing </span><span id="t3_467" class="t s2_467">C.4. </span><span id="t4_467" class="t s2_467">A </span><span id="t5_467" class="t s3_467">ForkingStreamConsumer </span><span id="t6_467" class="t s2_467">to </span><span id="t7_467" class="t s2_467">add </span><span id="t8_467" class="t s2_467">stream </span><span id="t9_467" class="t s2_467">elements </span><span id="ta_467" class="t s2_467">to </span>
+<span id="tb_467" class="t s2_467">multiple queues </span>
+<span id="tc_467" class="t s4_467">This class implements both the Consumer and Results interfaces and holds a reference to the </span>
+<span id="td_467" class="t s4_467">List of BlockingQueues and to the Map of Futures executing the different operations on the </span>
+<span id="te_467" class="t s4_467">stream. </span>
+<span id="tf_467" class="t s4_467">The Consumer interface requires an implementation for the method accept. Here, every time </span>
+<span id="tg_467" class="t s4_467">ForkingStreamConsumer accepts an element of the stream, it adds that element to all the </span>
+<span id="th_467" class="t s4_467">BlockingQueues. Also, after all the elements of the original stream have been added to all queues, </span>
+<span id="ti_467" class="t s4_467">the finish method causes one last item to be added to all of them. This item, when met by </span>
+<span id="tj_467" class="t s4_467">BlockingQueueSpliterators, will make the queues understand that there are no more elements to </span>
+<span id="tk_467" class="t s4_467">be processed. </span>
+<span id="tl_467" class="t s4_467">The Results interface requires an implementation for the get method. Here, it retrieves the </span>
+<span id="tm_467" class="t s4_467">Future that’s indexed in the Map with the argument key and unwraps its result or waits until a </span>
+<span id="tn_467" class="t s4_467">result is available. </span>
+<span id="to_467" class="t s5_467">www.it-ebooks.info </span></div>
+<!-- End text definitions -->
+
+
+</div>
+</body>
+</html>

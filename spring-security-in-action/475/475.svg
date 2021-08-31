@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 811 1017" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<clipPath id="c0_475"><path d="M101.1,450.4V80.6H724.4V450.4Z"/></clipPath>
+<clipPath id="c1_475"><path d="M102.2,441.1V80.6H724.4V441.1Z"/></clipPath>
+<clipPath id="c2_475"><path d="M102.5,440.9V82.2h82.2V440.9Z"/></clipPath>
+<clipPath id="c3_475"><path d="M184.7,440.9V82.2H610.9V440.9Z"/></clipPath>
+<clipPath id="c4_475"><path d="M157.1,875.1V514.8H712.7V875.1Z"/></clipPath>
+<style type="text/css"><![CDATA[
+.g0_475{
+fill: #FFFFFF;
+}
+.g1_475{
+fill: #231F20;
+}
+]]></style>
+</defs>
+<path clip-path="url(#c0_475)" d="M102.2,441.1H724.4V80.5H102.2Z" class="g0_475"/>
+<path clip-path="url(#c1_475)" d="M184.7,441.1H724.4V80.5H184.7Z" class="g0_475"/>
+<image clip-path="url(#c2_475)" preserveAspectRatio="none" x="102" y="82" width="83" height="359" xlink:href="img/1.jpg"/>
+<image clip-path="url(#c3_475)" preserveAspectRatio="none" x="184" y="82" width="428" height="359" xlink:href="img/2.jpg"/>
+<path d="M576.6,218.4c-6.2,-.5,-12.3,-.7,-18.2,-.7c-69.9,0,-118.8,28.5,-207,30.3v.4c88.3,-1.7,137.2,-30.2,207,-30.2c5.9,0,12,.2,18.2,.6v-.4Z" class="g1_475"/>
+<path d="M352.1,245.2l-4.8,3l5,2.7l-.2,-5.7Z" class="g1_475"/>
+<path d="M575.7,355.1c-20.3,-7.3,-44.7,-10,-69.9,-10c-62.7,0,-130.3,16.4,-151.9,18.7l.1,.5c21.6,-2.3,89.2,-18.7,151.8,-18.7c25.2,0,49.6,2.6,69.8,9.9l.1,-.4Z" class="g1_475"/>
+<path d="M354.6,361.1l-4.7,3.2l5.1,2.5l-.4,-5.7Z" class="g1_475"/>
+<path d="M575.5,355.2c-4.2,8.1,-14.1,14.4,-27.9,19.2C506.4,388.9,431.1,390.1,375,390.2v.5c37.4,-.1,83.4,-.7,122.1,-5.3c19.4,-2.4,36.9,-5.7,50.7,-10.6c13.8,-4.8,23.8,-11.1,28.1,-19.4l-.4,-.2Z" class="g1_475"/>
+<path d="M375.8,387.5l-4.9,2.9l5,2.8l-.1,-5.7Z" class="g1_475"/>
+<path d="M157.1,875.1H712.7V514.8H157.1Z" class="g0_475"/>
+<image clip-path="url(#c4_475)" preserveAspectRatio="none" x="157" y="515" width="556" height="360" xlink:href="img/3.jpg"/>
+</svg>

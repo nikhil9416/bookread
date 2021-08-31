@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta charset="utf-8" />
+</head>
+
+<body style="margin: 0;">
+
+<div id="p229" style="overflow: hidden; position: relative; background-color: white; width: 909px; height: 1286px;">
+
+<!-- Begin shared CSS values -->
+<style class="shared-css" type="text/css" >
+.t {
+	transform-origin: bottom left;
+	z-index: 2;
+	position: absolute;
+	white-space: pre;
+	overflow: visible;
+	line-height: 1.5;
+}
+.text-container {
+	white-space: pre;
+}
+@supports (-webkit-touch-callout: none) {
+	.text-container {
+		white-space: normal;
+	}
+}
+</style>
+<!-- End shared CSS values -->
+
+
+<!-- Begin inline CSS -->
+<style type="text/css" >
+
+#t1_229{left:450px;bottom:46px;letter-spacing:-0.13px;}
+#t2_229{left:65px;bottom:1188px;letter-spacing:0.16px;word-spacing:0.85px;}
+#t3_229{left:65px;bottom:1159px;letter-spacing:0.14px;word-spacing:-0.15px;}
+#t4_229{left:65px;bottom:1101px;letter-spacing:0.23px;word-spacing:0.06px;}
+#t5_229{left:65px;bottom:1038px;letter-spacing:0.16px;word-spacing:-0.2px;}
+#t6_229{left:65px;bottom:988px;letter-spacing:0.16px;word-spacing:-0.18px;}
+#t7_229{left:65px;bottom:938px;letter-spacing:0.15px;word-spacing:-0.2px;}
+#t8_229{left:65px;bottom:887px;letter-spacing:0.17px;word-spacing:-0.2px;}
+#t9_229{left:65px;bottom:837px;letter-spacing:0.16px;word-spacing:0.43px;}
+#ta_229{left:65px;bottom:808px;letter-spacing:0.15px;word-spacing:4.24px;}
+#tb_229{left:65px;bottom:779px;letter-spacing:0.16px;word-spacing:2.25px;}
+#tc_229{left:65px;bottom:750px;letter-spacing:0.15px;word-spacing:1.08px;}
+#td_229{left:65px;bottom:721px;letter-spacing:0.14px;}
+#te_229{left:65px;bottom:670px;letter-spacing:0.15px;word-spacing:3.47px;}
+#tf_229{left:65px;bottom:641px;letter-spacing:0.15px;word-spacing:0.36px;}
+#tg_229{left:65px;bottom:612px;letter-spacing:0.15px;word-spacing:1.3px;}
+#th_229{left:65px;bottom:583px;letter-spacing:0.14px;word-spacing:-0.16px;}
+#ti_229{left:65px;bottom:525px;letter-spacing:0.2px;word-spacing:0.02px;}
+#tj_229{left:239px;bottom:527px;letter-spacing:0.21px;}
+#tk_229{left:390px;bottom:3px;letter-spacing:0.13px;}
+
+.s1_229{font-size:14px;font-family:TimesNewRomanPSMT_390;color:#000;}
+.s2_229{font-size:18px;font-family:Georgia_397;color:#000;}
+.s3_229{font-size:21px;font-family:Georgia-Bold_391;color:#000;}
+.s4_229{font-size:18px;font-family:Georgia-Bold_391;color:#000;}
+.s5_229{font-size:15px;font-family:Helvetica, Arial, sans-serif;color:#00F;}
+</style>
+<!-- End inline CSS -->
+
+<!-- Begin embedded font definitions -->
+<style id="fonts229" type="text/css" >
+
+@font-face {
+	font-family: Georgia-Bold_391;
+	src: url("fonts/Georgia-Bold_391.woff") format("woff");
+}
+
+@font-face {
+	font-family: Georgia_397;
+	src: url("fonts/Georgia_397.woff") format("woff");
+}
+
+@font-face {
+	font-family: TimesNewRomanPSMT_390;
+	src: url("fonts/TimesNewRomanPSMT_390.woff") format("woff");
+}
+
+</style>
+<!-- End embedded font definitions -->
+
+<!-- Begin page background -->
+<div id="pg229Overlay" style="width:100%; height:100%; position:absolute; z-index:1; background-color:rgba(0,0,0,0); -webkit-user-select: none;"></div>
+<div id="pg229" style="-webkit-user-select: none;"><object width="909" height="1286" data="229/229.svg" type="image/svg+xml" id="pdf229" style="width:909px; height:1286px; -moz-transform:scale(1); z-index: 0;"></object></div>
+<!-- End page background -->
+
+
+<!-- Begin text definitions (Positioned/styled in CSS) -->
+<div class="text-container"><span id="t1_229" class="t s1_229">229 </span>
+<span id="t2_229" class="t s2_229">So far, so good, but we said that one of the main reasons for implementing the WordCounter in </span>
+<span id="t3_229" class="t s2_229">functional terms was to be able to easily parallelize this operation, so let’s see how this works. </span>
+<span id="t4_229" class="t s3_229">Making the WordCounter work in parallel </span>
+<span id="t5_229" class="t s2_229">You could try to speed up the word-counting operation using a parallel stream, as follows: </span>
+<span id="t6_229" class="t s2_229">System.out.println("Found " + countWords(stream.parallel()) + " words"); </span>
+<span id="t7_229" class="t s2_229">Unfortunately, this time the output is </span>
+<span id="t8_229" class="t s2_229">Found 25 words </span>
+<span id="t9_229" class="t s2_229">Evidently something has gone wrong, but what? The problem isn’t hard to discover. Because the </span>
+<span id="ta_229" class="t s2_229">original String is split at arbitrary positions, sometimes a word is divided in two and then </span>
+<span id="tb_229" class="t s2_229">counted twice. In general, this demonstrates that going from a sequential stream to a parallel </span>
+<span id="tc_229" class="t s2_229">one can lead to a wrong result if this result may be affected by the position where the stream is </span>
+<span id="td_229" class="t s2_229">split. </span>
+<span id="te_229" class="t s2_229">How can you fix this issue? The solution consists of ensuring that the String isn’t split at a </span>
+<span id="tf_229" class="t s2_229">random position but only at the end of a word. To do this, you’ll have to implement a Spliterator </span>
+<span id="tg_229" class="t s2_229">of Character that splits a String only between two words, as shown in the following listing, and </span>
+<span id="th_229" class="t s2_229">then creates the parallel stream from it. </span>
+<span id="ti_229" class="t s3_229">Listing 7.6. The </span><span id="tj_229" class="t s4_229">WordCounterSpliterator </span>
+<span id="tk_229" class="t s5_229">www.it-ebooks.info </span></div>
+<!-- End text definitions -->
+
+
+</div>
+</body>
+</html>

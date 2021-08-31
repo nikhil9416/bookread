@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta charset="utf-8" />
+</head>
+
+<body style="margin: 0;">
+
+<div id="p196" style="overflow: hidden; position: relative; background-color: white; width: 909px; height: 1286px;">
+
+<!-- Begin shared CSS values -->
+<style class="shared-css" type="text/css" >
+.t {
+	transform-origin: bottom left;
+	z-index: 2;
+	position: absolute;
+	white-space: pre;
+	overflow: visible;
+	line-height: 1.5;
+}
+.text-container {
+	white-space: pre;
+}
+@supports (-webkit-touch-callout: none) {
+	.text-container {
+		white-space: normal;
+	}
+}
+</style>
+<!-- End shared CSS values -->
+
+
+<!-- Begin inline CSS -->
+<style type="text/css" >
+
+#t1_196{left:450px;bottom:46px;letter-spacing:-0.13px;}
+#t2_196{left:65px;bottom:1188px;letter-spacing:0.15px;word-spacing:2.11px;}
+#t3_196{left:65px;bottom:1159px;letter-spacing:0.16px;word-spacing:4px;}
+#t4_196{left:65px;bottom:1130px;letter-spacing:0.16px;word-spacing:0.57px;}
+#t5_196{left:65px;bottom:1101px;letter-spacing:0.16px;word-spacing:1.91px;}
+#t6_196{left:65px;bottom:1072px;letter-spacing:0.16px;word-spacing:0.64px;}
+#t7_196{left:65px;bottom:1043px;letter-spacing:0.16px;word-spacing:2.79px;}
+#t8_196{left:65px;bottom:1014px;letter-spacing:0.15px;word-spacing:2.37px;}
+#t9_196{left:65px;bottom:985px;letter-spacing:0.14px;word-spacing:-0.14px;}
+#ta_196{left:65px;bottom:675px;letter-spacing:0.16px;word-spacing:2.34px;}
+#tb_196{left:65px;bottom:645px;letter-spacing:0.14px;word-spacing:-0.13px;}
+#tc_196{left:65px;bottom:595px;letter-spacing:0.15px;word-spacing:-0.14px;}
+#td_196{left:102px;bottom:566px;letter-spacing:0.16px;word-spacing:-0.17px;}
+#te_196{left:102px;bottom:537px;letter-spacing:0.15px;word-spacing:-0.12px;}
+#tf_196{left:221px;bottom:508px;letter-spacing:0.16px;}
+#tg_196{left:221px;bottom:479px;letter-spacing:0.16px;word-spacing:-0.15px;}
+#th_196{left:65px;bottom:450px;}
+#ti_196{left:65px;bottom:400px;letter-spacing:0.15px;word-spacing:3.87px;}
+#tj_196{left:65px;bottom:370px;letter-spacing:0.16px;word-spacing:2.19px;}
+#tk_196{left:65px;bottom:341px;letter-spacing:0.15px;word-spacing:1.16px;}
+#tl_196{left:65px;bottom:312px;letter-spacing:0.16px;}
+#tm_196{left:65px;bottom:262px;letter-spacing:0.17px;word-spacing:4.57px;}
+#tn_196{left:65px;bottom:233px;letter-spacing:0.15px;word-spacing:1.96px;}
+#to_196{left:65px;bottom:204px;letter-spacing:0.15px;word-spacing:-0.18px;}
+#tp_196{left:390px;bottom:3px;letter-spacing:0.13px;}
+
+.s1_196{font-size:14px;font-family:TimesNewRomanPSMT_390;color:#000;}
+.s2_196{font-size:18px;font-family:Georgia_397;color:#000;}
+.s3_196{font-size:15px;font-family:Helvetica, Arial, sans-serif;color:#00F;}
+</style>
+<!-- End inline CSS -->
+
+<!-- Begin embedded font definitions -->
+<style id="fonts196" type="text/css" >
+
+@font-face {
+	font-family: Georgia_397;
+	src: url("fonts/Georgia_397.woff") format("woff");
+}
+
+@font-face {
+	font-family: TimesNewRomanPSMT_390;
+	src: url("fonts/TimesNewRomanPSMT_390.woff") format("woff");
+}
+
+</style>
+<!-- End embedded font definitions -->
+
+<!-- Begin page background -->
+<div id="pg196Overlay" style="width:100%; height:100%; position:absolute; z-index:1; background-color:rgba(0,0,0,0); -webkit-user-select: none;"></div>
+<div id="pg196" style="-webkit-user-select: none;"><object width="909" height="1286" data="196/196.svg" type="image/svg+xml" id="pdf196" style="width:909px; height:1286px; -moz-transform:scale(1); z-index: 0;"></object></div>
+<!-- End page background -->
+
+
+<!-- Begin text definitions (Positioned/styled in CSS) -->
+<div class="text-container"><span id="t1_196" class="t s1_196">196 </span>
+<span id="t2_196" class="t s2_196">the candidate is divisible by a prime as soon as the next prime is greater than the candidate’s </span>
+<span id="t3_196" class="t s2_196">root. Unfortunately, there isn’t such a method available in the Streams API. You could use </span>
+<span id="t4_196" class="t s2_196">filter(p -&gt; p &lt;= candidateRoot) to filter the prime numbers smaller than the candidate root. But </span>
+<span id="t5_196" class="t s2_196">filter would process the whole stream before returning the adequate stream. If both the list of </span>
+<span id="t6_196" class="t s2_196">primes and the candidate number were very large, this would be problematic. You don’t need to </span>
+<span id="t7_196" class="t s2_196">do this; all you want is to stop once you find a prime that’s greater than the candidate root! </span>
+<span id="t8_196" class="t s2_196">Therefore, you’ll create a method called takeWhile, which, given a sorted list and a predicate, </span>
+<span id="t9_196" class="t s2_196">returns the longest prefix of this list whose elements satisfy the predicate: </span>
+<span id="ta_196" class="t s2_196">Using this method, you can optimize the isPrime method by testing only the candidate prime </span>
+<span id="tb_196" class="t s2_196">against only the primes that are not greater than its square root: </span>
+<span id="tc_196" class="t s2_196">public static boolean isPrime(List&lt;Integer&gt; primes, int candidate){ </span>
+<span id="td_196" class="t s2_196">int candidateRoot = (int) Math.sqrt((double) candidate); </span>
+<span id="te_196" class="t s2_196">return takeWhile(primes, i -&gt; i &lt;= candidateRoot) </span>
+<span id="tf_196" class="t s2_196">.stream() </span>
+<span id="tg_196" class="t s2_196">.noneMatch(p -&gt; candidate % p == 0); </span>
+<span id="th_196" class="t s2_196">} </span>
+<span id="ti_196" class="t s2_196">Note that this is an eager implementation of takeWhile. Ideally you’d like a lazy version of </span>
+<span id="tj_196" class="t s2_196">takeWhile so it can be merged with the noneMatch operation. Unfortunately, implementing it </span>
+<span id="tk_196" class="t s2_196">would be beyond the scope of this chapter because you’d need to get a grip on the Streams API </span>
+<span id="tl_196" class="t s2_196">implementation. </span>
+<span id="tm_196" class="t s2_196">With this new isPrime method in hand, you’re now ready to implement your own custom </span>
+<span id="tn_196" class="t s2_196">collector. First, you need to declare a new class that implements the Collector interface. Then, </span>
+<span id="to_196" class="t s2_196">you need to develop the five methods required by the Collector interface. </span>
+<span id="tp_196" class="t s3_196">www.it-ebooks.info </span></div>
+<!-- End text definitions -->
+
+
+</div>
+</body>
+</html>

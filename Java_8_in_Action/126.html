@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta charset="utf-8" />
+</head>
+
+<body style="margin: 0;">
+
+<div id="p126" style="overflow: hidden; position: relative; background-color: white; width: 909px; height: 1286px;">
+
+<!-- Begin shared CSS values -->
+<style class="shared-css" type="text/css" >
+.t {
+	transform-origin: bottom left;
+	z-index: 2;
+	position: absolute;
+	white-space: pre;
+	overflow: visible;
+	line-height: 1.5;
+}
+.text-container {
+	white-space: pre;
+}
+@supports (-webkit-touch-callout: none) {
+	.text-container {
+		white-space: normal;
+	}
+}
+</style>
+<!-- End shared CSS values -->
+
+
+<!-- Begin inline CSS -->
+<style type="text/css" >
+
+#t1_126{left:450px;bottom:46px;letter-spacing:-0.13px;}
+#t2_126{left:65px;bottom:1188px;letter-spacing:0.16px;word-spacing:2.1px;}
+#t3_126{left:65px;bottom:1159px;letter-spacing:0.16px;word-spacing:1.97px;}
+#t4_126{left:65px;bottom:1130px;letter-spacing:0.14px;word-spacing:-0.14px;}
+#t5_126{left:65px;bottom:1071px;letter-spacing:0.23px;word-spacing:-0.08px;}
+#t6_126{left:65px;bottom:1009px;letter-spacing:0.15px;word-spacing:-0.16px;}
+#t7_126{left:65px;bottom:795px;letter-spacing:0.16px;word-spacing:1.4px;}
+#t8_126{left:780px;bottom:795px;letter-spacing:0.17px;word-spacing:1.21px;}
+#t9_126{left:65px;bottom:766px;letter-spacing:0.18px;}
+#ta_126{left:149px;bottom:766px;letter-spacing:0.2px;}
+#tb_126{left:180px;bottom:766px;letter-spacing:0.15px;}
+#tc_126{left:229px;bottom:766px;letter-spacing:0.17px;}
+#td_126{left:287px;bottom:766px;}
+#te_126{left:307px;bottom:766px;letter-spacing:0.17px;}
+#tf_126{left:344px;bottom:766px;letter-spacing:0.18px;}
+#tg_126{left:385px;bottom:766px;letter-spacing:0.17px;}
+#th_126{left:469px;bottom:766px;letter-spacing:0.16px;}
+#ti_126{left:548px;bottom:766px;letter-spacing:0.15px;}
+#tj_126{left:596px;bottom:766px;letter-spacing:0.18px;}
+#tk_126{left:649px;bottom:766px;letter-spacing:0.17px;}
+#tl_126{left:745px;bottom:766px;letter-spacing:0.19px;}
+#tm_126{left:804px;bottom:766px;letter-spacing:0.16px;}
+#tn_126{left:65px;bottom:737px;letter-spacing:0.16px;word-spacing:1.1px;}
+#to_126{left:647px;bottom:737px;letter-spacing:0.17px;word-spacing:1px;}
+#tp_126{left:736px;bottom:737px;letter-spacing:0.15px;word-spacing:1.05px;}
+#tq_126{left:65px;bottom:708px;letter-spacing:0.14px;word-spacing:-0.09px;}
+#tr_126{left:634px;bottom:708px;letter-spacing:0.17px;word-spacing:-0.3px;}
+#ts_126{left:710px;bottom:708px;}
+#tt_126{left:390px;bottom:3px;letter-spacing:0.13px;}
+
+.s1_126{font-size:14px;font-family:TimesNewRomanPSMT_390;color:#000;}
+.s2_126{font-size:18px;font-family:Georgia_397;color:#000;}
+.s3_126{font-size:21px;font-family:Georgia-Bold_391;color:#000;}
+.s4_126{font-size:18px;font-family:Georgia-Italic_395;color:#000;}
+.s5_126{font-size:18px;font-family:Georgia_397;color:#00F;}
+.s6_126{font-size:15px;font-family:Helvetica, Arial, sans-serif;color:#00F;}
+</style>
+<!-- End inline CSS -->
+
+<!-- Begin embedded font definitions -->
+<style id="fonts126" type="text/css" >
+
+@font-face {
+	font-family: Georgia-Bold_391;
+	src: url("fonts/Georgia-Bold_391.woff") format("woff");
+}
+
+@font-face {
+	font-family: Georgia-Italic_395;
+	src: url("fonts/Georgia-Italic_395.woff") format("woff");
+}
+
+@font-face {
+	font-family: Georgia_397;
+	src: url("fonts/Georgia_397.woff") format("woff");
+}
+
+@font-face {
+	font-family: TimesNewRomanPSMT_390;
+	src: url("fonts/TimesNewRomanPSMT_390.woff") format("woff");
+}
+
+</style>
+<!-- End embedded font definitions -->
+
+<!-- Begin page background -->
+<div id="pg126Overlay" style="width:100%; height:100%; position:absolute; z-index:1; background-color:rgba(0,0,0,0); -webkit-user-select: none;"></div>
+<div id="pg126" style="-webkit-user-select: none;"><object width="909" height="1286" data="126/126.svg" type="image/svg+xml" id="pdf126" style="width:909px; height:1286px; -moz-transform:scale(1); z-index: 0;"></object></div>
+<!-- End page background -->
+
+
+<!-- Begin text definitions (Positioned/styled in CSS) -->
+<div class="text-container"><span id="t1_126" class="t s1_126">126 </span>
+<span id="t2_126" class="t s2_126">The current solution still doesn’t work! This is because you now end up with a list of streams </span>
+<span id="t3_126" class="t s2_126">(more precisely, Stream&lt;Stream&lt;String&gt;&gt;)! Indeed, you first convert each word into an array </span>
+<span id="t4_126" class="t s2_126">of its individual letters and then make each array into a separate stream. </span>
+<span id="t5_126" class="t s3_126">Using flatMap </span>
+<span id="t6_126" class="t s2_126">You can fix this problem by using flatMap as follows: </span>
+<span id="t7_126" class="t s2_126">Using the flatMap method has the effect of mapping each array not with a stream but </span><span id="t8_126" class="t s4_126">with the </span>
+<span id="t9_126" class="t s4_126">contents </span><span id="ta_126" class="t s4_126">of </span><span id="tb_126" class="t s4_126">that </span><span id="tc_126" class="t s4_126">stream</span><span id="td_126" class="t s2_126">. </span><span id="te_126" class="t s2_126">All </span><span id="tf_126" class="t s2_126">the </span><span id="tg_126" class="t s2_126">separate </span><span id="th_126" class="t s2_126">streams </span><span id="ti_126" class="t s2_126">that </span><span id="tj_126" class="t s2_126">were </span><span id="tk_126" class="t s2_126">generated </span><span id="tl_126" class="t s2_126">when </span><span id="tm_126" class="t s2_126">using </span>
+<span id="tn_126" class="t s2_126">map(Arrays::stream) get amalgamated—flattened into a single stream. </span><span id="to_126" class="t s5_126">Figure 5.6 </span><span id="tp_126" class="t s2_126">illustrates the </span>
+<span id="tq_126" class="t s2_126">effect of using the flatMap method. Compare it with what map does in </span><span id="tr_126" class="t s5_126">figure 5.5 </span><span id="ts_126" class="t s2_126">. </span>
+<span id="tt_126" class="t s6_126">www.it-ebooks.info </span></div>
+<!-- End text definitions -->
+
+
+</div>
+</body>
+</html>

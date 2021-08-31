@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta charset="utf-8" />
+</head>
+
+<body style="margin: 0;">
+
+<div id="p472" style="overflow: hidden; position: relative; background-color: white; width: 909px; height: 1286px;">
+
+<!-- Begin shared CSS values -->
+<style class="shared-css" type="text/css" >
+.t {
+	transform-origin: bottom left;
+	z-index: 2;
+	position: absolute;
+	white-space: pre;
+	overflow: visible;
+	line-height: 1.5;
+}
+.text-container {
+	white-space: pre;
+}
+@supports (-webkit-touch-callout: none) {
+	.text-container {
+		white-space: normal;
+	}
+}
+</style>
+<!-- End shared CSS values -->
+
+
+<!-- Begin inline CSS -->
+<style type="text/css" >
+
+#t1_472{left:450px;bottom:46px;letter-spacing:-0.13px;}
+#t2_472{left:65px;bottom:1188px;letter-spacing:0.16px;word-spacing:2.19px;}
+#t3_472{left:65px;bottom:1159px;letter-spacing:0.17px;word-spacing:-0.16px;}
+#t4_472{left:65px;bottom:1100px;letter-spacing:0.24px;word-spacing:0.2px;}
+#t5_472{left:65px;bottom:1041px;letter-spacing:0.15px;word-spacing:0.17px;}
+#t6_472{left:65px;bottom:1012px;letter-spacing:0.15px;word-spacing:1.02px;}
+#t7_472{left:65px;bottom:983px;letter-spacing:0.15px;word-spacing:0.66px;}
+#t8_472{left:65px;bottom:954px;letter-spacing:0.13px;word-spacing:-0.08px;}
+#t9_472{left:65px;bottom:903px;letter-spacing:0.15px;word-spacing:1.52px;}
+#ta_472{left:65px;bottom:874px;letter-spacing:0.15px;word-spacing:0.81px;}
+#tb_472{left:65px;bottom:845px;letter-spacing:0.17px;word-spacing:1.43px;}
+#tc_472{left:65px;bottom:816px;letter-spacing:0.07px;}
+#td_472{left:65px;bottom:766px;letter-spacing:0.16px;word-spacing:1.84px;}
+#te_472{left:65px;bottom:737px;letter-spacing:0.16px;word-spacing:1.61px;}
+#tf_472{left:65px;bottom:708px;letter-spacing:0.15px;word-spacing:0.6px;}
+#tg_472{left:65px;bottom:679px;letter-spacing:0.15px;word-spacing:0.74px;}
+#th_472{left:65px;bottom:650px;letter-spacing:0.19px;word-spacing:-0.39px;}
+#ti_472{left:390px;bottom:3px;letter-spacing:0.13px;}
+
+.s1_472{font-size:14px;font-family:TimesNewRomanPSMT_390;color:#000;}
+.s2_472{font-size:18px;font-family:Georgia_397;color:#000;}
+.s3_472{font-size:24px;font-family:Georgia-Bold_391;color:#000;}
+.s4_472{font-size:15px;font-family:Helvetica, Arial, sans-serif;color:#00F;}
+</style>
+<!-- End inline CSS -->
+
+<!-- Begin embedded font definitions -->
+<style id="fonts472" type="text/css" >
+
+@font-face {
+	font-family: Georgia-Bold_391;
+	src: url("fonts/Georgia-Bold_391.woff") format("woff");
+}
+
+@font-face {
+	font-family: Georgia_397;
+	src: url("fonts/Georgia_397.woff") format("woff");
+}
+
+@font-face {
+	font-family: TimesNewRomanPSMT_390;
+	src: url("fonts/TimesNewRomanPSMT_390.woff") format("woff");
+}
+
+</style>
+<!-- End embedded font definitions -->
+
+<!-- Begin page background -->
+<div id="pg472Overlay" style="width:100%; height:100%; position:absolute; z-index:1; background-color:rgba(0,0,0,0); -webkit-user-select: none;"></div>
+<div id="pg472" style="-webkit-user-select: none;"><object width="909" height="1286" data="472/472.svg" type="image/svg+xml" id="pdf472" style="width:909px; height:1286px; -moz-transform:scale(1); z-index: 0;"></object></div>
+<!-- End page background -->
+
+
+<!-- Begin text definitions (Positioned/styled in CSS) -->
+<div class="text-container"><span id="t1_472" class="t s1_472">472 </span>
+<span id="t2_472" class="t s2_472">Dishes by type: {OTHER=[french fries, rice, season fruit, pizza], MEAT=[pork, beef, chicken], </span>
+<span id="t3_472" class="t s2_472">FISH=[prawns, salmon]} </span>
+<span id="t4_472" class="t s3_472">C.2. Performance considerations </span>
+<span id="t5_472" class="t s2_472">For performance reasons you shouldn’t take for granted that this approach is more efficient than </span>
+<span id="t6_472" class="t s2_472">traversing the stream several times. The overhead caused by the use of the blocking queues can </span>
+<span id="t7_472" class="t s2_472">easily outweigh the advantages of executing the different operations in parallel when the stream </span>
+<span id="t8_472" class="t s2_472">is made of data that’s all in memory. </span>
+<span id="t9_472" class="t s2_472">Conversely, accessing the stream only once could be a winning choice when this involves some </span>
+<span id="ta_472" class="t s2_472">expensive I/O operations, such as when the source of the stream is a huge file; so (as usual) the </span>
+<span id="tb_472" class="t s2_472">only meaningful rule when optimizing the performance of your application is to “Just measure </span>
+<span id="tc_472" class="t s2_472">it!” </span>
+<span id="td_472" class="t s2_472">This example demonstrates how it can be possible to execute multiple operations on the same </span>
+<span id="te_472" class="t s2_472">stream in one shot. More importantly, we believe this proves that even when a specific feature </span>
+<span id="tf_472" class="t s2_472">isn’t provided by the native Java API, the flexibility of lambda expressions and a bit of creativity </span>
+<span id="tg_472" class="t s2_472">in reusing and combining what’s already available can let you implement the missing feature on </span>
+<span id="th_472" class="t s2_472">your own. </span>
+<span id="ti_472" class="t s4_472">www.it-ebooks.info </span></div>
+<!-- End text definitions -->
+
+
+</div>
+</body>
+</html>

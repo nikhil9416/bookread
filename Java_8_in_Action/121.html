@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta charset="utf-8" />
+</head>
+
+<body style="margin: 0;">
+
+<div id="p121" style="overflow: hidden; position: relative; background-color: white; width: 909px; height: 1286px;">
+
+<!-- Begin shared CSS values -->
+<style class="shared-css" type="text/css" >
+.t {
+	transform-origin: bottom left;
+	z-index: 2;
+	position: absolute;
+	white-space: pre;
+	overflow: visible;
+	line-height: 1.5;
+}
+.text-container {
+	white-space: pre;
+}
+@supports (-webkit-touch-callout: none) {
+	.text-container {
+		white-space: normal;
+	}
+}
+</style>
+<!-- End shared CSS values -->
+
+
+<!-- Begin inline CSS -->
+<style type="text/css" >
+
+#t1_121{left:450px;bottom:46px;letter-spacing:-0.13px;}
+#t2_121{left:285px;bottom:1188px;letter-spacing:0.14px;word-spacing:-0.21px;}
+#t3_121{left:285px;bottom:1159px;letter-spacing:0.16px;}
+#t4_121{left:285px;bottom:1130px;letter-spacing:0.14px;}
+#t5_121{left:65px;bottom:1079px;letter-spacing:0.18px;word-spacing:3.38px;}
+#t6_121{left:159px;bottom:1079px;letter-spacing:0.15px;word-spacing:3.61px;}
+#t7_121{left:65px;bottom:1050px;letter-spacing:0.15px;word-spacing:-0.12px;}
+#t8_121{left:65px;bottom:992px;letter-spacing:0.21px;word-spacing:0.09px;}
+#t9_121{left:65px;bottom:480px;letter-spacing:0.15px;word-spacing:0.25px;}
+#ta_121{left:65px;bottom:451px;letter-spacing:0.15px;word-spacing:-0.14px;}
+#tb_121{left:65px;bottom:392px;letter-spacing:0.21px;word-spacing:0.12px;}
+#tc_121{left:65px;bottom:330px;letter-spacing:0.16px;word-spacing:0.9px;}
+#td_121{left:65px;bottom:301px;letter-spacing:0.16px;word-spacing:2.82px;}
+#te_121{left:65px;bottom:272px;letter-spacing:0.15px;word-spacing:0.78px;}
+#tf_121{left:65px;bottom:243px;letter-spacing:0.15px;word-spacing:-0.15px;}
+#tg_121{left:426px;bottom:243px;letter-spacing:0.17px;word-spacing:-0.1px;}
+#th_121{left:513px;bottom:243px;letter-spacing:0.14px;word-spacing:-0.14px;}
+#ti_121{left:390px;bottom:3px;letter-spacing:0.13px;}
+
+.s1_121{font-size:14px;font-family:TimesNewRomanPSMT_390;color:#000;}
+.s2_121{font-size:18px;font-family:Georgia_397;color:#000;}
+.s3_121{font-size:18px;font-family:Georgia-BoldItalic_3dt;color:#000;}
+.s4_121{font-size:18px;font-family:Georgia_397;color:#00F;}
+.s5_121{font-size:21px;font-family:Georgia-Bold_391;color:#000;}
+.s6_121{font-size:15px;font-family:Helvetica, Arial, sans-serif;color:#00F;}
+</style>
+<!-- End inline CSS -->
+
+<!-- Begin embedded font definitions -->
+<style id="fonts121" type="text/css" >
+
+@font-face {
+	font-family: Georgia-BoldItalic_3dt;
+	src: url("fonts/Georgia-BoldItalic_3dt.woff") format("woff");
+}
+
+@font-face {
+	font-family: Georgia-Bold_391;
+	src: url("fonts/Georgia-Bold_391.woff") format("woff");
+}
+
+@font-face {
+	font-family: Georgia_397;
+	src: url("fonts/Georgia_397.woff") format("woff");
+}
+
+@font-face {
+	font-family: TimesNewRomanPSMT_390;
+	src: url("fonts/TimesNewRomanPSMT_390.woff") format("woff");
+}
+
+</style>
+<!-- End embedded font definitions -->
+
+<!-- Begin page background -->
+<div id="pg121Overlay" style="width:100%; height:100%; position:absolute; z-index:1; background-color:rgba(0,0,0,0); -webkit-user-select: none;"></div>
+<div id="pg121" style="-webkit-user-select: none;"><object width="909" height="1286" data="121/121.svg" type="image/svg+xml" id="pdf121" style="width:909px; height:1286px; -moz-transform:scale(1); z-index: 0;"></object></div>
+<!-- End page background -->
+
+
+<!-- Begin text definitions (Positioned/styled in CSS) -->
+<div class="text-container"><span id="t1_121" class="t s1_121">121 </span>
+<span id="t2_121" class="t s2_121">.filter(d -&gt; d.getCalories() &gt; 300) </span>
+<span id="t3_121" class="t s3_121">.limit(3) </span>
+<span id="t4_121" class="t s2_121">.collect(toList()); </span>
+<span id="t5_121" class="t s4_121">Figure 5.3 </span><span id="t6_121" class="t s2_121">illustrates a combination of filter and limit. You can see that only the first three </span>
+<span id="t7_121" class="t s2_121">elements that match the predicate are selected and the result is immediately returned. </span>
+<span id="t8_121" class="t s5_121">Figure 5.3. Truncating a stream </span>
+<span id="t9_121" class="t s2_121">Note that limit also works on unordered streams (for example, if the source is a Set). In this case </span>
+<span id="ta_121" class="t s2_121">you shouldn’t assume any order on the result produced by limit. </span>
+<span id="tb_121" class="t s5_121">5.1.4. Skipping elements </span>
+<span id="tc_121" class="t s2_121">Streams support the skip(n) method to return a stream that discards the first n elements. If the </span>
+<span id="td_121" class="t s2_121">stream has fewer elements than n, then an empty stream is returned. Note that limit(n) and </span>
+<span id="te_121" class="t s2_121">skip(n) are complementary! For example, the following code skips the first two dishes that have </span>
+<span id="tf_121" class="t s2_121">more than 300 calories and returns the rest. </span><span id="tg_121" class="t s4_121">Figure 5.4 </span><span id="th_121" class="t s2_121">illustrates this query: </span>
+<span id="ti_121" class="t s6_121">www.it-ebooks.info </span></div>
+<!-- End text definitions -->
+
+
+</div>
+</body>
+</html>

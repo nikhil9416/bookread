@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta charset="utf-8" />
+</head>
+
+<body style="margin: 0;">
+
+<div id="p201" style="overflow: hidden; position: relative; background-color: white; width: 909px; height: 1286px;">
+
+<!-- Begin shared CSS values -->
+<style class="shared-css" type="text/css" >
+.t {
+	transform-origin: bottom left;
+	z-index: 2;
+	position: absolute;
+	white-space: pre;
+	overflow: visible;
+	line-height: 1.5;
+}
+.text-container {
+	white-space: pre;
+}
+@supports (-webkit-touch-callout: none) {
+	.text-container {
+		white-space: normal;
+	}
+}
+</style>
+<!-- End shared CSS values -->
+
+
+<!-- Begin inline CSS -->
+<style type="text/css" >
+
+#t1_201{left:450px;bottom:46px;letter-spacing:-0.13px;}
+#t2_201{left:65px;bottom:904px;letter-spacing:0.16px;word-spacing:0.97px;}
+#t3_201{left:65px;bottom:875px;letter-spacing:0.15px;word-spacing:0.9px;}
+#t4_201{left:65px;bottom:846px;letter-spacing:0.15px;word-spacing:0.82px;}
+#t5_201{left:65px;bottom:817px;letter-spacing:0.17px;word-spacing:2.66px;}
+#t6_201{left:65px;bottom:788px;letter-spacing:0.16px;word-spacing:3.42px;}
+#t7_201{left:65px;bottom:759px;letter-spacing:0.15px;word-spacing:-0.15px;}
+#t8_201{left:65px;bottom:709px;letter-spacing:0.14px;word-spacing:-0.06px;}
+#t9_201{left:65px;bottom:658px;letter-spacing:0.16px;word-spacing:0.8px;}
+#ta_201{left:65px;bottom:629px;letter-spacing:0.16px;word-spacing:-0.18px;}
+#tb_201{left:65px;bottom:579px;letter-spacing:0.15px;word-spacing:-0.13px;}
+#tc_201{left:65px;bottom:528px;letter-spacing:0.17px;word-spacing:4.8px;}
+#td_201{left:65px;bottom:499px;letter-spacing:0.15px;word-spacing:1.24px;}
+#te_201{left:65px;bottom:470px;letter-spacing:0.16px;word-spacing:-0.1px;}
+#tf_201{left:65px;bottom:420px;letter-spacing:0.15px;word-spacing:1.29px;}
+#tg_201{left:661px;bottom:420px;letter-spacing:0.15px;word-spacing:1.45px;}
+#th_201{left:743px;bottom:420px;letter-spacing:0.14px;word-spacing:1.26px;}
+#ti_201{left:65px;bottom:391px;letter-spacing:0.17px;word-spacing:5.96px;}
+#tj_201{left:65px;bottom:362px;letter-spacing:0.17px;word-spacing:6.59px;}
+#tk_201{left:65px;bottom:333px;letter-spacing:0.18px;}
+#tl_201{left:390px;bottom:3px;letter-spacing:0.13px;}
+
+.s1_201{font-size:14px;font-family:TimesNewRomanPSMT_390;color:#000;}
+.s2_201{font-size:18px;font-family:Georgia_397;color:#000;}
+.s3_201{font-size:18px;font-family:Georgia_397;color:#00F;}
+.s4_201{font-size:15px;font-family:Helvetica, Arial, sans-serif;color:#00F;}
+</style>
+<!-- End inline CSS -->
+
+<!-- Begin embedded font definitions -->
+<style id="fonts201" type="text/css" >
+
+@font-face {
+	font-family: Georgia_397;
+	src: url("fonts/Georgia_397.woff") format("woff");
+}
+
+@font-face {
+	font-family: TimesNewRomanPSMT_390;
+	src: url("fonts/TimesNewRomanPSMT_390.woff") format("woff");
+}
+
+</style>
+<!-- End embedded font definitions -->
+
+<!-- Begin page background -->
+<div id="pg201Overlay" style="width:100%; height:100%; position:absolute; z-index:1; background-color:rgba(0,0,0,0); -webkit-user-select: none;"></div>
+<div id="pg201" style="-webkit-user-select: none;"><object width="909" height="1286" data="201/201.svg" type="image/svg+xml" id="pdf201" style="width:909px; height:1286px; -moz-transform:scale(1); z-index: 0;"></object></div>
+<!-- End page background -->
+
+
+<!-- Begin text definitions (Positioned/styled in CSS) -->
+<div class="text-container"><span id="t1_201" class="t s1_201">201 </span>
+<span id="t2_201" class="t s2_201">Note that a more scientific benchmarking approach would be to use a framework such as JMH, </span>
+<span id="t3_201" class="t s2_201">but we didn’t want to add the complexity of using such a framework here and, for this use case, </span>
+<span id="t4_201" class="t s2_201">the results provided by this small benchmarking class are accurate enough. This class partitions </span>
+<span id="t5_201" class="t s2_201">the first million natural numbers into primes and nonprimes, invoking the method using the </span>
+<span id="t6_201" class="t s2_201">collector created with the partitioningBy factory method 10 times and registering the fastest </span>
+<span id="t7_201" class="t s2_201">execution. Running it on an Intel i5 2.4 GHz, it prints the following result: </span>
+<span id="t8_201" class="t s2_201">Fastest execution done in 4716 msecs </span>
+<span id="t9_201" class="t s2_201">Now replace partitionPrimes with partitionPrimesWithCustomCollector in the harness, in order </span>
+<span id="ta_201" class="t s2_201">to test the performances of the custom collector you developed. Now the program prints </span>
+<span id="tb_201" class="t s2_201">Fastest execution done in 3201 msecs </span>
+<span id="tc_201" class="t s2_201">Not bad! This means you didn’t waste your time developing this custom collector for two </span>
+<span id="td_201" class="t s2_201">reasons: first, you learned how to implement your own collector when you need it, and second, </span>
+<span id="te_201" class="t s2_201">you achieved a performance improvement of around 32%. </span>
+<span id="tf_201" class="t s2_201">Finally, it’s important to note that, as you did for the ToListCollector in </span><span id="tg_201" class="t s3_201">listing 6.5 </span><span id="th_201" class="t s2_201">, it’s possible </span>
+<span id="ti_201" class="t s2_201">to obtain the same result by passing the three functions implementing the core logic of </span>
+<span id="tj_201" class="t s2_201">PrimeNumbersCollector to the overloaded version of the collect method, taking them as </span>
+<span id="tk_201" class="t s2_201">arguments: </span>
+<span id="tl_201" class="t s4_201">www.it-ebooks.info </span></div>
+<!-- End text definitions -->
+
+
+</div>
+</body>
+</html>

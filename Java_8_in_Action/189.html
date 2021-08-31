@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta charset="utf-8" />
+</head>
+
+<body style="margin: 0;">
+
+<div id="p189" style="overflow: hidden; position: relative; background-color: white; width: 909px; height: 1286px;">
+
+<!-- Begin shared CSS values -->
+<style class="shared-css" type="text/css" >
+.t {
+	transform-origin: bottom left;
+	z-index: 2;
+	position: absolute;
+	white-space: pre;
+	overflow: visible;
+	line-height: 1.5;
+}
+.text-container {
+	white-space: pre;
+}
+@supports (-webkit-touch-callout: none) {
+	.text-container {
+		white-space: normal;
+	}
+}
+</style>
+<!-- End shared CSS values -->
+
+
+<!-- Begin inline CSS -->
+<style type="text/css" >
+
+#t1_189{left:450px;bottom:46px;letter-spacing:-0.13px;}
+#t2_189{left:65px;bottom:1188px;letter-spacing:0.16px;word-spacing:2.46px;}
+#t3_189{left:65px;bottom:1159px;letter-spacing:0.15px;word-spacing:-0.23px;}
+#t4_189{left:65px;bottom:1108px;letter-spacing:0.15px;word-spacing:-0.03px;}
+#t5_189{left:102px;bottom:1079px;letter-spacing:0.16px;word-spacing:-0.2px;}
+#t6_189{left:65px;bottom:1050px;}
+#t7_189{left:65px;bottom:1000px;letter-spacing:0.16px;word-spacing:2.45px;}
+#t8_189{left:65px;bottom:971px;letter-spacing:0.14px;word-spacing:0.73px;}
+#t9_189{left:505px;bottom:971px;letter-spacing:0.18px;word-spacing:0.6px;}
+#ta_189{left:582px;bottom:971px;letter-spacing:0.15px;word-spacing:0.82px;}
+#tb_189{left:65px;bottom:942px;letter-spacing:0.15px;word-spacing:1.4px;}
+#tc_189{left:65px;bottom:913px;letter-spacing:0.16px;word-spacing:5.54px;}
+#td_189{left:65px;bottom:884px;letter-spacing:0.14px;word-spacing:-0.12px;}
+#te_189{left:65px;bottom:826px;letter-spacing:0.21px;word-spacing:0.03px;}
+#tf_189{left:65px;bottom:186px;letter-spacing:0.24px;word-spacing:-0.04px;}
+#tg_189{left:65px;bottom:124px;letter-spacing:0.16px;word-spacing:0.72px;}
+#th_189{left:65px;bottom:95px;letter-spacing:0.16px;word-spacing:2.47px;}
+#ti_189{left:390px;bottom:3px;letter-spacing:0.13px;}
+
+.s1_189{font-size:14px;font-family:TimesNewRomanPSMT_390;color:#000;}
+.s2_189{font-size:18px;font-family:Georgia_397;color:#000;}
+.s3_189{font-size:18px;font-family:Georgia_397;color:#00F;}
+.s4_189{font-size:21px;font-family:Georgia-Bold_391;color:#000;}
+.s5_189{font-size:15px;font-family:Helvetica, Arial, sans-serif;color:#00F;}
+</style>
+<!-- End inline CSS -->
+
+<!-- Begin embedded font definitions -->
+<style id="fonts189" type="text/css" >
+
+@font-face {
+	font-family: Georgia-Bold_391;
+	src: url("fonts/Georgia-Bold_391.woff") format("woff");
+}
+
+@font-face {
+	font-family: Georgia_397;
+	src: url("fonts/Georgia_397.woff") format("woff");
+}
+
+@font-face {
+	font-family: TimesNewRomanPSMT_390;
+	src: url("fonts/TimesNewRomanPSMT_390.woff") format("woff");
+}
+
+</style>
+<!-- End embedded font definitions -->
+
+<!-- Begin page background -->
+<div id="pg189Overlay" style="width:100%; height:100%; position:absolute; z-index:1; background-color:rgba(0,0,0,0); -webkit-user-select: none;"></div>
+<div id="pg189" style="-webkit-user-select: none;"><object width="909" height="1286" data="189/189.svg" type="image/svg+xml" id="pdf189" style="width:909px; height:1286px; -moz-transform:scale(1); z-index: 0;"></object></div>
+<!-- End page background -->
+
+
+<!-- Begin text definitions (Positioned/styled in CSS) -->
+<div class="text-container"><span id="t1_189" class="t s1_189">189 </span>
+<span id="t2_189" class="t s2_189">consequence, there’s no need to perform a transformation, so the finisher method just has to </span>
+<span id="t3_189" class="t s2_189">return the identity function: </span>
+<span id="t4_189" class="t s2_189">public Function&lt;List&lt;T&gt;, List&lt;T&gt;&gt; finisher() { </span>
+<span id="t5_189" class="t s2_189">return Function.identity(); </span>
+<span id="t6_189" class="t s2_189">} </span>
+<span id="t7_189" class="t s2_189">These first three methods are enough to execute a sequential reduction of the stream that, at </span>
+<span id="t8_189" class="t s2_189">least from a logical point of view, could proceed as in </span><span id="t9_189" class="t s3_189">figure 6.7 </span><span id="ta_189" class="t s2_189">. The implementation details are </span>
+<span id="tb_189" class="t s2_189">a bit more difficult in practice due to both the lazy nature of the stream, which could require a </span>
+<span id="tc_189" class="t s2_189">pipeline of other intermediate operations to execute before the collect operation, and the </span>
+<span id="td_189" class="t s2_189">possibility, in theory, of performing the reduction in parallel. </span>
+<span id="te_189" class="t s4_189">Figure 6.7. Logical steps of the sequential reduction process </span>
+<span id="tf_189" class="t s4_189">Merging two result containers: the combiner method </span>
+<span id="tg_189" class="t s2_189">The combiner method, the last of the four methods that return a function used by the reduction </span>
+<span id="th_189" class="t s2_189">operation, defines how the accumulators resulting from the reduction of different subparts of </span>
+<span id="ti_189" class="t s5_189">www.it-ebooks.info </span></div>
+<!-- End text definitions -->
+
+
+</div>
+</body>
+</html>

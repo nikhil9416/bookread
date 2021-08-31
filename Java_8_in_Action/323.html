@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta charset="utf-8" />
+</head>
+
+<body style="margin: 0;">
+
+<div id="p323" style="overflow: hidden; position: relative; background-color: white; width: 909px; height: 1286px;">
+
+<!-- Begin shared CSS values -->
+<style class="shared-css" type="text/css" >
+.t {
+	transform-origin: bottom left;
+	z-index: 2;
+	position: absolute;
+	white-space: pre;
+	overflow: visible;
+	line-height: 1.5;
+}
+.text-container {
+	white-space: pre;
+}
+@supports (-webkit-touch-callout: none) {
+	.text-container {
+		white-space: normal;
+	}
+}
+</style>
+<!-- End shared CSS values -->
+
+
+<!-- Begin inline CSS -->
+<style type="text/css" >
+
+#t1_323{left:450px;bottom:46px;letter-spacing:-0.13px;}
+#t2_323{left:65px;bottom:1180px;letter-spacing:0.21px;word-spacing:0.12px;}
+#t3_323{left:411px;bottom:1181px;letter-spacing:0.17px;}
+#t4_323{left:513px;bottom:1180px;letter-spacing:0.25px;word-spacing:0.06px;}
+#t5_323{left:65px;bottom:1134px;letter-spacing:0.21px;}
+#t6_323{left:248px;bottom:1132px;}
+#t7_323{left:65px;bottom:811px;letter-spacing:0.15px;word-spacing:0.83px;}
+#t8_323{left:65px;bottom:782px;letter-spacing:0.16px;word-spacing:1.96px;}
+#t9_323{left:65px;bottom:752px;letter-spacing:0.16px;word-spacing:4.36px;}
+#ta_323{left:65px;bottom:723px;letter-spacing:0.16px;word-spacing:5.95px;}
+#tb_323{left:65px;bottom:694px;letter-spacing:0.16px;word-spacing:4.66px;}
+#tc_323{left:65px;bottom:665px;letter-spacing:0.17px;word-spacing:5.02px;}
+#td_323{left:65px;bottom:636px;letter-spacing:0.16px;word-spacing:2.6px;}
+#te_323{left:686px;bottom:636px;letter-spacing:0.17px;word-spacing:2.48px;}
+#tf_323{left:784px;bottom:636px;letter-spacing:0.12px;}
+#tg_323{left:65px;bottom:607px;letter-spacing:0.14px;word-spacing:-0.15px;}
+#th_323{left:390px;bottom:3px;letter-spacing:0.13px;}
+
+.s1_323{font-size:14px;font-family:TimesNewRomanPSMT_390;color:#000;}
+.s2_323{font-size:21px;font-family:Georgia-Bold_391;color:#000;}
+.s3_323{font-size:18px;font-family:Georgia-Bold_391;color:#000;}
+.s4_323{font-size:18px;font-family:Georgia_397;color:#000;}
+.s5_323{font-size:18px;font-family:Georgia_397;color:#00F;}
+.s6_323{font-size:15px;font-family:Helvetica, Arial, sans-serif;color:#00F;}
+</style>
+<!-- End inline CSS -->
+
+<!-- Begin embedded font definitions -->
+<style id="fonts323" type="text/css" >
+
+@font-face {
+	font-family: Georgia-Bold_391;
+	src: url("fonts/Georgia-Bold_391.woff") format("woff");
+}
+
+@font-face {
+	font-family: Georgia_397;
+	src: url("fonts/Georgia_397.woff") format("woff");
+}
+
+@font-face {
+	font-family: TimesNewRomanPSMT_390;
+	src: url("fonts/TimesNewRomanPSMT_390.woff") format("woff");
+}
+
+</style>
+<!-- End embedded font definitions -->
+
+<!-- Begin page background -->
+<div id="pg323Overlay" style="width:100%; height:100%; position:absolute; z-index:1; background-color:rgba(0,0,0,0); -webkit-user-select: none;"></div>
+<div id="pg323" style="-webkit-user-select: none;"><object width="909" height="1286" data="323/323.svg" type="image/svg+xml" id="pdf323" style="width:909px; height:1286px; -moz-transform:scale(1); z-index: 0;"></object></div>
+<!-- End page background -->
+
+
+<!-- Begin text definitions (Positioned/styled in CSS) -->
+<div class="text-container"><span id="t1_323" class="t s1_323">323 </span>
+<span id="t2_323" class="t s2_323">Listing 11.11. Implementing the </span><span id="t3_323" class="t s3_323">findPrices </span><span id="t4_323" class="t s2_323">method with </span>
+<span id="t5_323" class="t s3_323">CompletableFuture</span><span id="t6_323" class="t s2_323">s </span>
+<span id="t7_323" class="t s4_323">Note that you use two separate stream pipelines, instead of putting the two map operations one </span>
+<span id="t8_323" class="t s4_323">after the other in the same stream-processing pipeline—and for a very good reason. Given the </span>
+<span id="t9_323" class="t s4_323">lazy nature of intermediate stream operations, if you had processed the stream in a single </span>
+<span id="ta_323" class="t s4_323">pipeline, you would have succeeded only in executing all the requests to different shops </span>
+<span id="tb_323" class="t s4_323">synchronously and sequentially. This is because the creation of each CompletableFuture to </span>
+<span id="tc_323" class="t s4_323">interrogate a given shop would start only when the computation of the previous one had </span>
+<span id="td_323" class="t s4_323">completed, letting the join method return the result of that computation. </span><span id="te_323" class="t s5_323">Figure 11.4 </span><span id="tf_323" class="t s4_323">clarifies </span>
+<span id="tg_323" class="t s4_323">this important detail. </span>
+<span id="th_323" class="t s6_323">www.it-ebooks.info </span></div>
+<!-- End text definitions -->
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta charset="utf-8" />
+</head>
+
+<body style="margin: 0;">
+
+<div id="p241" style="overflow: hidden; position: relative; background-color: white; width: 909px; height: 1286px;">
+
+<!-- Begin shared CSS values -->
+<style class="shared-css" type="text/css" >
+.t {
+	transform-origin: bottom left;
+	z-index: 2;
+	position: absolute;
+	white-space: pre;
+	overflow: visible;
+	line-height: 1.5;
+}
+.text-container {
+	white-space: pre;
+}
+@supports (-webkit-touch-callout: none) {
+	.text-container {
+		white-space: normal;
+	}
+}
+</style>
+<!-- End shared CSS values -->
+
+
+<!-- Begin inline CSS -->
+<style type="text/css" >
+
+#t1_241{left:450px;bottom:46px;letter-spacing:-0.13px;}
+#t2_241{left:65px;bottom:1188px;letter-spacing:0.16px;word-spacing:-0.21px;}
+#t3_241{left:65px;bottom:1137px;letter-spacing:0.16px;word-spacing:0.22px;}
+#t4_241{left:65px;bottom:1108px;letter-spacing:0.15px;word-spacing:-0.16px;}
+#t5_241{left:65px;bottom:917px;letter-spacing:0.15px;word-spacing:2.41px;}
+#t6_241{left:65px;bottom:888px;letter-spacing:0.15px;word-spacing:0.1px;}
+#t7_241{left:65px;bottom:859px;letter-spacing:0.16px;word-spacing:0.4px;}
+#t8_241{left:65px;bottom:830px;letter-spacing:0.15px;word-spacing:0.39px;}
+#t9_241{left:65px;bottom:801px;letter-spacing:0.15px;word-spacing:1.87px;}
+#ta_241{left:65px;bottom:772px;letter-spacing:0.13px;word-spacing:-0.07px;}
+#tb_241{left:65px;bottom:714px;letter-spacing:0.24px;word-spacing:-0.15px;}
+#tc_241{left:65px;bottom:652px;letter-spacing:0.18px;}
+#td_241{left:91px;bottom:652px;letter-spacing:0.17px;word-spacing:4.04px;}
+#te_241{left:180px;bottom:652px;letter-spacing:0.16px;word-spacing:4.02px;}
+#tf_241{left:65px;bottom:623px;letter-spacing:0.16px;word-spacing:3.61px;}
+#tg_241{left:65px;bottom:594px;letter-spacing:0.16px;word-spacing:3.73px;}
+#th_241{left:65px;bottom:565px;letter-spacing:0.14px;word-spacing:-0.06px;}
+#ti_241{left:65px;bottom:514px;letter-spacing:0.13px;word-spacing:0.64px;}
+#tj_241{left:377px;bottom:514px;letter-spacing:0.16px;word-spacing:0.74px;}
+#tk_241{left:454px;bottom:514px;letter-spacing:0.14px;word-spacing:0.57px;}
+#tl_241{left:65px;bottom:485px;letter-spacing:0.15px;word-spacing:-0.14px;}
+#tm_241{left:390px;bottom:3px;letter-spacing:0.13px;}
+
+.s1_241{font-size:14px;font-family:TimesNewRomanPSMT_390;color:#000;}
+.s2_241{font-size:18px;font-family:Georgia_397;color:#000;}
+.s3_241{font-size:21px;font-family:Georgia-Bold_391;color:#000;}
+.s4_241{font-size:18px;font-family:Georgia_397;color:#00F;}
+.s5_241{font-size:15px;font-family:Helvetica, Arial, sans-serif;color:#00F;}
+</style>
+<!-- End inline CSS -->
+
+<!-- Begin embedded font definitions -->
+<style id="fonts241" type="text/css" >
+
+@font-face {
+	font-family: Georgia-Bold_391;
+	src: url("fonts/Georgia-Bold_391.woff") format("woff");
+}
+
+@font-face {
+	font-family: Georgia_397;
+	src: url("fonts/Georgia_397.woff") format("woff");
+}
+
+@font-face {
+	font-family: TimesNewRomanPSMT_390;
+	src: url("fonts/TimesNewRomanPSMT_390.woff") format("woff");
+}
+
+</style>
+<!-- End embedded font definitions -->
+
+<!-- Begin page background -->
+<div id="pg241Overlay" style="width:100%; height:100%; position:absolute; z-index:1; background-color:rgba(0,0,0,0); -webkit-user-select: none;"></div>
+<div id="pg241" style="-webkit-user-select: none;"><object width="909" height="1286" data="241/241.svg" type="image/svg+xml" id="pdf241" style="width:909px; height:1286px; -moz-transform:scale(1); z-index: 0;"></object></div>
+<!-- End page background -->
+
+
+<!-- Begin text definitions (Positioned/styled in CSS) -->
+<div class="text-container"><span id="t1_241" class="t s1_241">241 </span>
+<span id="t2_241" class="t s2_241">logger.log(Level.FINER, () -&gt; "Problem: " + generateDiagnostic()); </span>
+<span id="t3_241" class="t s2_241">The log method will internally execute the lambda passed as argument only if the logger is of the </span>
+<span id="t4_241" class="t s2_241">right level. The internal implementation of the log method is along the lines of this: </span>
+<span id="t5_241" class="t s2_241">What’s the takeaway from the story? If you see yourself querying the state of an object many </span>
+<span id="t6_241" class="t s2_241">times in client code (for example, the state of the logger), only to call some method on this object </span>
+<span id="t7_241" class="t s2_241">with arguments (for example, log a message), then consider introducing a new method that calls </span>
+<span id="t8_241" class="t s2_241">that method (passed as a lambda or method reference) only after internally checking the state of </span>
+<span id="t9_241" class="t s2_241">the object. Your code will be more readable (less clutter) and better encapsulated (the state of </span>
+<span id="ta_241" class="t s2_241">the object isn’t exposed in client code)! </span>
+<span id="tb_241" class="t s3_241">Execute around </span>
+<span id="tc_241" class="t s2_241">In </span><span id="td_241" class="t s4_241">chapter 3 </span><span id="te_241" class="t s2_241">we discussed another pattern that you can adopt: execute around. If you find </span>
+<span id="tf_241" class="t s2_241">yourself surrounding different code with the same preparation and cleanup phases, you can </span>
+<span id="tg_241" class="t s2_241">often pull that code into a lambda. The benefit is that you reuse the logic dealing with the </span>
+<span id="th_241" class="t s2_241">preparation and cleanup phases, thus reducing code duplication. </span>
+<span id="ti_241" class="t s2_241">To refresh, here’s the code you saw in </span><span id="tj_241" class="t s4_241">chapter 3 </span><span id="tk_241" class="t s2_241">. It reuses the same logic to open and close a file </span>
+<span id="tl_241" class="t s2_241">but can be parameterized with different lambdas to process the file: </span>
+<span id="tm_241" class="t s5_241">www.it-ebooks.info </span></div>
+<!-- End text definitions -->
+
+
+</div>
+</body>
+</html>
