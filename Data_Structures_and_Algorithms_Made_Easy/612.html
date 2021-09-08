@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta charset="utf-8" />
+</head>
+
+<body style="margin: 0;">
+
+<div id="p612" style="overflow: hidden; position: relative; background-color: white; width: 935px; height: 1210px;">
+
+<!-- Begin shared CSS values -->
+<style class="shared-css" type="text/css" >
+.t {
+	transform-origin: bottom left;
+	z-index: 2;
+	position: absolute;
+	white-space: pre;
+	overflow: visible;
+	line-height: 1.5;
+}
+.text-container {
+	white-space: pre;
+}
+@supports (-webkit-touch-callout: none) {
+	.text-container {
+		white-space: normal;
+	}
+}
+</style>
+<!-- End shared CSS values -->
+
+
+<!-- Begin inline CSS -->
+<style type="text/css" >
+
+#t1_612{left:43px;bottom:1134px;letter-spacing:0.03px;word-spacing:0.42px;}
+#t2_612{left:43px;bottom:1084px;letter-spacing:-0.21px;word-spacing:3.47px;}
+#t3_612{left:43px;bottom:1058px;word-spacing:1.27px;}
+#t4_612{left:43px;bottom:1033px;letter-spacing:-0.18px;word-spacing:2.11px;}
+#t5_612{left:43px;bottom:1008px;letter-spacing:-0.1px;}
+#t6_612{left:43px;bottom:284px;letter-spacing:-0.09px;word-spacing:1.13px;}
+#t7_612{left:43px;bottom:259px;letter-spacing:-0.2px;word-spacing:3.87px;}
+#t8_612{left:43px;bottom:233px;letter-spacing:-0.12px;word-spacing:2.74px;}
+#t9_612{left:43px;bottom:208px;letter-spacing:-0.09px;word-spacing:0.11px;}
+#ta_612{left:43px;bottom:183px;letter-spacing:-0.13px;word-spacing:0.98px;}
+#tb_612{left:43px;bottom:157px;letter-spacing:-0.02px;word-spacing:0.74px;}
+#tc_612{left:43px;bottom:132px;letter-spacing:-0.17px;word-spacing:0.27px;}
+#td_612{left:557px;bottom:132px;letter-spacing:0.1px;}
+#te_612{left:43px;bottom:80px;letter-spacing:0.28px;}
+#tf_612{left:103px;bottom:80px;letter-spacing:-0.25px;word-spacing:1.97px;}
+#tg_612{left:43px;bottom:55px;letter-spacing:-0.25px;word-spacing:0.17px;}
+#th_612{left:553px;bottom:55px;letter-spacing:0.13px;}
+#ti_612{left:589px;bottom:55px;}
+#tj_612{left:613px;bottom:55px;letter-spacing:0.26px;word-spacing:-0.38px;}
+
+.s1_612{font-size:25px;font-family:LiberationSerif-Bold_2bb;color:#000;}
+.s2_612{font-size:22px;font-family:LiberationSerif_2be;color:#000;}
+.s3_612{font-size:22px;font-family:LiberationSerif-Italic_2bh;color:#000;}
+.s4_612{font-size:22px;font-family:LiberationSerif-Bold_2bb;color:#000;}
+</style>
+<!-- End inline CSS -->
+
+<!-- Begin embedded font definitions -->
+<style id="fonts612" type="text/css" >
+
+@font-face {
+	font-family: LiberationSerif-Bold_2bb;
+	src: url("fonts/LiberationSerif-Bold_2bb.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Italic_2bh;
+	src: url("fonts/LiberationSerif-Italic_2bh.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_2be;
+	src: url("fonts/LiberationSerif_2be.woff") format("woff");
+}
+
+</style>
+<!-- End embedded font definitions -->
+
+<!-- Begin page background -->
+<div id="pg612Overlay" style="width:100%; height:100%; position:absolute; z-index:1; background-color:rgba(0,0,0,0); -webkit-user-select: none;"></div>
+<div id="pg612" style="-webkit-user-select: none;"><object width="935" height="1210" data="612/612.svg" type="image/svg+xml" id="pdf612" style="width:935px; height:1210px; -moz-transform:scale(1); z-index: 0;"></object></div>
+<!-- End page background -->
+
+
+<!-- Begin text definitions (Positioned/styled in CSS) -->
+<div class="text-container"><span id="t1_612" class="t s1_612">Why not Arrays? </span>
+<span id="t2_612" class="t s2_612">In the previous problem, we have used an array of size 256 because we know the number of </span>
+<span id="t3_612" class="t s2_612">different possible characters [256] inadvance. Now, let us consider a slight variant of the same </span>
+<span id="t4_612" class="t s2_612">problem. Suppose the given array has numbers instead of characters, then how do we solve the </span>
+<span id="t5_612" class="t s2_612">problem? </span>
+<span id="t6_612" class="t s2_612">In this case the set of possible values is infinity (or at least very big). Creating a huge array and </span>
+<span id="t7_612" class="t s2_612">storing the counters is not possible. That means there are a set of universal keys and limited </span>
+<span id="t8_612" class="t s2_612">locations in the memory. If we want to solve this problemwe need to somehow map all these </span>
+<span id="t9_612" class="t s2_612">possible keys to the possible memory locations. From the above discussion and diagram it can be </span>
+<span id="ta_612" class="t s2_612">seen that we need a mapping of possible keys to one of the available locations. As a result using </span>
+<span id="tb_612" class="t s2_612">simple arrays is not the correct choice for solvingthe problems where the possible keys are very </span>
+<span id="tc_612" class="t s2_612">big. The process of mapping the keys to locations is called </span><span id="td_612" class="t s3_612">hashing. </span>
+<span id="te_612" class="t s4_612">Note: </span><span id="tf_612" class="t s2_612">For now, do not worry about how the keys are mapped to locations. That depends on the </span>
+<span id="tg_612" class="t s2_612">function used for conversions. One such simple function is </span><span id="th_612" class="t s3_612">key </span><span id="ti_612" class="t s2_612">% </span><span id="tj_612" class="t s3_612">table size. </span></div>
+<!-- End text definitions -->
+
+
+</div>
+</body>
+</html>

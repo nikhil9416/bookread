@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta charset="utf-8" />
+</head>
+
+<body style="margin: 0;">
+
+<div id="p622" style="overflow: hidden; position: relative; background-color: white; width: 935px; height: 1210px;">
+
+<!-- Begin shared CSS values -->
+<style class="shared-css" type="text/css" >
+.t {
+	transform-origin: bottom left;
+	z-index: 2;
+	position: absolute;
+	white-space: pre;
+	overflow: visible;
+	line-height: 1.5;
+}
+.text-container {
+	white-space: pre;
+}
+@supports (-webkit-touch-callout: none) {
+	.text-container {
+		white-space: normal;
+	}
+}
+</style>
+<!-- End shared CSS values -->
+
+
+<!-- Begin inline CSS -->
+<style type="text/css" >
+
+#t1_622{left:128px;bottom:457px;letter-spacing:-0.02px;word-spacing:1.01px;}
+#t2_622{left:589px;bottom:457px;}
+#t3_622{left:661px;bottom:457px;letter-spacing:-0.48px;word-spacing:2.62px;}
+#t4_622{left:717px;bottom:457px;}
+#t5_622{left:790px;bottom:457px;}
+#t6_622{left:128px;bottom:431px;letter-spacing:-0.14px;word-spacing:-0.18px;}
+#t7_622{left:128px;bottom:381px;letter-spacing:-0.28px;word-spacing:1.18px;}
+#t8_622{left:128px;bottom:355px;letter-spacing:-0.04px;word-spacing:1.56px;}
+#t9_622{left:128px;bottom:330px;letter-spacing:-0.23px;word-spacing:-0.04px;}
+#ta_622{left:43px;bottom:279px;letter-spacing:-0.04px;word-spacing:2.59px;}
+#tb_622{left:43px;bottom:254px;letter-spacing:0.15px;}
+#tc_622{left:97px;bottom:254px;}
+#td_622{left:113px;bottom:254px;letter-spacing:-0.28px;word-spacing:0.93px;}
+#te_622{left:516px;bottom:254px;}
+#tf_622{left:532px;bottom:254px;letter-spacing:0.1px;word-spacing:0.67px;}
+#tg_622{left:43px;bottom:229px;letter-spacing:-0.22px;word-spacing:-0.47px;}
+#th_622{left:142px;bottom:229px;}
+#ti_622{left:157px;bottom:229px;letter-spacing:-0.28px;word-spacing:0.31px;}
+#tj_622{left:43px;bottom:177px;word-spacing:0.54px;}
+#tk_622{left:43px;bottom:152px;letter-spacing:-0.18px;word-spacing:-0.73px;}
+#tl_622{left:128px;bottom:152px;}
+#tm_622{left:143px;bottom:152px;letter-spacing:-0.22px;word-spacing:-0.03px;}
+#tn_622{left:43px;bottom:127px;letter-spacing:-0.22px;word-spacing:2.8px;}
+#to_622{left:43px;bottom:101px;letter-spacing:-0.01px;word-spacing:0.41px;}
+#tp_622{left:43px;bottom:76px;letter-spacing:-0.16px;word-spacing:3.38px;}
+#tq_622{left:648px;bottom:76px;}
+#tr_622{left:667px;bottom:76px;letter-spacing:-0.23px;word-spacing:3.47px;}
+#ts_622{left:43px;bottom:51px;letter-spacing:-0.18px;word-spacing:3.37px;}
+#tt_622{left:571px;bottom:51px;letter-spacing:0.34px;}
+#tu_622{left:629px;bottom:51px;letter-spacing:-0.35px;word-spacing:3.91px;}
+
+.s1_622{font-size:22px;font-family:LiberationSerif_2be;color:#000;}
+.s2_622{font-size:22px;font-family:LiberationSerif-Italic_2bh;color:#000;}
+</style>
+<!-- End inline CSS -->
+
+<!-- Begin embedded font definitions -->
+<style id="fonts622" type="text/css" >
+
+@font-face {
+	font-family: LiberationSerif-Italic_2bh;
+	src: url("fonts/LiberationSerif-Italic_2bh.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_2be;
+	src: url("fonts/LiberationSerif_2be.woff") format("woff");
+}
+
+</style>
+<!-- End embedded font definitions -->
+
+<!-- Begin page background -->
+<div id="pg622Overlay" style="width:100%; height:100%; position:absolute; z-index:1; background-color:rgba(0,0,0,0); -webkit-user-select: none;"></div>
+<div id="pg622" style="-webkit-user-select: none;"><object width="935" height="1210" data="622/622.svg" type="image/svg+xml" id="pdf622" style="width:935px; height:1210px; -moz-transform:scale(1); z-index: 0;"></object></div>
+<!-- End page background -->
+
+
+<!-- Begin text definitions (Positioned/styled in CSS) -->
+<div class="text-container"><span id="t1_622" class="t s1_622">Now that the bits in the bit vector have beenset for </span><span id="t2_622" class="t s2_622">Element </span><span id="t3_622" class="t s1_622">1 and </span><span id="t4_622" class="t s2_622">Element </span><span id="t5_622" class="t s1_622">2; </span>
+<span id="t6_622" class="t s1_622">we can query the bloom filter to tell us if something has been seen before. </span>
+<span id="t7_622" class="t s1_622">The element is hashed but instead of setting the bits, this time a check is done </span>
+<span id="t8_622" class="t s1_622">and if the bits that would have been set are already set the bloom filter will </span>
+<span id="t9_622" class="t s1_622">return true that the element has been seen before. </span>
+<span id="ta_622" class="t s1_622">A Bloom filter starts off with a bit array initialized to zero. To store a data value, we simply </span>
+<span id="tb_622" class="t s1_622">apply </span><span id="tc_622" class="t s2_622">k </span><span id="td_622" class="t s1_622">different hash functions and treat the resulting </span><span id="te_622" class="t s2_622">k </span><span id="tf_622" class="t s1_622">values as indices inthe array, and we set </span>
+<span id="tg_622" class="t s1_622">each of the </span><span id="th_622" class="t s2_622">k </span><span id="ti_622" class="t s1_622">array elements to 1. We repeat this for every element that we encounter. </span>
+<span id="tj_622" class="t s1_622">Now suppose anelement turns up and we want to know if we have seenit before. What we do is </span>
+<span id="tk_622" class="t s1_622">apply the </span><span id="tl_622" class="t s2_622">k </span><span id="tm_622" class="t s1_622">hash functions and look up the indicated array elements. If any of them are 0 we can be </span>
+<span id="tn_622" class="t s1_622">100% sure that we have never encountered the element before - if we had, the bit would have </span>
+<span id="to_622" class="t s1_622">been set to 1. However, even if all of themare one, we still can’t conclude that we have seen the </span>
+<span id="tp_622" class="t s1_622">element before because all of the bits could have been set by the </span><span id="tq_622" class="t s2_622">k </span><span id="tr_622" class="t s1_622">hash functions applied to </span>
+<span id="ts_622" class="t s1_622">multiple other elements. All we can conclude is that it is </span><span id="tt_622" class="t s2_622">likely </span><span id="tu_622" class="t s1_622">that we have encountered the </span></div>
+<!-- End text definitions -->
+
+
+</div>
+</body>
+</html>

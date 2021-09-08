@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta charset="utf-8" />
+</head>
+
+<body style="margin: 0;">
+
+<div id="p634" style="overflow: hidden; position: relative; background-color: white; width: 935px; height: 1210px;">
+
+<!-- Begin shared CSS values -->
+<style class="shared-css" type="text/css" >
+.t {
+	transform-origin: bottom left;
+	z-index: 2;
+	position: absolute;
+	white-space: pre;
+	overflow: visible;
+	line-height: 1.5;
+}
+.text-container {
+	white-space: pre;
+}
+@supports (-webkit-touch-callout: none) {
+	.text-container {
+		white-space: normal;
+	}
+}
+</style>
+<!-- End shared CSS values -->
+
+
+<!-- Begin inline CSS -->
+<style type="text/css" >
+
+#t1_634{left:43px;bottom:1139px;letter-spacing:-0.43px;}
+#t2_634{left:133px;bottom:1139px;letter-spacing:-0.07px;word-spacing:1.83px;}
+#t3_634{left:43px;bottom:1113px;letter-spacing:-0.11px;word-spacing:1.71px;}
+#t4_634{left:43px;bottom:1088px;letter-spacing:-0.22px;word-spacing:0.15px;}
+#t5_634{left:43px;bottom:1063px;letter-spacing:-0.43px;word-spacing:0.74px;}
+#t6_634{left:43px;bottom:536px;letter-spacing:-0.49px;word-spacing:1.29px;}
+#t7_634{left:228px;bottom:536px;}
+#t8_634{left:239px;bottom:546px;}
+#t9_634{left:246px;bottom:536px;letter-spacing:-0.13px;word-spacing:0.45px;}
+#ta_634{left:43px;bottom:493px;letter-spacing:-0.36px;}
+#tb_634{left:194px;bottom:493px;letter-spacing:-0.26px;word-spacing:0.24px;}
+#tc_634{left:541px;bottom:493px;letter-spacing:-0.05px;}
+#td_634{left:645px;bottom:493px;}
+#te_634{left:43px;bottom:442px;letter-spacing:-0.52px;word-spacing:3.62px;}
+#tf_634{left:178px;bottom:442px;letter-spacing:-0.23px;word-spacing:2.34px;}
+#tg_634{left:43px;bottom:417px;letter-spacing:-0.28px;word-spacing:4.69px;}
+#th_634{left:43px;bottom:392px;letter-spacing:-0.09px;word-spacing:1.45px;}
+#ti_634{left:43px;bottom:366px;letter-spacing:-0.26px;word-spacing:1.84px;}
+#tj_634{left:530px;bottom:366px;}
+#tk_634{left:541px;bottom:366px;letter-spacing:-0.26px;word-spacing:2.04px;}
+#tl_634{left:43px;bottom:341px;letter-spacing:-0.05px;word-spacing:0.1px;}
+#tm_634{left:130px;bottom:341px;}
+#tn_634{left:141px;bottom:341px;letter-spacing:0.37px;}
+
+.s1_634{font-size:22px;font-family:LiberationSerif-Bold_2bb;color:#000;}
+.s2_634{font-size:22px;font-family:LiberationSerif_2be;color:#000;}
+.s3_634{font-size:22px;font-family:LiberationSerif-Italic_2bh;color:#000;}
+.s4_634{font-size:16px;font-family:LiberationSerif_2be;color:#000;}
+.s5_634{font-size:22px;font-family:LiberationSerif_2be;color:#00E;}
+</style>
+<!-- End inline CSS -->
+
+<!-- Begin embedded font definitions -->
+<style id="fonts634" type="text/css" >
+
+@font-face {
+	font-family: LiberationSerif-Bold_2bb;
+	src: url("fonts/LiberationSerif-Bold_2bb.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Italic_2bh;
+	src: url("fonts/LiberationSerif-Italic_2bh.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_2be;
+	src: url("fonts/LiberationSerif_2be.woff") format("woff");
+}
+
+</style>
+<!-- End embedded font definitions -->
+
+<!-- Begin page background -->
+<div id="pg634Overlay" style="width:100%; height:100%; position:absolute; z-index:1; background-color:rgba(0,0,0,0); -webkit-user-select: none;"></div>
+<div id="pg634" style="-webkit-user-select: none;"><object width="935" height="1210" data="634/634.svg" type="image/svg+xml" id="pdf634" style="width:935px; height:1210px; -moz-transform:scale(1); z-index: 0;"></object></div>
+<!-- End page background -->
+
+
+<!-- Begin text definitions (Positioned/styled in CSS) -->
+<div class="text-container"><span id="t1_634" class="t s1_634">Solution: </span><span id="t2_634" class="t s2_634">The solution to this problem is trivial. For each character in the given string, we can </span>
+<span id="t3_634" class="t s2_634">scan the remaining string if that character appears in it. If it does not appears then we are done </span>
+<span id="t4_634" class="t s2_634">with the solution and we return that character. If the character appears in the remaining string, then </span>
+<span id="t5_634" class="t s2_634">go to the next character. </span>
+<span id="t6_634" class="t s2_634">Time Complexity: O(</span><span id="t7_634" class="t s3_634">n </span>
+<span id="t8_634" class="t s4_634">2 </span>
+<span id="t9_634" class="t s2_634">), for two for loops. Space Complexity: O(1). </span>
+<span id="ta_634" class="t s1_634">Problem-15 </span><span id="tb_634" class="t s2_634">Can we improve the time complexity of </span><span id="tc_634" class="t s5_634">Problem-13</span><span id="td_634" class="t s2_634">? </span>
+<span id="te_634" class="t s1_634">Solution: Yes. </span><span id="tf_634" class="t s2_634">By using hash tables we can reduce the time complexity. Create a hash table by </span>
+<span id="tg_634" class="t s2_634">reading all the characters in the input string and keeping count of the number of times each </span>
+<span id="th_634" class="t s2_634">character appears. After creating the hash table, we can read the hash table entries to see which </span>
+<span id="ti_634" class="t s2_634">element has a count equal to 1. This approach takes O(</span><span id="tj_634" class="t s3_634">n</span><span id="tk_634" class="t s2_634">) space but reduces the time complexity </span>
+<span id="tl_634" class="t s2_634">also to O(</span><span id="tm_634" class="t s3_634">n</span><span id="tn_634" class="t s2_634">). </span></div>
+<!-- End text definitions -->
+
+
+</div>
+</body>
+</html>

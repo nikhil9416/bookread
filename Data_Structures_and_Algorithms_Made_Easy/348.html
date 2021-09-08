@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta charset="utf-8" />
+</head>
+
+<body style="margin: 0;">
+
+<div id="p348" style="overflow: hidden; position: relative; background-color: white; width: 935px; height: 1210px;">
+
+<!-- Begin shared CSS values -->
+<style class="shared-css" type="text/css" >
+.t {
+	transform-origin: bottom left;
+	z-index: 2;
+	position: absolute;
+	white-space: pre;
+	overflow: visible;
+	line-height: 1.5;
+}
+.text-container {
+	white-space: pre;
+}
+@supports (-webkit-touch-callout: none) {
+	.text-container {
+		white-space: normal;
+	}
+}
+</style>
+<!-- End shared CSS values -->
+
+
+<!-- Begin inline CSS -->
+<style type="text/css" >
+
+#t1_348{left:43px;bottom:1138px;letter-spacing:-0.3px;word-spacing:0.22px;}
+#t2_348{left:43px;bottom:1088px;letter-spacing:0.28px;}
+#t3_348{left:101px;bottom:1088px;letter-spacing:-0.05px;word-spacing:-0.41px;}
+#t4_348{left:43px;bottom:1045px;letter-spacing:-0.36px;}
+#t5_348{left:194px;bottom:1045px;letter-spacing:-0.01px;word-spacing:1.63px;}
+#t6_348{left:102px;bottom:1020px;letter-spacing:-0.19px;word-spacing:3.93px;}
+#t7_348{left:102px;bottom:994px;letter-spacing:-0.23px;word-spacing:0.88px;}
+#t8_348{left:723px;bottom:994px;}
+#t9_348{left:734px;bottom:994px;letter-spacing:-0.32px;word-spacing:1.34px;}
+#ta_348{left:102px;bottom:969px;letter-spacing:-0.09px;word-spacing:1.69px;}
+#tb_348{left:102px;bottom:944px;letter-spacing:0.16px;}
+#tc_348{left:146px;bottom:944px;letter-spacing:-0.04px;}
+#td_348{left:218px;bottom:944px;letter-spacing:-0.14px;word-spacing:0.19px;}
+#te_348{left:43px;bottom:427px;letter-spacing:-0.43px;}
+#tf_348{left:133px;bottom:427px;letter-spacing:-0.17px;word-spacing:2.03px;}
+#tg_348{left:43px;bottom:402px;letter-spacing:-0.38px;word-spacing:2.36px;}
+#th_348{left:43px;bottom:376px;letter-spacing:-0.24px;word-spacing:1.13px;}
+#ti_348{left:43px;bottom:351px;letter-spacing:-0.32px;word-spacing:3.04px;}
+#tj_348{left:43px;bottom:326px;letter-spacing:-0.31px;word-spacing:0.22px;}
+#tk_348{left:617px;bottom:326px;letter-spacing:0.1px;}
+#tl_348{left:684px;bottom:326px;letter-spacing:-0.15px;word-spacing:-0.23px;}
+
+.s1_348{font-size:22px;font-family:LiberationSerif_2be;color:#000;}
+.s2_348{font-size:22px;font-family:LiberationSerif-Bold_2bb;color:#000;}
+.s3_348{font-size:22px;font-family:LiberationSerif-Italic_2bh;color:#000;}
+</style>
+<!-- End inline CSS -->
+
+<!-- Begin embedded font definitions -->
+<style id="fonts348" type="text/css" >
+
+@font-face {
+	font-family: LiberationSerif-Bold_2bb;
+	src: url("fonts/LiberationSerif-Bold_2bb.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Italic_2bh;
+	src: url("fonts/LiberationSerif-Italic_2bh.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_2be;
+	src: url("fonts/LiberationSerif_2be.woff") format("woff");
+}
+
+</style>
+<!-- End embedded font definitions -->
+
+<!-- Begin page background -->
+<div id="pg348Overlay" style="width:100%; height:100%; position:absolute; z-index:1; background-color:rgba(0,0,0,0); -webkit-user-select: none;"></div>
+<div id="pg348" style="-webkit-user-select: none;"><object width="935" height="1210" data="348/348.svg" type="image/svg+xml" id="pdf348" style="width:935px; height:1210px; -moz-transform:scale(1); z-index: 0;"></object></div>
+<!-- End page background -->
+
+
+<!-- Begin text definitions (Positioned/styled in CSS) -->
+<div class="text-container"><span id="t1_348" class="t s1_348">have been pruned along the way. </span>
+<span id="t2_348" class="t s2_348">Note: </span><span id="t3_348" class="t s1_348">Refer similar problem in BST. </span>
+<span id="t4_348" class="t s2_348">Problem-80 </span><span id="t5_348" class="t s1_348">Given a BST (applicable to AVLtrees as well) where each node contains two </span>
+<span id="t6_348" class="t s1_348">data elements (its data and also the number of nodes in its subtrees) as shown below. </span>
+<span id="t7_348" class="t s1_348">Convert the tree to another BST by replacing the second data element (</span><span id="t8_348" class="t s3_348">n</span><span id="t9_348" class="t s1_348">umber of nodes in </span>
+<span id="ta_348" class="t s1_348">its subtrees) with previous node data in inorder traversal. Note that each node is merged </span>
+<span id="tb_348" class="t s1_348">with </span><span id="tc_348" class="t s3_348">inorder </span><span id="td_348" class="t s1_348">previous node data. Also make sure that conversion happens in-place. </span>
+<span id="te_348" class="t s2_348">Solution: </span><span id="tf_348" class="t s1_348">The simplest way is to use level order traversal. If the number of elements in the left </span>
+<span id="tg_348" class="t s1_348">subtree is greater than the number of elements in the right subtree, find the maximum element in </span>
+<span id="th_348" class="t s1_348">the left subtree and replace the current node second data element with it. Similarly, if the number </span>
+<span id="ti_348" class="t s1_348">of elements in the left subtree is less than the number of elements in the right subtree, find the </span>
+<span id="tj_348" class="t s1_348">minimum element in the right subtree and replace the current node </span><span id="tk_348" class="t s3_348">second </span><span id="tl_348" class="t s1_348">data element with it. </span></div>
+<!-- End text definitions -->
+
+
+</div>
+</body>
+</html>

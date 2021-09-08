@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta charset="utf-8" />
+</head>
+
+<body style="margin: 0;">
+
+<div id="p738" style="overflow: hidden; position: relative; background-color: white; width: 935px; height: 1210px;">
+
+<!-- Begin shared CSS values -->
+<style class="shared-css" type="text/css" >
+.t {
+	transform-origin: bottom left;
+	z-index: 2;
+	position: absolute;
+	white-space: pre;
+	overflow: visible;
+	line-height: 1.5;
+}
+.text-container {
+	white-space: pre;
+}
+@supports (-webkit-touch-callout: none) {
+	.text-container {
+		white-space: normal;
+	}
+}
+</style>
+<!-- End shared CSS values -->
+
+
+<!-- Begin inline CSS -->
+<style type="text/css" >
+
+#t1_738{left:43px;bottom:834px;letter-spacing:-0.15px;word-spacing:3.88px;}
+#t2_738{left:43px;bottom:809px;letter-spacing:-0.19px;word-spacing:0.06px;}
+#t3_738{left:43px;bottom:480px;letter-spacing:0.28px;}
+#t4_738{left:101px;bottom:480px;letter-spacing:-0.2px;word-spacing:0.16px;}
+#t5_738{left:43px;bottom:454px;letter-spacing:-0.15px;}
+#t6_738{left:43px;bottom:403px;letter-spacing:-0.13px;word-spacing:1.29px;}
+#t7_738{left:43px;bottom:377px;letter-spacing:-0.48px;}
+#t8_738{left:66px;bottom:377px;}
+#t9_738{left:77px;bottom:377px;letter-spacing:-0.11px;word-spacing:2.84px;}
+#ta_738{left:43px;bottom:352px;letter-spacing:-0.14px;word-spacing:-0.03px;}
+#tb_738{left:43px;bottom:301px;letter-spacing:-0.49px;word-spacing:1.29px;}
+#tc_738{left:228px;bottom:301px;}
+#td_738{left:239px;bottom:301px;letter-spacing:-0.24px;word-spacing:0.68px;}
+#te_738{left:451px;bottom:301px;}
+#tf_738{left:462px;bottom:301px;letter-spacing:-0.03px;word-spacing:0.24px;}
+#tg_738{left:43px;bottom:251px;letter-spacing:-0.66px;word-spacing:0.35px;}
+#th_738{left:226px;bottom:251px;letter-spacing:-0.14px;word-spacing:1.01px;}
+#ti_738{left:43px;bottom:226px;letter-spacing:-0.2px;word-spacing:4.14px;}
+#tj_738{left:43px;bottom:200px;letter-spacing:-0.08px;word-spacing:1.22px;}
+#tk_738{left:43px;bottom:175px;letter-spacing:-0.2px;word-spacing:0.2px;}
+
+.s1_738{font-size:22px;font-family:LiberationSerif_2be;color:#000;}
+.s2_738{font-size:22px;font-family:LiberationSerif-Bold_2bb;color:#000;}
+.s3_738{font-size:22px;font-family:LiberationSerif-Italic_2bh;color:#000;}
+</style>
+<!-- End inline CSS -->
+
+<!-- Begin embedded font definitions -->
+<style id="fonts738" type="text/css" >
+
+@font-face {
+	font-family: LiberationSerif-Bold_2bb;
+	src: url("fonts/LiberationSerif-Bold_2bb.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Italic_2bh;
+	src: url("fonts/LiberationSerif-Italic_2bh.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_2be;
+	src: url("fonts/LiberationSerif_2be.woff") format("woff");
+}
+
+</style>
+<!-- End embedded font definitions -->
+
+<!-- Begin page background -->
+<div id="pg738Overlay" style="width:100%; height:100%; position:absolute; z-index:1; background-color:rgba(0,0,0,0); -webkit-user-select: none;"></div>
+<div id="pg738" style="-webkit-user-select: none;"><object width="935" height="1210" data="738/738.svg" type="image/svg+xml" id="pdf738" style="width:935px; height:1210px; -moz-transform:scale(1); z-index: 0;"></object></div>
+<!-- End page background -->
+
+
+<!-- Begin text definitions (Positioned/styled in CSS) -->
+<div class="text-container"><span id="t1_738" class="t s1_738">The other approach is top-down. In this method, we preserve the recursive calls and use the </span>
+<span id="t2_738" class="t s1_738">values if they are already computed. The implementation for this is given as: </span>
+<span id="t3_738" class="t s2_738">Note: </span><span id="t4_738" class="t s1_738">For all problems, it may not be possible to find both top-down and bottom-up programming </span>
+<span id="t5_738" class="t s1_738">solutions. </span>
+<span id="t6_738" class="t s1_738">Both versions of the Fibonacci series implementations clearly reduce the problem complexity to </span>
+<span id="t7_738" class="t s1_738">O(</span><span id="t8_738" class="t s3_738">n</span><span id="t9_738" class="t s1_738">). This is because if a value is already computed then we are not calling the subproblems </span>
+<span id="ta_738" class="t s1_738">again. Instead, we are directly taking its value from the table. </span>
+<span id="tb_738" class="t s1_738">Time Complexity: O(</span><span id="tc_738" class="t s3_738">n</span><span id="td_738" class="t s1_738">). Space Complexity: O(</span><span id="te_738" class="t s3_738">n</span><span id="tf_738" class="t s1_738">), for table. </span>
+<span id="tg_738" class="t s2_738">Further Improving: </span><span id="th_738" class="t s1_738">One more observation from the Fibonacci series is: The current value is the </span>
+<span id="ti_738" class="t s1_738">sum of the previous two calculations only. This indicates that we don’t have to store all the </span>
+<span id="tj_738" class="t s1_738">previous values. Instead, if we store just the last two values, we can calculate the current value. </span>
+<span id="tk_738" class="t s1_738">The implementation for this is given below: </span></div>
+<!-- End text definitions -->
+
+
+</div>
+</body>
+</html>

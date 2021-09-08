@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta charset="utf-8" />
+</head>
+
+<body style="margin: 0;">
+
+<div id="p695" style="overflow: hidden; position: relative; background-color: white; width: 935px; height: 1210px;">
+
+<!-- Begin shared CSS values -->
+<style class="shared-css" type="text/css" >
+.t {
+	transform-origin: bottom left;
+	z-index: 2;
+	position: absolute;
+	white-space: pre;
+	overflow: visible;
+	line-height: 1.5;
+}
+.text-container {
+	white-space: pre;
+}
+@supports (-webkit-touch-callout: none) {
+	.text-container {
+		white-space: normal;
+	}
+}
+</style>
+<!-- End shared CSS values -->
+
+
+<!-- Begin inline CSS -->
+<style type="text/css" >
+
+#t1_695{left:43px;bottom:1113px;letter-spacing:-0.15px;word-spacing:1.46px;}
+#t2_695{left:43px;bottom:1088px;letter-spacing:-0.11px;word-spacing:0.26px;}
+#t3_695{left:43px;bottom:1063px;letter-spacing:-0.27px;word-spacing:1.45px;}
+#t4_695{left:43px;bottom:1037px;letter-spacing:-0.07px;word-spacing:-0.22px;}
+#t5_695{left:383px;bottom:982px;letter-spacing:-0.46px;}
+#t6_695{left:597px;bottom:982px;letter-spacing:-0.12px;}
+#t7_695{left:404px;bottom:949px;}
+#t8_695{left:685px;bottom:949px;}
+#t9_695{left:403px;bottom:916px;}
+#ta_695{left:674px;bottom:916px;}
+#tb_695{left:404px;bottom:883px;}
+#tc_695{left:674px;bottom:883px;}
+#td_695{left:403px;bottom:850px;}
+#te_695{left:685px;bottom:850px;}
+#tf_695{left:404px;bottom:799px;}
+#tg_695{left:686px;bottom:799px;letter-spacing:-0.55px;}
+#th_695{left:405px;bottom:766px;}
+#ti_695{left:707px;bottom:766px;}
+#tj_695{left:43px;bottom:688px;letter-spacing:0.09px;word-spacing:0.66px;}
+#tk_695{left:43px;bottom:638px;letter-spacing:-0.29px;word-spacing:0.43px;}
+#tl_695{left:43px;bottom:613px;letter-spacing:-0.18px;word-spacing:2.03px;}
+#tm_695{left:43px;bottom:587px;letter-spacing:-0.34px;word-spacing:0.99px;}
+#tn_695{left:43px;bottom:562px;letter-spacing:-0.06px;word-spacing:1.98px;}
+#to_695{left:43px;bottom:537px;letter-spacing:-0.18px;word-spacing:0.96px;}
+#tp_695{left:43px;bottom:512px;letter-spacing:-0.29px;word-spacing:0.4px;}
+#tq_695{left:43px;bottom:166px;letter-spacing:-0.07px;word-spacing:0.08px;}
+
+.s1_695{font-size:22px;font-family:LiberationSerif_2be;color:#000;}
+.s2_695{font-size:25px;font-family:LiberationSerif-Bold_2bb;color:#000;}
+</style>
+<!-- End inline CSS -->
+
+<!-- Begin embedded font definitions -->
+<style id="fonts695" type="text/css" >
+
+@font-face {
+	font-family: LiberationSerif-Bold_2bb;
+	src: url("fonts/LiberationSerif-Bold_2bb.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_2be;
+	src: url("fonts/LiberationSerif_2be.woff") format("woff");
+}
+
+</style>
+<!-- End embedded font definitions -->
+
+<!-- Begin page background -->
+<div id="pg695Overlay" style="width:100%; height:100%; position:absolute; z-index:1; background-color:rgba(0,0,0,0); -webkit-user-select: none;"></div>
+<div id="pg695" style="-webkit-user-select: none;"><object width="935" height="1210" data="695/695.svg" type="image/svg+xml" id="pdf695" style="width:935px; height:1210px; -moz-transform:scale(1); z-index: 0;"></object></div>
+<!-- End page background -->
+
+
+<!-- Begin text definitions (Positioned/styled in CSS) -->
+<div class="text-container"><span id="t1_695" class="t s1_695">Once the tree is built, each leaf node corresponds to a letter with a code. To determine the code </span>
+<span id="t2_695" class="t s1_695">for a particular node, traverse fromthe root to the leaf node. For each move to the left, append a 0 </span>
+<span id="t3_695" class="t s1_695">to the code, and for each move to the right, append a 1. As a result, for the above generated tree, </span>
+<span id="t4_695" class="t s1_695">we get the following codes: </span>
+<span id="t5_695" class="t s1_695">Letter </span><span id="t6_695" class="t s1_695">Code </span>
+<span id="t7_695" class="t s1_695">a </span><span id="t8_695" class="t s1_695">001 </span>
+<span id="t9_695" class="t s1_695">b </span><span id="ta_695" class="t s1_695">0000 </span>
+<span id="tb_695" class="t s1_695">c </span><span id="tc_695" class="t s1_695">0001 </span>
+<span id="td_695" class="t s1_695">d </span><span id="te_695" class="t s1_695">010 </span>
+<span id="tf_695" class="t s1_695">e </span><span id="tg_695" class="t s1_695">011 </span>
+<span id="th_695" class="t s1_695">f </span><span id="ti_695" class="t s1_695">1 </span>
+<span id="tj_695" class="t s2_695">Calculating Bits Saved </span>
+<span id="tk_695" class="t s1_695">Now, let us see how many bits that Huffman coding algorithm is saving. All we need to do for this </span>
+<span id="tl_695" class="t s1_695">calculation is see how many bits are originally used to store the data and subtract from that the </span>
+<span id="tm_695" class="t s1_695">number of bits that are used to store the data using the Huffman code. In the above example, since </span>
+<span id="tn_695" class="t s1_695">we have six characters, let’s assume each character is stored with a three bit code. Since there </span>
+<span id="to_695" class="t s1_695">are 133 such characters (multiply total frequencies by 3), the total number of bits used is 3 * 133 </span>
+<span id="tp_695" class="t s1_695">= 399. Using the Huffman coding frequencies we can calculate the new total number of bits used: </span>
+<span id="tq_695" class="t s1_695">Thus, we saved 399 – 238 = 161 bits, or nearly 40% of the storage space. </span></div>
+<!-- End text definitions -->
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta charset="utf-8" />
+</head>
+
+<body style="margin: 0;">
+
+<div id="p587" style="overflow: hidden; position: relative; background-color: white; width: 935px; height: 1210px;">
+
+<!-- Begin shared CSS values -->
+<style class="shared-css" type="text/css" >
+.t {
+	transform-origin: bottom left;
+	z-index: 2;
+	position: absolute;
+	white-space: pre;
+	overflow: visible;
+	line-height: 1.5;
+}
+.text-container {
+	white-space: pre;
+}
+@supports (-webkit-touch-callout: none) {
+	.text-container {
+		white-space: normal;
+	}
+}
+</style>
+<!-- End shared CSS values -->
+
+
+<!-- Begin inline CSS -->
+<style type="text/css" >
+
+#t1_587{left:43px;bottom:1139px;letter-spacing:-0.23px;word-spacing:0.39px;}
+#t2_587{left:142px;bottom:1139px;}
+#t3_587{left:148px;bottom:1139px;letter-spacing:-0.12px;word-spacing:0.68px;}
+#t4_587{left:43px;bottom:1113px;letter-spacing:-0.16px;word-spacing:1.9px;}
+#t5_587{left:43px;bottom:1088px;letter-spacing:-0.23px;word-spacing:0.38px;}
+#t6_587{left:43px;bottom:1037px;letter-spacing:-0.27px;word-spacing:0.83px;}
+#t7_587{left:43px;bottom:1012px;letter-spacing:-0.17px;word-spacing:4.27px;}
+#t8_587{left:43px;bottom:987px;letter-spacing:-0.15px;word-spacing:0.62px;}
+#t9_587{left:43px;bottom:961px;letter-spacing:-0.14px;word-spacing:-0.13px;}
+#ta_587{left:43px;bottom:911px;letter-spacing:-0.23px;word-spacing:8.28px;}
+#tb_587{left:43px;bottom:886px;letter-spacing:-0.25px;word-spacing:0.48px;}
+#tc_587{left:43px;bottom:860px;letter-spacing:-0.22px;word-spacing:5.61px;}
+#td_587{left:43px;bottom:835px;letter-spacing:-0.23px;word-spacing:0.32px;}
+#te_587{left:374px;bottom:835px;}
+#tf_587{left:386px;bottom:835px;letter-spacing:-0.07px;}
+#tg_587{left:43px;bottom:168px;letter-spacing:-0.49px;word-spacing:1.29px;}
+#th_587{left:228px;bottom:168px;}
+#ti_587{left:239px;bottom:168px;letter-spacing:-0.24px;word-spacing:0.68px;}
+#tj_587{left:451px;bottom:168px;}
+#tk_587{left:462px;bottom:168px;letter-spacing:0.37px;}
+#tl_587{left:43px;bottom:127px;letter-spacing:-0.36px;}
+#tm_587{left:194px;bottom:127px;letter-spacing:-0.08px;word-spacing:3.96px;}
+#tn_587{left:102px;bottom:101px;letter-spacing:0.04px;word-spacing:0.01px;}
+#to_587{left:102px;bottom:76px;letter-spacing:-0.08px;word-spacing:0.36px;}
+#tp_587{left:43px;bottom:37px;letter-spacing:-0.43px;}
+
+.s1_587{font-size:22px;font-family:LiberationSerif_2be;color:#000;}
+.s2_587{font-size:22px;font-family:LiberationSerif-Italic_2bh;color:#000;}
+.s3_587{font-size:22px;font-family:LiberationSerif-Bold_2bb;color:#000;}
+</style>
+<!-- End inline CSS -->
+
+<!-- Begin embedded font definitions -->
+<style id="fonts587" type="text/css" >
+
+@font-face {
+	font-family: LiberationSerif-Bold_2bb;
+	src: url("fonts/LiberationSerif-Bold_2bb.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif-Italic_2bh;
+	src: url("fonts/LiberationSerif-Italic_2bh.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSerif_2be;
+	src: url("fonts/LiberationSerif_2be.woff") format("woff");
+}
+
+</style>
+<!-- End embedded font definitions -->
+
+<!-- Begin page background -->
+<div id="pg587Overlay" style="width:100%; height:100%; position:absolute; z-index:1; background-color:rgba(0,0,0,0); -webkit-user-select: none;"></div>
+<div id="pg587" style="-webkit-user-select: none;"><object width="935" height="1210" data="587/587.svg" type="image/svg+xml" id="pdf587" style="width:935px; height:1210px; -moz-transform:scale(1); z-index: 0;"></object></div>
+<!-- End page background -->
+
+
+<!-- Begin text definitions (Positioned/styled in CSS) -->
+<div class="text-container"><span id="t1_587" class="t s1_587">right index </span><span id="t2_587" class="t s2_587">j </span><span id="t3_587" class="t s1_587">. For an element A[i], we do not need to consider A[i] for the left index if there is an </span>
+<span id="t4_587" class="t s1_587">element smaller than A[i] on the left side of A[i]. Similarly, if there is a greater element on the </span>
+<span id="t5_587" class="t s1_587">right side of A[j] then we do not need to consider this j for the right index. </span>
+<span id="t6_587" class="t s1_587">So we construct two auxiliary Arrays LeftMins[] and RightMaxs[] such that LeftMins[i] holds the </span>
+<span id="t7_587" class="t s1_587">smallest element on the left side of A[i] including A[i], and RightMaxs[j] holds the greatest </span>
+<span id="t8_587" class="t s1_587">element on the right side of A[j] including A[j]. After constructing these two auxiliary arrays, we </span>
+<span id="t9_587" class="t s1_587">traverse both these arrays from left to right. </span>
+<span id="ta_587" class="t s1_587">While traversing LeftMins[] and RightMaxs[], if we see that LeftMins[i] is greater than </span>
+<span id="tb_587" class="t s1_587">RightMaxs[j], then we must move ahead in LeftMins[] (or do i++) because all elements on the left </span>
+<span id="tc_587" class="t s1_587">of LeftMins[i] are greater than or equal to LeftMins[i]. Otherwise we must move ahead in </span>
+<span id="td_587" class="t s1_587">RightMaxs[j] to look for a greater y – </span><span id="te_587" class="t s2_587">i </span><span id="tf_587" class="t s1_587">value. </span>
+<span id="tg_587" class="t s1_587">Time Complexity: O(</span><span id="th_587" class="t s2_587">n</span><span id="ti_587" class="t s1_587">). Space Complexity: O(</span><span id="tj_587" class="t s2_587">n</span><span id="tk_587" class="t s1_587">). </span>
+<span id="tl_587" class="t s3_587">Problem-78 </span><span id="tm_587" class="t s1_587">Given an array of elements, how do you check whether the list is pairwise </span>
+<span id="tn_587" class="t s1_587">sorted or not? A list is considered pairwise sorted if each successive pair of numbers is in </span>
+<span id="to_587" class="t s1_587">sorted (non-decreasing) order. </span>
+<span id="tp_587" class="t s3_587">Solution: </span></div>
+<!-- End text definitions -->
+
+
+</div>
+</body>
+</html>
