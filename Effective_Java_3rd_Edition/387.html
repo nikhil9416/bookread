@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta charset="utf-8" />
+</head>
+
+<body style="margin: 0;">
+
+<div id="p387" style="overflow: hidden; position: relative; background-color: white; width: 809px; height: 1017px;">
+
+<!-- Begin shared CSS values -->
+<style class="shared-css" type="text/css" >
+.t {
+	transform-origin: bottom left;
+	z-index: 2;
+	position: absolute;
+	white-space: pre;
+	overflow: visible;
+	line-height: 1.5;
+}
+.text-container {
+	white-space: pre;
+}
+@supports (-webkit-touch-callout: none) {
+	.text-container {
+		white-space: normal;
+	}
+}
+</style>
+<!-- End shared CSS values -->
+
+
+<!-- Begin inline CSS -->
+<style type="text/css" >
+
+#t1_387{left:109px;bottom:955px;letter-spacing:0.12px;word-spacing:0.02px;}
+#t2_387{left:190px;bottom:955px;letter-spacing:0.12px;}
+#t3_387{left:59px;bottom:952px;letter-spacing:0.11px;}
+#t4_387{left:137px;bottom:902px;letter-spacing:-0.08px;word-spacing:1.03px;}
+#t5_387{left:109px;bottom:881px;letter-spacing:-0.09px;word-spacing:-0.04px;}
+#t6_387{left:109px;bottom:859px;letter-spacing:-0.1px;word-spacing:0.42px;}
+#t7_387{left:109px;bottom:838px;letter-spacing:-0.11px;word-spacing:3.86px;}
+#t8_387{left:568px;bottom:839px;letter-spacing:-0.16px;}
+#t9_387{left:109px;bottom:816px;letter-spacing:-0.1px;word-spacing:0.18px;}
+#ta_387{left:249px;bottom:818px;letter-spacing:-0.16px;}
+#tb_387{left:402px;bottom:816px;letter-spacing:-0.11px;word-spacing:0.18px;}
+#tc_387{left:109px;bottom:795px;letter-spacing:-0.12px;word-spacing:0.06px;}
+#td_387{left:137px;bottom:774px;letter-spacing:-0.11px;word-spacing:0.94px;}
+#te_387{left:109px;bottom:752px;letter-spacing:-0.1px;word-spacing:0.77px;}
+#tf_387{left:109px;bottom:732px;letter-spacing:-0.16px;}
+#tg_387{left:163px;bottom:731px;letter-spacing:-0.1px;word-spacing:0.01px;}
+#th_387{left:137px;bottom:710px;letter-spacing:-0.13px;word-spacing:4.88px;}
+#ti_387{left:109px;bottom:688px;letter-spacing:-0.09px;word-spacing:0.67px;}
+#tj_387{left:289px;bottom:690px;letter-spacing:-0.16px;}
+#tk_387{left:376px;bottom:688px;letter-spacing:-0.04px;}
+#tl_387{left:395px;bottom:690px;letter-spacing:-0.16px;}
+#tm_387{left:491px;bottom:688px;letter-spacing:-0.09px;word-spacing:0.7px;}
+#tn_387{left:109px;bottom:667px;letter-spacing:-0.1px;word-spacing:1.55px;}
+#to_387{left:109px;bottom:645px;letter-spacing:-0.12px;word-spacing:0.06px;}
+
+.s1_387{font-size:12px;font-family:NLEJCL-2bTimes-2dItalic_6pw;color:#000;}
+.s2_387{font-size:15px;font-family:NLEJCK-2bTimes-2dRoman_6ps;color:#000;}
+.s3_387{font-size:17px;font-family:NLEJCK-2bTimes-2dRoman_6ps;color:#000;}
+.s4_387{font-size:14px;font-family:NLEKDK-2bLucidaSans-2dTypew_6pu;color:#000;}
+</style>
+<!-- End inline CSS -->
+
+<!-- Begin embedded font definitions -->
+<style id="fonts387" type="text/css" >
+
+@font-face {
+	font-family: NLEJCK-2bTimes-2dRoman_6ps;
+	src: url("fonts/NLEJCK-2bTimes-2dRoman_6ps.woff") format("woff");
+}
+
+@font-face {
+	font-family: NLEJCL-2bTimes-2dItalic_6pw;
+	src: url("fonts/NLEJCL-2bTimes-2dItalic_6pw.woff") format("woff");
+}
+
+@font-face {
+	font-family: NLEKDK-2bLucidaSans-2dTypew_6pu;
+	src: url("fonts/NLEKDK-2bLucidaSans-2dTypew_6pu.woff") format("woff");
+}
+
+</style>
+<!-- End embedded font definitions -->
+
+<!-- Begin page background -->
+<div id="pg387Overlay" style="width:100%; height:100%; position:absolute; z-index:1; background-color:rgba(0,0,0,0); -webkit-user-select: none;"></div>
+<div id="pg387" style="-webkit-user-select: none;"><object width="809" height="1017" data="387/387.svg" type="image/svg+xml" id="pdf387" style="width:809px; height:1017px; -moz-transform:scale(1); z-index: 0;"></object></div>
+<!-- End page background -->
+
+
+<!-- Begin text definitions (Positioned/styled in CSS) -->
+<div class="text-container"><span id="t1_387" class="t s1_387">CHAPTER 12 </span><span id="t2_387" class="t s1_387">SERIALIZATION </span>
+<span id="t3_387" class="t s2_387">366 </span>
+<span id="t4_387" class="t s3_387">The serialization proxy pattern has two limitations. It is not compatible with </span>
+<span id="t5_387" class="t s3_387">classes that are extendable by their users (Item 19). Also, it is not compatible with </span>
+<span id="t6_387" class="t s3_387">some classes whose object graphs contain circularities: if you attempt to invoke a </span>
+<span id="t7_387" class="t s3_387">method on such an object from within its serialization proxy’s </span><span id="t8_387" class="t s4_387">readResolve </span>
+<span id="t9_387" class="t s3_387">method, you’ll get a </span><span id="ta_387" class="t s4_387">ClassCastException </span><span id="tb_387" class="t s3_387">because you don’t have the object yet, </span>
+<span id="tc_387" class="t s3_387">only its serialization proxy. </span>
+<span id="td_387" class="t s3_387">Finally, the added power and safety of the serialization proxy pattern are not </span>
+<span id="te_387" class="t s3_387">free. On my machine, it is 14 percent more expensive to serialize and deserialize </span>
+<span id="tf_387" class="t s4_387">Period </span><span id="tg_387" class="t s3_387">instances with serialization proxies than it is with defensive copying. </span>
+<span id="th_387" class="t s3_387">In summary, consider the serialization proxy pattern whenever you find </span>
+<span id="ti_387" class="t s3_387">yourself having to write a </span><span id="tj_387" class="t s4_387">readObject </span><span id="tk_387" class="t s3_387">or </span><span id="tl_387" class="t s4_387">writeObject </span><span id="tm_387" class="t s3_387">method on a class that is </span>
+<span id="tn_387" class="t s3_387">not extendable by its clients. This pattern is perhaps the easiest way to robustly </span>
+<span id="to_387" class="t s3_387">serialize objects with nontrivial invariants. </span></div>
+<!-- End text definitions -->
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 809 1017" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<clipPath id="c0_18"><path d="M150.4,170.3V142.1h550v28.2Z"/></clipPath>
+<style type="text/css"><![CDATA[
+.g0_18{
+fill: #FFF;
+}
+.g1_18{
+fill: #000;
+}
+.g2_18{
+fill: #B5B5B5;
+}
+]]></style>
+</defs>
+<path d="M150.4,170.3h550V142.1h-550v28.2Z" class="g0_18"/>
+<path clip-path="url(#c0_18)" d="M150.4,142.2h550V142h-550v.2Z" class="g1_18"/>
+<path d="M700.3,154.4h.1V142.1h-.1v12.3Z" class="g1_18"/>
+<g clip-path="url(#c0_18)">
+<path d="M150.3,154.4H700.4v-.2H150.3v.2Z" class="g1_18"/>
+<path d="M150.3,154.3h.2V142h-.2v12.3Z" class="g1_18"/>
+</g>
+<path d="M152,152.8H698.9v-9.2H152v9.2Z" class="g2_18"/>
+<path d="M152,143.7H699v-.1H152v.1Z" class="g1_18"/>
+<path d="M698.8,152.9h.2v-9.3h-.2v9.3Z" class="g1_18"/>
+<path d="M151.9,152.9h547v-.2h-547v.2Z" class="g1_18"/>
+<path d="M151.9,152.8h.2v-9.2h-.2v9.2Z" class="g1_18"/>
+<path fill-rule="evenodd" d="M700.4,154.3l-1.5,-1.5H152l-1.6,1.5Z" class="g1_18"/>
+<g clip-path="url(#c0_18)">
+<path d="M700.4,154.4l-1.5,-1.5v-.2v.2H152v-.1l.1,.1l-1.6,1.5h-.2l.1,-.1l1.6,-1.5l.1,-.1H152H698.9l.1,.1l1.5,1.5Z" class="g1_18"/>
+<path d="M150.4,154.2h550l.2,.2H150.4Z" class="g1_18"/>
+</g>
+<path fill-rule="evenodd" d="M700.4,154.2l-1.5,-1.4v-9.2l1.5,-1.5Z" class="g1_18"/>
+<g clip-path="url(#c0_18)">
+<path d="M700.4,154.3l-1.5,-1.4l-.1,-.1v-9.2v.1l1.6,-1.6l.1,-.1v.2l-1.5,1.5l-.1,-.1h.1v9.2h-.2h.2l1.5,1.4Z" class="g1_18"/>
+<path d="M700.5,142.1v12.3l-.2,-.2V142.1Z" class="g1_18"/>
+</g>
+<path fill-rule="evenodd" d="M700.4,142.1l-1.5,1.5H152l-1.6,-1.5Z" class="g2_18"/>
+<g clip-path="url(#c0_18)">
+<path d="M700.5,142.2l-1.5,1.5H152L150.2,142h.2l.1,.1l1.6,1.5l-.1,.1v-.1H698.9v.1v-.1l1.5,-1.5Z" class="g1_18"/>
+<path d="M150.4,142H700.7l-.2,.2H150.4Z" class="g1_18"/>
+</g>
+<path fill-rule="evenodd" d="M150.4,154.2l1.6,-1.4v-9.2l-1.6,-1.5Z" class="g2_18"/>
+<g clip-path="url(#c0_18)">
+<path d="M150.4,154.2l1.6,-1.4h.1h-.2v-9.2h.2l-.1,.1l-1.7,-1.6v-.2l1.8,1.7v9.3l-1.6,1.4Z" class="g1_18"/>
+<path d="M150.5,142.1v12.2l-.2,.2V142.1Z" class="g1_18"/>
+</g>
+</svg>

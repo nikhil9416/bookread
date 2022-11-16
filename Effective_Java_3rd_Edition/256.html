@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta charset="utf-8" />
+</head>
+
+<body style="margin: 0;">
+
+<div id="p256" style="overflow: hidden; position: relative; background-color: white; width: 809px; height: 1017px;">
+
+<!-- Begin shared CSS values -->
+<style class="shared-css" type="text/css" >
+.t {
+	transform-origin: bottom left;
+	z-index: 2;
+	position: absolute;
+	white-space: pre;
+	overflow: visible;
+	line-height: 1.5;
+}
+.text-container {
+	white-space: pre;
+}
+@supports (-webkit-touch-callout: none) {
+	.text-container {
+		white-space: normal;
+	}
+}
+</style>
+<!-- End shared CSS values -->
+
+
+<!-- Begin inline CSS -->
+<style type="text/css" >
+
+#t1_256{left:415px;bottom:955px;letter-spacing:0.11px;word-spacing:0.03px;}
+#t2_256{left:728px;bottom:953px;letter-spacing:0.15px;}
+#t3_256{left:150px;bottom:900px;letter-spacing:-0.1px;word-spacing:-0.15px;}
+#t4_256{left:150px;bottom:878px;letter-spacing:-0.1px;word-spacing:0.16px;}
+#t5_256{left:150px;bottom:857px;letter-spacing:-0.08px;word-spacing:-0.05px;}
+#t6_256{left:178px;bottom:836px;letter-spacing:-0.11px;word-spacing:4.39px;}
+#t7_256{left:150px;bottom:814px;letter-spacing:-0.09px;word-spacing:4.46px;}
+#t8_256{left:150px;bottom:793px;letter-spacing:-0.08px;word-spacing:-0.55px;}
+#t9_256{left:150px;bottom:771px;letter-spacing:-0.14px;word-spacing:1.85px;}
+#ta_256{left:150px;bottom:750px;letter-spacing:-0.09px;word-spacing:-0.57px;}
+#tb_256{left:150px;bottom:729px;letter-spacing:-0.11px;word-spacing:1.26px;}
+#tc_256{left:150px;bottom:707px;letter-spacing:-0.09px;word-spacing:2.09px;}
+#td_256{left:150px;bottom:686px;letter-spacing:-0.09px;word-spacing:0.02px;}
+#te_256{left:178px;bottom:664px;letter-spacing:-0.11px;word-spacing:0.64px;}
+#tf_256{left:150px;bottom:643px;letter-spacing:-0.1px;word-spacing:1.81px;}
+#tg_256{left:150px;bottom:622px;letter-spacing:-0.14px;word-spacing:-0.02px;}
+#th_256{left:330px;bottom:622px;letter-spacing:-0.11px;}
+#ti_256{left:359px;bottom:622px;letter-spacing:-0.09px;word-spacing:-0.06px;}
+#tj_256{left:150px;bottom:600px;letter-spacing:-0.12px;word-spacing:0.39px;}
+#tk_256{left:150px;bottom:579px;letter-spacing:-0.11px;word-spacing:0.02px;}
+
+.s1_256{font-size:12px;font-family:NLEJCL-2bTimes-2dItalic_6pw;color:#000;}
+.s2_256{font-size:15px;font-family:NLEJCK-2bTimes-2dRoman_6ps;color:#000;}
+.s3_256{font-size:17px;font-family:NLEJCK-2bTimes-2dRoman_6ps;color:#000;}
+.s4_256{font-size:17px;font-family:NLEJCL-2bTimes-2dItalic_6pw;color:#000;}
+</style>
+<!-- End inline CSS -->
+
+<!-- Begin embedded font definitions -->
+<style id="fonts256" type="text/css" >
+
+@font-face {
+	font-family: NLEJCK-2bTimes-2dRoman_6ps;
+	src: url("fonts/NLEJCK-2bTimes-2dRoman_6ps.woff") format("woff");
+}
+
+@font-face {
+	font-family: NLEJCL-2bTimes-2dItalic_6pw;
+	src: url("fonts/NLEJCL-2bTimes-2dItalic_6pw.woff") format("woff");
+}
+
+</style>
+<!-- End embedded font definitions -->
+
+<!-- Begin page background -->
+<div id="pg256Overlay" style="width:100%; height:100%; position:absolute; z-index:1; background-color:rgba(0,0,0,0); -webkit-user-select: none;"></div>
+<div id="pg256" style="-webkit-user-select: none;"><object width="809" height="1017" data="256/256.svg" type="image/svg+xml" id="pdf256" style="width:809px; height:1017px; -moz-transform:scale(1); z-index: 0;"></object></div>
+<!-- End page background -->
+
+
+<!-- Begin text definitions (Positioned/styled in CSS) -->
+<div class="text-container"><span id="t1_256" class="t s1_256">ITEM 50: MAKE DEFENSIVE COPIES WHEN NEEDED </span><span id="t2_256" class="t s2_256">235 </span>
+<span id="t3_256" class="t s3_256">promises that it will no longer modify the object directly. A method or constructor </span>
+<span id="t4_256" class="t s3_256">that expects to take ownership of a client-provided mutable object must make this </span>
+<span id="t5_256" class="t s3_256">clear in its documentation. </span>
+<span id="t6_256" class="t s3_256">Classes containing methods or constructors whose invocation indicates a </span>
+<span id="t7_256" class="t s3_256">transfer of control cannot defend themselves against malicious clients. Such </span>
+<span id="t8_256" class="t s3_256">classes are acceptable only when there is mutual trust between a class and its client </span>
+<span id="t9_256" class="t s3_256">or when damage to the class’s invariants would harm no one but the client. An </span>
+<span id="ta_256" class="t s3_256">example of the latter situation is the wrapper class pattern (Item 18). Depending on </span>
+<span id="tb_256" class="t s3_256">the nature of the wrapper class, the client could destroy the class’s invariants by </span>
+<span id="tc_256" class="t s3_256">directly accessing an object after it has been wrapped, but this typically would </span>
+<span id="td_256" class="t s3_256">harm only the client. </span>
+<span id="te_256" class="t s3_256">In summary, if a class has mutable components that it gets from or returns to </span>
+<span id="tf_256" class="t s3_256">its clients, the class must defensively copy these components. If the cost of the </span>
+<span id="tg_256" class="t s3_256">copy would be prohibitive </span><span id="th_256" class="t s4_256">and </span><span id="ti_256" class="t s3_256">the class trusts its clients not to modify the compo- </span>
+<span id="tj_256" class="t s3_256">nents inappropriately, then the defensive copy may be replaced by documentation </span>
+<span id="tk_256" class="t s3_256">outlining the client’s responsibility not to modify the affected components. </span></div>
+<!-- End text definitions -->
+
+
+</div>
+</body>
+</html>
