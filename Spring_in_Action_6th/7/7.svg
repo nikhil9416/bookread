@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 811 1014" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<clipPath id="c0_7"><path d="M82.3,691.7V669.9h29.4v21.8Z"/></clipPath>
+<style type="text/css"><![CDATA[
+.g0_7{
+fill: #231F20;
+}
+.g1_7{
+fill: none;
+stroke: #231F20;
+stroke-width: 0.458;
+stroke-miterlimit: 2;
+}
+]]></style>
+</defs>
+<path fill-rule="evenodd" d="M74.9,456.4c1,-.5,2,.2,2.1,1.2c0,.9,-.7,1.9,-1.5,1.7c-1,-.1,-1.7,-.8,-1.9,-1.2c-.2,.4,-.8,1.1,-1.9,1.2c-.9,.2,-1.5,-.8,-1.4,-1.7c0,-1,1,-1.7,2,-1.2c.5,.2,.6,.4,1.3,1.1c.7,-.7,.9,-.9,1.3,-1.1Zm-2.8,.5c-.9,-.3,-1.4,.5,-1.4,.9c0,.8,.7,1.1,1.2,1c.6,-.1,.8,-.3,1.4,-1c-.6,-.5,-.9,-.8,-1.2,-.9Zm3.1,1.9c.6,.1,1.3,-.2,1.3,-1c0,-.4,-.5,-1.2,-1.4,-.9c-.3,.1,-.6,.4,-1.2,.9c.7,.7,.8,.9,1.3,1Z" class="g0_7"/>
+<path d="M73.6,462.1c2.4,0,4.3,-1.9,4.3,-4.3c0,-2.4,-1.9,-4.3,-4.3,-4.3c-2.4,0,-4.3,1.9,-4.3,4.3c0,2.4,1.9,4.3,4.3,4.3Z" class="g1_7"/>
+<path clip-path="url(#c0_7)" fill-rule="evenodd" d="M101.6,670.5l-4,18.6V670.5H87l-4.2,20.4h.7l4,-18.5v18.5H98l4,-18.5v18.5h10.1V670.5H101.6Z" class="g0_7"/>
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 811 1017" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<style type="text/css"><![CDATA[
+.g0_152{
+fill: #224867;
+}
+.g1_152{
+fill: #000;
+}
+]]></style>
+</defs>
+<path d="M156.1,136.4h62V104.3h-62v32.1Z" class="g0_152"/>
+<path d="M218.1,136.4H376V104.3H218.1v32.1Z" class="g0_152"/>
+<path d="M376,136.4H724.4V104.3H376v32.1Z" class="g0_152"/>
+<path d="M217.9,352h.4V103.9h-.4V352Z" class="g1_152"/>
+<path d="M375.8,352h.4V103.9h-.4V352Z" class="g1_152"/>
+<path d="M156.1,104.7H724.4v-.8H156.1v.8Z" class="g1_152"/>
+<path d="M156.1,136.6H724.4v-.4H156.1v.4Z" class="g1_152"/>
+<path d="M156.1,352H724.4v-.3H156.1v.3Z" class="g1_152"/>
+<image preserveAspectRatio="none" x="203" y="990" width="405" height="28" xlink:href="img/1.jpg"/>
+</svg>

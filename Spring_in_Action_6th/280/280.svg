@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 811 1017" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<clipPath id="c0_280"><path d="M246,885.5V865.2L231,847.5h44.9l-15.1,17.7v20.3Z"/></clipPath>
+<style type="text/css"><![CDATA[
+.g0_280{
+fill: #E4F2E8;
+}
+.g1_280{
+fill: none;
+stroke: #222326;
+stroke-width: 0.763;
+}
+.g2_280{
+fill: #211E1E;
+}
+.g3_280{
+fill: #C6EAFA;
+}
+.g4_280{
+fill: #CEBCDA;
+}
+.g5_280{
+fill: #FED74D;
+}
+.g6_280{
+fill: #65C18B;
+}
+.g7_280{
+fill: #FFF;
+}
+]]></style>
+</defs>
+<path d="M208.8,893.7H298V839.3H208.8Z" class="g0_280"/>
+<path d="M157.4,866.5h45M298,893.7H208.8V839.3H298Z" class="g1_280"/>
+<path d="M204.2,865.7c-1.2,-.4,-2,-.7,-3,-1.1v3.8c.3,-.2,1.8,-.7,3,-1.1c1.4,-.4,2.6,-.7,3.4,-.8c-.8,-.1,-2,-.4,-3.4,-.8Z" class="g2_280"/>
+<path d="M298,866.5h43" class="g1_280"/>
+<path d="M342.8,865.7c-1.2,-.4,-2,-.7,-3.1,-1.1v3.8c.4,-.2,1.9,-.7,3.1,-1.1c1.4,-.4,2.6,-.7,3.4,-.8c-.8,-.1,-2,-.4,-3.4,-.8Z" class="g2_280"/>
+<path d="M160.6,861h8.2v-8.2h-8.2Z" class="g3_280"/>
+<path d="M168.8,861h-8.2v-8.2h8.2Z" class="g1_280"/>
+<path d="M191,861h8.2v-8.2H191Z" class="g4_280"/>
+<path d="M199.2,861H191v-8.2h8.2Z" class="g1_280"/>
+<path d="M174.8,861l-4.1,-8.2H179l-4.2,8.2Z" class="g5_280"/>
+<path d="M174.8,861l-4.1,-8.2H179l-4.2,8.2Z" class="g1_280"/>
+<path d="M189.1,856.9c0,2.2,-1.8,4.1,-4.1,4.1c-2.3,0,-4.1,-1.9,-4.1,-4.1c0,-2.3,1.8,-4.1,4.1,-4.1c2.3,0,4.1,1.8,4.1,4.1Z" class="g6_280"/>
+<path d="M189.1,856.9c0,2.2,-1.8,4.1,-4.1,4.1c-2.3,0,-4.1,-1.9,-4.1,-4.1c0,-2.3,1.8,-4.1,4.1,-4.1c2.3,0,4.1,1.8,4.1,4.1Z" class="g1_280"/>
+<path d="M300.2,861h8.2v-8.2h-8.2Z" class="g3_280"/>
+<path d="M308.4,861h-8.2v-8.2h8.2Z" class="g1_280"/>
+<path d="M330.6,861h8.2v-8.2h-8.2Z" class="g4_280"/>
+<path d="M338.8,861h-8.2v-8.2h8.2Z" class="g1_280"/>
+<image clip-path="url(#c0_280)" preserveAspectRatio="none" x="231" y="847" width="45" height="38" xlink:href="img/1.jpg"/>
+<path d="M231,847.5l15,17.7v20.3h14.8V865.2l15.1,-17.7H231Z" class="g1_280"/>
+<path d="M249.1,870.6h8.3v-8.2h-8.3Z" class="g7_280"/>
+<path d="M257.4,870.6h-8.3v-8.2h8.3Z" class="g1_280"/>
+</svg>
