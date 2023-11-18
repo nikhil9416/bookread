@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 931 1096" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<clipPath id="c0_89"><path d="M649.9,442.8v-32H808.8v32Z"/></clipPath>
+<clipPath id="c1_89"><path d="M456.8,1041.7v-32h258v32Z"/></clipPath>
+<clipPath id="c2_89"><path d="M247.6,641.4L149,623.8c.1,-22.9,12.7,-81.6,35.3,-100.2c1.2,-1,2.4,-1.4,3.7,-1.4c.3,0,.5,0,.8,.1l45.8,8c-.6,-.1,-1.2,-.1,-1.8,-.1c-1.7,0,-3.2,.4,-4.4,1.4c-16.6,13.7,5.2,84,19.2,109.8Z"/></clipPath>
+<style type="text/css"><![CDATA[
+.g0_89{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.763;
+stroke-miterlimit: 10;
+}
+.g1_89{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.534;
+stroke-miterlimit: 10;
+}
+.g2_89{
+fill: #8FD1EF;
+}
+.g3_89{
+fill: none;
+stroke: #00BFF3;
+stroke-width: 0.611;
+stroke-linejoin: round;
+}
+.g4_89{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.381;
+stroke-miterlimit: 3;
+}
+.g5_89{
+fill: none;
+stroke: #00A3CD;
+stroke-width: 0.611;
+stroke-miterlimit: 3;
+stroke-dasharray: 10,4;
+}
+.g6_89{
+fill: none;
+stroke: #969698;
+stroke-width: 0.611;
+stroke-miterlimit: 3;
+stroke-dasharray: 9,4;
+}
+.g7_89{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.611;
+stroke-miterlimit: 3;
+}
+.g8_89{
+fill: #241F1F;
+}
+.g9_89{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.763;
+stroke-miterlimit: 3;
+}
+]]></style>
+</defs>
+<path d="M654.2,139.7h21.5m-134.3,191h19m41.8,0h19m44.1,0h18.2" class="g0_89"/>
+<path d="M723.5,426.8h5.3" class="g1_89"/>
+<path clip-path="url(#c0_89)" d="M786.8,426.9h22.4" class="g0_89"/>
+<path d="M463.1,682.1h19m51.6,0h19m93.2,-.8h18.2m62.1,234.5H781m-301.9,55h12.2m52.2,0h56.3" class="g0_89"/>
+<path d="M680.4,970.7h5.3" class="g1_89"/>
+<path clip-path="url(#c1_89)" d="M687.8,1025.8h27.4" class="g0_89"/>
+<image clip-path="url(#c2_89)" x="149" y="522" width="99" height="120" xlink:href="shade/1.png"/>
+<path d="M247.5,641.3C234.3,616.7,211.7,545.2,228.4,531.5c1.5,-1.3,3.6,-1.6,6.2,-1.3c16.6,2.4,64.9,38.2,79.3,56.4Z" class="g2_89"/>
+<path d="M247.5,641.3C234.3,616.7,211.7,545.2,228.4,531.5c1.5,-1.3,3.6,-1.6,6.2,-1.3c16.6,2.4,64.9,38.2,79.3,56.4l-66.4,54.7Zm-13,-111.1l-45.7,-8c-1.6,-.2,-3.1,.1,-4.6,1.3C161.7,542.1,149,600.8,149,623.7l98.5,17.6C233.6,615.5,211.7,545.2,228.4,531.5c1.5,-1.3,3.6,-1.6,6.1,-1.3Z" class="g3_89"/>
+<path d="M224.9,650.4L212.8,623.1m51.9,-89.9l-15.6,14.3" class="g4_89"/>
+<path d="M188.8,522.2c10.6,1.2,22.4,31.6,26.6,46.8m0,0l98.5,17.6" class="g5_89"/>
+<path d="M184.3,594.6l98.9,17.7" class="g6_89"/>
+<path d="M283.2,612.3l36.8,6.9" class="g7_89"/>
+<path d="M150.5,622.6L215.4,569m-31.2,25.6V523.5" class="g6_89"/>
+<path d="M149,623.8l-18.3,15M184.2,523.5V487.9" class="g7_89"/>
+<path d="M211.7,620.2l3.2,3.3l-1.9,-.3l-1.1,1.6Z" class="g8_89"/>
+<path d="M246.8,549.7l2.1,-4.2l.3,1.9l1.9,.5Z" class="g8_89"/>
+<path fill-rule="evenodd" d="M320.1,619.2l-1.2,-2.7l6,3.6l-6.9,1.2Z" class="g8_89"/>
+<path fill-rule="evenodd" d="M130.8,638.7l2.8,.8l-6.6,2.2l3.6,-6Z" class="g8_89"/>
+<path fill-rule="evenodd" d="M184.2,488.1l-2.5,1.6l2.5,-6.5l2.4,6.5Z" class="g8_89"/>
+<path d="M281.4,612.3c0,-.9,.7,-1.7,1.7,-1.7c.9,0,1.7,.8,1.7,1.7c0,1,-.8,1.7,-1.7,1.7c-1,0,-1.7,-.7,-1.7,-1.7Z" class="g8_89"/>
+<path d="M281.4,612.3c0,-.9,.7,-1.7,1.7,-1.7c.9,0,1.7,.8,1.7,1.7c0,1,-.8,1.7,-1.7,1.7c-1,0,-1.7,-.7,-1.7,-1.7Z" class="g9_89"/>
+<path d="M147.2,623.6c0,-1,.8,-1.7,1.7,-1.7c1,0,1.8,.7,1.8,1.7c0,.9,-.8,1.7,-1.8,1.7c-.9,0,-1.7,-.8,-1.7,-1.7Z" class="g8_89"/>
+<path d="M147.2,623.6c0,-1,.8,-1.7,1.7,-1.7c1,0,1.8,.7,1.8,1.7c0,.9,-.8,1.7,-1.8,1.7c-.9,0,-1.7,-.8,-1.7,-1.7Z" class="g9_89"/>
+<path d="M182.5,523.5c0,-.9,.8,-1.7,1.7,-1.7c1,0,1.7,.8,1.7,1.7c0,1,-.7,1.8,-1.7,1.8c-.9,0,-1.7,-.8,-1.7,-1.8Z" class="g8_89"/>
+<path d="M182.5,523.5c0,-.9,.8,-1.7,1.7,-1.7c1,0,1.7,.8,1.7,1.7c0,1,-.7,1.8,-1.7,1.8c-.9,0,-1.7,-.8,-1.7,-1.8Z" class="g9_89"/>
+</svg>

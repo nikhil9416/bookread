@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 931 1096" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<clipPath id="c0_151"><path d="M400.2,376.1V178H819V376.1Z"/></clipPath>
+<clipPath id="c1_151"><path d="M107,463.5V429.9H880v33.6Z"/></clipPath>
+<style type="text/css"><![CDATA[
+.g0_151{
+fill: none;
+stroke: #00AEEF;
+stroke-width: 0.916;
+stroke-miterlimit: 3;
+}
+.g1_151{
+fill: none;
+stroke: #EE008C;
+stroke-width: 0.916;
+stroke-miterlimit: 3;
+}
+.g2_151{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.611;
+stroke-miterlimit: 3;
+}
+.g3_151{
+fill: #241F1F;
+}
+.g4_151{
+fill: none;
+stroke: #00AEEF;
+stroke-width: 0.763;
+stroke-miterlimit: 10;
+}
+.g5_151{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.687;
+stroke-miterlimit: 10;
+}
+]]></style>
+</defs>
+<path d="M415.1,191c51.9,20.8,96.3,46.4,96.8,72.8c2,27,-43.6,51.3,-96.8,72.7" class="g0_151"/>
+<path d="M684.9,191.1c51.8,20.8,96.7,46.3,96.7,72.7c0,27.1,-44.9,51.3,-98,72.7" class="g1_151"/>
+<path d="M511.9,343V187.2" class="g2_151"/>
+<path fill-rule="evenodd" d="M511.9,187.2l-2.4,1.6l2.4,-6.5l2.4,6.5Z" class="g3_151"/>
+<path d="M400.2,263.8H579.4" class="g2_151"/>
+<path fill-rule="evenodd" d="M579.4,263.8l-1.6,-2.5l6.5,2.5l-6.5,2.4Z" class="g3_151"/>
+<path d="M634.9,263.8H814.1" class="g2_151"/>
+<path clip-path="url(#c0_151)" fill-rule="evenodd" d="M814.1,263.8l-1.6,-2.4l6.5,2.4l-6.5,2.4Z" class="g3_151"/>
+<path d="M747.2,343V187.2" class="g2_151"/>
+<path fill-rule="evenodd" d="M747.2,187.2l-2.4,1.6l2.4,-6.5l2.4,6.5Z" class="g3_151"/>
+<path d="M781.6,259.9v7.8" class="g2_151"/>
+<image clip-path="url(#c1_151)" preserveAspectRatio="none" x="107" y="430" width="773" height="34" xlink:href="img/1.png"/>
+<path d="M108.5,624H475.2M108.5,825.7H475.2m33.6,-58.1H878.5M508.8,837.9H878.5M508.8,1026.6H878.5" class="g4_151"/>
+<path d="M731.5,914.9h9m93.3,0h9.1" class="g5_151"/>
+</svg>
