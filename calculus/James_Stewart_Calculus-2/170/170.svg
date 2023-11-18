@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 931 1096" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<clipPath id="c0_170"><path d="M39.4,1096.5V30H931.9V1096.5Z"/></clipPath>
+<clipPath id="c1_170"><path d="M491.7,666V634.3H619V666Z"/></clipPath>
+<style type="text/css"><![CDATA[
+.g0_170{
+fill: #EBEAEA;
+}
+.g1_170{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.763;
+stroke-miterlimit: 3;
+stroke-dasharray: 9,4;
+}
+.g2_170{
+fill: #CFEDFC;
+}
+.g3_170{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.763;
+stroke-linejoin: round;
+}
+.g4_170{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.687;
+stroke-miterlimit: 10;
+}
+.g5_170{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.481;
+stroke-miterlimit: 10;
+}
+.g6_170{
+fill: none;
+stroke: #00AEEF;
+stroke-width: 0.763;
+stroke-linejoin: round;
+}
+.g7_170{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.534;
+stroke-miterlimit: 3;
+}
+.g8_170{
+fill: #241F1F;
+}
+.g9_170{
+fill: #EE008C;
+}
+.ga_170{
+fill: none;
+stroke: #EE008C;
+stroke-width: 0.381;
+stroke-miterlimit: 3;
+}
+.gb_170{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.458;
+stroke-miterlimit: 3;
+}
+.gc_170{
+fill: #95DAF8;
+}
+.gd_170{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.611;
+stroke-miterlimit: 3;
+}
+.ge_170{
+fill: none;
+stroke: #00AEEF;
+stroke-width: 0.916;
+stroke-linejoin: round;
+}
+.gf_170{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.763;
+stroke-miterlimit: 3;
+stroke-dasharray: 10,4;
+}
+]]></style>
+</defs>
+<path d="M0,1096.5H933.5V-20H0V1096.5Z" class="g0_170"/>
+<image clip-path="url(#c0_170)" preserveAspectRatio="none" x="39" y="30" width="900" height="1067" xlink:href="img/1.png"/>
+<path d="M500.4,336.4V261h85.5" class="g1_170"/>
+<path fill-rule="evenodd" d="M589,261h21.4V371h-110V339.5Z" class="g2_170"/>
+<path d="M589,261h21.4V371h-110V339.5L589,261Z" class="g3_170"/>
+<path clip-path="url(#c1_170)" d="M492.1,648.9H619.3" class="g4_170"/>
+<path d="M592.9,705.3h4.8" class="g5_170"/>
+<path d="M81.7,695.3H228.5V592.6H81.7V695.3Z" class="g2_170"/>
+<path d="M53.8,536.1H261.9M53.8,433H261.9" class="g6_170"/>
+<path d="M225.4,439.9V428.4" class="g7_170"/>
+<path d="M225.4,424.7l1.8,4.8l-1.8,-1.1l-1.9,1.1Z" class="g8_170"/>
+<path d="M225.4,455.9v9.9" class="g7_170"/>
+<path d="M225.4,469.5l-1.9,-4.8l1.9,1.1l1.8,-1.1Z" class="g8_170"/>
+<path d="M81.6,492.3v39.8" class="g7_170"/>
+<path d="M81.6,535.8L79.8,531l1.8,1.1L83.4,531Z" class="g8_170"/>
+<path d="M128.7,445.2V437" class="g7_170"/>
+<path d="M128.7,433.3l1.8,4.8L128.7,437l-1.9,1.1Z" class="g8_170"/>
+<path d="M128.7,459v6.7" class="g7_170"/>
+<path d="M128.7,469.4l-1.9,-4.9l1.9,1.2l1.8,-1.2Z" class="g8_170"/>
+<path d="M81.6,475.3V437" class="g7_170"/>
+<path d="M81.6,433.3l1.8,4.8L81.6,437l-1.8,1.1Z" class="g8_170"/>
+<path fill-rule="evenodd" d="M140.6,467.2c-.3,-.4,2.4,-2.6,6,-4.8c3.6,-2.2,6.7,-3.6,7,-3.2c.3,.5,-2.4,2.6,-6,4.8c-3.6,2.2,-6.8,3.7,-7,3.2m6,-1.4c-4.3,2.7,-8.2,4.1,-8.8,3.1c-.6,-1,2.5,-3.9,6.8,-6.6l68,-38.5Z" class="g9_170"/>
+<path d="M140.6,467.2c-.3,-.4,2.4,-2.6,6,-4.8c3.6,-2.2,6.7,-3.6,7,-3.2c.3,.5,-2.4,2.6,-6,4.8c-3.6,2.2,-6.8,3.7,-7,3.2Zm6,-1.4c-4.3,2.7,-8.2,4.1,-8.8,3.1c-.6,-1,2.5,-3.9,6.8,-6.6l68,-38.5l-66,42Z" class="ga_170"/>
+<path d="M159.2,711h-7.4" class="gb_170"/>
+<path d="M81.8,695.8c14.4,-27.5,43.4,-87.4,73.3,-87.4c29.9,0,58.9,59.9,73.3,87.4Z" class="gc_170"/>
+<path fill-rule="evenodd" d="M252.7,695.8l-1.6,-2.5l6.5,2.5l-6.5,2.4Z" class="g8_170"/>
+<path fill-rule="evenodd" d="M81.6,575.8l-2.4,1.7l2.4,-6.6l2.4,6.6Z" class="g8_170"/>
+<path d="M81.7,592.6H228.4V695.8" class="g6_170"/>
+<path d="M84.7,608.4H78.5m6.2,-15.8H78.5" class="gd_170"/>
+<path d="M81.8,695.8c14.4,-27.5,43.4,-87.4,73.3,-87.4c29.9,0,58.9,59.9,73.3,87.4" class="ge_170"/>
+<path d="M229.5,469.7H109.6M229.5,423.8H183.2" class="gf_170"/>
+<path d="M53.5,695.8H252.7M81.6,721.7V575.8" class="gd_170"/>
+</svg>

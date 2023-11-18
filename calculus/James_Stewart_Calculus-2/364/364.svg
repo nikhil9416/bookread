@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 931 1096" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<clipPath id="c0_364"><path d="M498.5,320.1V288.3H612.2v31.8Z"/></clipPath>
+<style type="text/css"><![CDATA[
+.g0_364{
+fill: #D0007A;
+}
+.g1_364{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.763;
+stroke-miterlimit: 10;
+}
+.g2_364{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.534;
+stroke-miterlimit: 10;
+}
+.g3_364{
+fill: none;
+stroke: #00AEEF;
+stroke-width: 0.916;
+stroke-linejoin: round;
+}
+.g4_364{
+fill: none;
+stroke: #EE008C;
+stroke-width: 0.916;
+stroke-linejoin: round;
+}
+.g5_364{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.611;
+stroke-miterlimit: 3;
+}
+.g6_364{
+fill: #241F1F;
+}
+.g7_364{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.458;
+stroke-miterlimit: 3;
+}
+]]></style>
+</defs>
+<path d="M288.8,97.9c0,0,-1.6,0,-1.6,1.6v9.1c0,0,0,1.6,1.6,1.6h9.1c0,0,1.6,0,1.6,-1.6V99.5c0,0,0,-1.6,-1.6,-1.6Z" class="g0_364"/>
+<path clip-path="url(#c0_364)" d="M531.8,300.8h80.8" class="g1_364"/>
+<path d="M545.4,303.5h64.9" class="g1_364"/>
+<path d="M530.4,456.5h5.4" class="g2_364"/>
+<path d="M460.9,592.6h80.9m-67.3,2.7h65m156,-2.7h16.7" class="g1_364"/>
+<path d="M456.6,665.8H462m5.2,62.6h5.4m50.2,-10.7h6.9m23.3,0h6.9" class="g2_364"/>
+<path d="M504,728.5h64.5" class="g1_364"/>
+<path d="M625.9,717.7h7m23.2,0H663m24,0h6.9" class="g2_364"/>
+<path d="M607.1,728.5h95.5" class="g1_364"/>
+<path d="M467.2,772.7h5.4m31.3,0h5.4m37.4,0h10.8" class="g2_364"/>
+<path d="M518.1,840.1h12.2m3.8,0h16.7m21.9,0h12.2m3.8,0h17.5m21.9,0h19.8m3.8,0h17.5M477.3,905.8h12.2m3.8,0H510m21.9,0h12.2m3.8,0h17.5m21.8,0h19.9m3.8,0h17.4M541,1023.4h12.2m3.8,0h16.7" class="g1_364"/>
+<path d="M606,1023.3h5.4" class="g2_364"/>
+<path d="M76.4,991.3c68.7,0,119.1,-36.1,161.6,-72.8" class="g3_364"/>
+<path d="M76.4,991.3c94.7,0,130.9,-60.6,142.2,-161.8" class="g4_364"/>
+<path d="M53.5,991.3h203" class="g5_364"/>
+<path fill-rule="evenodd" d="M256.5,991.3l-1.6,-2.5l6.5,2.5l-6.5,2.4Z" class="g6_364"/>
+<path d="M76.4,1014.2V829.5" class="g5_364"/>
+<path fill-rule="evenodd" d="M76.4,829.5L74,831.1l2.4,-6.5l2.4,6.5Z" class="g6_364"/>
+<path d="M206.6,970.1h6.5" class="g7_364"/>
+<path d="M237.9,988.2v6.1" class="g5_364"/>
+</svg>

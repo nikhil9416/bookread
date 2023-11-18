@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 931 1096" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<clipPath id="c0_133"><path d="M528.6,332.8v-32h41.3v32Z"/></clipPath>
+<clipPath id="c1_133"><path d="M615.8,332.8V300.7h76.3v32.1Z"/></clipPath>
+<clipPath id="c2_133"><path d="M342.2,470.2V453H460.3v17.2Z"/></clipPath>
+<clipPath id="c3_133"><path d="M485.1,928.3v-46H735.6v46Z"/></clipPath>
+<style type="text/css"><![CDATA[
+.g0_133{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.534;
+stroke-miterlimit: 10;
+}
+.g1_133{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.763;
+stroke-miterlimit: 10;
+}
+.g2_133{
+fill: #D0007A;
+}
+.g3_133{
+fill: none;
+stroke: #00AEEF;
+stroke-width: 1.145;
+}
+]]></style>
+</defs>
+<path d="M508.4,226.7h5.3" class="g0_133"/>
+<path clip-path="url(#c0_133)" d="M558.1,316.9h12.2" class="g1_133"/>
+<path d="M620,316.9h20.4" class="g1_133"/>
+<path clip-path="url(#c1_133)" d="M675,316.9h17.5" class="g1_133"/>
+<path d="M515.4,394.8h18.9m-59,-23.9H551m108.7,23.9h17.5m-47,-23.9h49.2m71.8,6.8h42.6m-56.1,17.9H796" class="g1_133"/>
+<path clip-path="url(#c2_133)" d="M402.2,453.4h58.4" class="g1_133"/>
+<path d="M441.7,510.9h17.4M412.2,487h49.2M373,562.9h25.3" class="g1_133"/>
+<path d="M343.8,639.7c0,0,-1.6,0,-1.6,1.5v9.2c0,0,0,1.5,1.6,1.5h9.1c0,0,1.6,0,1.6,-1.5v-9.2c0,0,0,-1.5,-1.6,-1.5Z" class="g2_133"/>
+<path d="M601.6,770.4h76.5M485.5,909.7H506m33.2,-9.5h78.2m82.2,4.9h20.5" class="g1_133"/>
+<path clip-path="url(#c3_133)" d="M660.3,882.7H736" class="g1_133"/>
+<path d="M630.5,1022.8H651m-59.7,-22.5h76.4" class="g1_133"/>
+<path d="M359.6,771.9c0,0,-1.5,0,-1.5,1.5v14.2c0,0,0,1.5,1.5,1.5h14.1c0,0,1.6,0,1.6,-1.5V773.4c0,0,0,-1.5,-1.6,-1.5H359.6Zm0,129.9c0,0,-1.5,0,-1.5,1.5v14.1c0,0,0,1.5,1.5,1.5h14.1c0,0,1.6,0,1.6,-1.5V903.3c0,0,0,-1.5,-1.6,-1.5H359.6Zm0,110.9c0,0,-1.5,0,-1.5,1.5v14.1c0,0,0,1.6,1.5,1.6h14.1c0,0,1.6,0,1.6,-1.6v-14.1c0,0,0,-1.5,-1.6,-1.5H359.6Z" class="g3_133"/>
+</svg>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 931 1096" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<clipPath id="c0_121"><path d="M657.3,813.8V774.9H733v38.9Z"/></clipPath>
+<clipPath id="c1_121"><path d="M352.9,166V137.2h83.6V166Z"/></clipPath>
+<clipPath id="c2_121"><path d="M371.4,735.8v-16h77.9v16Z"/></clipPath>
+<style type="text/css"><![CDATA[
+.g0_121{
+fill: none;
+stroke: #00AEEF;
+stroke-width: 0.763;
+stroke-miterlimit: 10;
+}
+.g1_121{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.687;
+stroke-miterlimit: 10;
+}
+.g2_121{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.495;
+stroke-miterlimit: 10;
+}
+.g3_121{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.481;
+stroke-miterlimit: 10;
+}
+]]></style>
+</defs>
+<path d="M511.8,422.5H878.5" class="g0_121"/>
+<path d="M537.9,184.1h69.8m-57.6,2h10.3m99.4,-2h69.7m-57.5,2h10.3m100.8,-1.3h69.7m-57.5,2.1h10.2M663.9,248.8h63m-43.3,2.9h41.2m-172,110.2h15.8m186.5,0h47.4" class="g1_121"/>
+<path d="M588.8,688.4h5.9" class="g2_121"/>
+<path d="M614.4,693.3h27m-14.8,2.8h12.7m15,-2.8h27" class="g1_121"/>
+<path d="M657.6,792.2h5.9" class="g2_121"/>
+<path d="M702.2,794.1h27" class="g1_121"/>
+<path clip-path="url(#c0_121)" d="M702.2,775.2h31.1" class="g1_121"/>
+<path d="M848.1,1017.1h4.8" class="g3_121"/>
+<path d="M126.8,264.3H475.2M126.8,480.5H475.2M126.8,980.1H475.2" class="g0_121"/>
+<path d="M167.8,112h48.9M180,116.4h34.7m154,-4.4h39.2" class="g1_121"/>
+<path clip-path="url(#c1_121)" d="M368.7,151.7h68.1" class="g1_121"/>
+<path d="M378.3,191.5h42.8m-30.6,4.3H419m-246.8,40h22.7m173.8,0h22.7m-6.7,210.9h35.6M256.6,653h10.3" class="g1_121"/>
+<path clip-path="url(#c2_121)" d="M439.4,720.2h10.3" class="g1_121"/>
+<path d="M169.2,867.5h42.4m158.5,0h57.6m-27.8,4.4h8.2M169.2,908.8h53.9m-41.7,4.3H221m149.1,-4.3h47M167.8,953.1h33.7m-12.7,4.3h9.5m171.8,-4.3h31.4m-15.4,4.3h9.5m-129.3,66.5h69.8m-57.6,2.1h10.3" class="g1_121"/>
+</svg>

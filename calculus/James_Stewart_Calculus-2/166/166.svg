@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 931 1096" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<style type="text/css"><![CDATA[
+.g0_166{
+fill: none;
+stroke: #EE008C;
+stroke-width: 0.916;
+stroke-linejoin: round;
+}
+.g1_166{
+fill: none;
+stroke: #89898B;
+stroke-width: 0.534;
+stroke-miterlimit: 3;
+}
+.g2_166{
+fill: #FFF;
+}
+.g3_166{
+fill: #241F1F;
+}
+.g4_166{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.611;
+stroke-miterlimit: 3;
+}
+.g5_166{
+fill: none;
+stroke: #FFF;
+stroke-width: 1.527;
+}
+.g6_166{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.481;
+stroke-miterlimit: 10;
+}
+]]></style>
+</defs>
+<path d="M91.8,488.9h24.5L262.9,440l97.8,48.9h20" class="g0_166"/>
+<path d="M140.7,488.9h220m-244.4,0V415.6m268.8,73.3V415.6m-24.4,73.3V415.6m-24.5,73.3V415.6m-24.4,73.3V415.6m-24.4,73.3V415.6m-24.5,73.3V415.6m-24.4,73.3V415.6M214,488.9V415.6m-24.4,73.3V415.6m-24.5,73.3V415.6m-24.4,73.3V415.6m-24.4,0H385.1M116.3,440H385.1M116.3,464.5H385.1" class="g1_166"/>
+<path d="M158.4,504.9h13.8V491.1H158.4v13.8Z" class="g2_166"/>
+<path d="M207.3,504.9h13.8V491.1H207.3v13.8Z" class="g2_166"/>
+<path d="M256.2,504.9H270V491.1H256.2v13.8Z" class="g2_166"/>
+<path d="M305.1,504.9h13.8V491.1H305.1v13.8Z" class="g2_166"/>
+<path d="M354,504.9h13.8V491.1H354v13.8Z" class="g2_166"/>
+<path d="M154.2,457.5h45.9V442.2H154.2v15.3Z" class="g2_166"/>
+<path d="M97.3,471.6h16.8V457.9H97.3v13.7Z" class="g2_166"/>
+<path d="M97.3,446.8h16.8V433.1H97.3v13.7Z" class="g2_166"/>
+<path fill-rule="evenodd" d="M380.7,488.9L379,486.5l6.6,2.4l-6.6,2.4Z" class="g3_166"/>
+<path d="M116.3,513.3V420.2" class="g4_166"/>
+<path fill-rule="evenodd" d="M116.3,420.2l-2.5,1.6l2.5,-6.5l2.4,6.5Z" class="g3_166"/>
+<path d="M116.3,488.9H360.7" class="g4_166"/>
+<path d="M390.2,415.3v74.9" class="g5_166"/>
+<path d="M121.2,970.2h26.4m429,-697.6h19.2m-19.2,22.3h9.6m20.1,0h19.1" class="g6_166"/>
+</svg>

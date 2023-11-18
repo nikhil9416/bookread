@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 931 1096" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<clipPath id="c0_373"><path d="M0,1096.5V30.3H892.7V1096.5Z"/></clipPath>
+<clipPath id="c1_373"><path d="M580.7,117.4V81.5h78.1v35.9Z"/></clipPath>
+<clipPath id="c2_373"><path d="M551.9,830.7V800.2H668.8v30.5Z"/></clipPath>
+<clipPath id="c3_373"><path d="M572.9,959V928.4h75V959Z"/></clipPath>
+<style type="text/css"><![CDATA[
+.g0_373{
+fill: #EBEAEA;
+}
+.g1_373{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.763;
+stroke-miterlimit: 10;
+}
+.g2_373{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.687;
+stroke-miterlimit: 10;
+}
+.g3_373{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.481;
+stroke-miterlimit: 10;
+}
+.g4_373{
+fill: none;
+stroke: #00AEEF;
+stroke-width: 0.916;
+stroke-linejoin: round;
+}
+.g5_373{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.534;
+stroke-miterlimit: 3;
+}
+]]></style>
+</defs>
+<path d="M0,1096.5H951.8V-20H0V1096.5Z" class="g0_373"/>
+<image clip-path="url(#c0_373)" preserveAspectRatio="none" x="0" y="31" width="892" height="1066" xlink:href="img/1.png"/>
+<path clip-path="url(#c1_373)" d="M602.2,98.9h57" class="g1_373"/>
+<path d="M540.5,244.2h18.2m80,0h18.2m21.9,0H697m-227.9,101h56.4m120.4,0h56.4m21.9,0h56.3m-325.9,133h57m21.9,0h56.3m25,0h68.6m-80,60.4h56.4m21.9,0H738M440.2,660.1h56.9m236.9,0h56.4" class="g1_373"/>
+<path clip-path="url(#c2_373)" d="M621.9,816.4h47.2" class="g2_373"/>
+<path d="M471.5,886.6h4.8m48.6,0h4.8" class="g3_373"/>
+<path d="M592.2,943.2H608" class="g2_373"/>
+<path clip-path="url(#c3_373)" d="M631.6,943.2h16.6" class="g2_373"/>
+<path d="M116.1,734.6c0,0,-7.6,0,-7.6,7.7V753h220V734.6Z" class="g0_373"/>
+<path d="M290.1,852.6L208.9,847l76.8,54.1m25.1,-14.5l-20.7,-34l-4.4,48.6m19.9,4.6l5.2,-19.2l-25,14.4l19.8,4.8ZM208.8,847.3L113.2,974.5L285.9,901.2" class="g4_373"/>
+<path d="M299,904.2l1.6,-6.7l6.7,1.7m-4.4,-7.9l-4.7,-7.8l7.8,-4.8m-17,-17l-9.1,-1.1l1.1,-9.1M216.2,853l-5.5,7.3l-7.4,-5.5" class="g5_373"/>
+</svg>

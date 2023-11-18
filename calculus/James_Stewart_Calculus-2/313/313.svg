@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 931 1096" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<clipPath id="c0_313"><path d="M581.9,153.3V124.7H808.3v28.6Z"/></clipPath>
+<clipPath id="c1_313"><path d="M107,452.5V418.9H880v33.6Z"/></clipPath>
+<clipPath id="c2_313"><path d="M576.2,549.8V515.9h68.3v33.9Z"/></clipPath>
+<clipPath id="c3_313"><path d="M567.1,673.3V641.5h86.5v31.8Z"/></clipPath>
+<style type="text/css"><![CDATA[
+.g0_313{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.687;
+stroke-miterlimit: 10;
+}
+.g1_313{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.763;
+stroke-miterlimit: 10;
+}
+.g2_313{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.534;
+stroke-miterlimit: 10;
+}
+.g3_313{
+fill: #FFF;
+}
+.g4_313{
+fill: none;
+stroke: #00AEEF;
+stroke-width: 0.763;
+}
+.g5_313{
+fill: none;
+stroke: #00AEEF;
+stroke-width: 1.145;
+}
+]]></style>
+</defs>
+<path d="M243,276.1h11m19.7,0h10.9m59.3,0h11" class="g0_313"/>
+<path clip-path="url(#c0_313)" d="M771.2,139.2h37.5" class="g0_313"/>
+<path d="M669.2,348.5h11m19.7,0h37.5" class="g0_313"/>
+<image clip-path="url(#c1_313)" preserveAspectRatio="none" x="107" y="419" width="773" height="34" xlink:href="img/1.png"/>
+<path clip-path="url(#c2_313)" d="M597.8,532.3h47" class="g1_313"/>
+<path d="M784.7,576.5h5.4m57.3,0h5.4" class="g2_313"/>
+<path clip-path="url(#c3_313)" d="M567.5,657.6h47m21.9,0H654" class="g1_313"/>
+<path d="M583,801.2h47.1" class="g1_313"/>
+<path d="M345.7,951.7c0,0,-3.1,0,-3.1,3.1v84.8c0,0,0,3,3.1,3H875.1c0,0,3,0,3,-3V954.8c0,0,0,-3.1,-3,-3.1Z" class="g3_313"/>
+<path d="M345.7,951.7c0,0,-3.1,0,-3.1,3.1v84.8c0,0,0,3,3.1,3H875.1c0,0,3,0,3,-3V954.8c0,0,0,-3.1,-3,-3.1H345.7Z" class="g4_313"/>
+<path d="M359.6,524.4c0,0,-1.5,0,-1.5,1.5v14.2c0,0,0,1.5,1.5,1.5h14.1c0,0,1.6,0,1.6,-1.5V525.9c0,0,0,-1.5,-1.6,-1.5H359.6Z" class="g5_313"/>
+</svg>

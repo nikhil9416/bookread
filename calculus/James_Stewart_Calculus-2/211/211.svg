@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 931 1096" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<clipPath id="c0_211"><path d="M546.2,697.6V667.1h90.1v30.5Z"/></clipPath>
+<clipPath id="c1_211"><path d="M152,468.5V439.6h96.5v28.9Z"/></clipPath>
+<clipPath id="c2_211"><path d="M152,583.7V567.8h81.7v15.9Z"/></clipPath>
+<clipPath id="c3_211"><path d="M352.9,583.7V567.8h95.8v15.9Z"/></clipPath>
+<clipPath id="c4_211"><path d="M152,648.8V619.9H287.9v28.9Z"/></clipPath>
+<clipPath id="c5_211"><path d="M107,378.5V344.9H880v33.6Z"/></clipPath>
+<style type="text/css"><![CDATA[
+.g0_211{
+fill: none;
+stroke: #00AEEF;
+stroke-width: 0.763;
+stroke-miterlimit: 10;
+}
+.g1_211{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.687;
+stroke-miterlimit: 10;
+}
+.g2_211{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.763;
+stroke-miterlimit: 10;
+}
+.g3_211{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.534;
+stroke-miterlimit: 10;
+}
+]]></style>
+</defs>
+<path d="M521,707.3H878.5" class="g0_211"/>
+<path d="M636.3,449.6h18.5m-57.2,107h18.6M577.3,683.4h10.9" class="g1_211"/>
+<path clip-path="url(#c0_211)" d="M617.4,683.4h19.3" class="g1_211"/>
+<path d="M126.8,478.1H479.7m-352.9,220H479.7M126.8,939.5H479.7M126.8,1041.9H479.7" class="g0_211"/>
+<path d="M200.8,412.3h8.3m12.5,33.6h6" class="g1_211"/>
+<path clip-path="url(#c1_211)" d="M231,454.2h17.8" class="g1_211"/>
+<path d="M353.3,454.2h19.4" class="g1_211"/>
+<path clip-path="url(#c2_211)" d="M225.8,568.1h8.3" class="g1_211"/>
+<path clip-path="url(#c3_211)" d="M440.8,568.1H449" class="g1_211"/>
+<path d="M165.2,634.5h17.1" class="g1_211"/>
+<path clip-path="url(#c4_211)" d="M250,626.2h38.2" class="g1_211"/>
+<path d="M180.9,674.2h16.4M165.2,782.7H183m-23.4,36.6h17.8M204,911h17.8" class="g1_211"/>
+<image clip-path="url(#c5_211)" preserveAspectRatio="none" x="107" y="345" width="773" height="34" xlink:href="img/1.png"/>
+<path d="M599.9,139.4h27.5" class="g2_211"/>
+<path d="M454,179h16.1m107.8,67.2h16.2m-70.8,38.2h16.1m160.4,0h16.1" class="g3_211"/>
+</svg>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 931 1096" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<style type="text/css"><![CDATA[
+.g0_160{
+fill: #CFEDFC;
+}
+.g1_160{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.611;
+stroke-miterlimit: 3;
+}
+.g2_160{
+fill: #241F1F;
+}
+.g3_160{
+fill: none;
+stroke: #00AEEF;
+stroke-width: 0.916;
+stroke-linejoin: round;
+}
+.g4_160{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.763;
+stroke-linejoin: round;
+}
+.g5_160{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.381;
+stroke-miterlimit: 3;
+}
+.g6_160{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.534;
+stroke-miterlimit: 10;
+}
+.g7_160{
+fill: none;
+stroke: #00AEEF;
+stroke-width: 1.145;
+}
+]]></style>
+</defs>
+<path d="M636.8,603.6v-4.3c-8.9,-2.5,-16.6,-6.6,-22.4,-12.4C581,553.4,567.4,488,544,488c-20.4,0,-33.3,49.8,-58.4,84.7v30.9Z" class="g0_160"/>
+<path d="M425.8,603.6H657.4m-265.4,0h30.6" class="g1_160"/>
+<path fill-rule="evenodd" d="M657.4,603.6l-1.6,-2.5l6.5,2.5l-6.5,2.4Z" class="g2_160"/>
+<path d="M413.4,615.8V477.6" class="g1_160"/>
+<path fill-rule="evenodd" d="M413.4,477.6l-2.5,1.6l2.5,-6.5l2.4,6.5Z" class="g2_160"/>
+<path d="M561.2,600.5v6.1" class="g1_160"/>
+<path d="M431.5,602c17.4,-.5,32.3,-5.4,42,-15.1C507,553.4,520.6,488,544,488c23.4,0,37,65.4,70.4,98.9c9.7,9.7,24.6,14.6,42.1,15.1" class="g3_160"/>
+<path d="M636.8,603.6v-4.3m-151.2,4.3V572.7" class="g4_160"/>
+<path d="M581.2,503.2l-22.9,10.9" class="g5_160"/>
+<path d="M555.3,515.5l3.2,-3.4l-.2,2l1.6,1.1Z" class="g2_160"/>
+<path d="M419.3,606.8l6.5,-6.4m-3.4,6.4l6.4,-6.4" class="g1_160"/>
+<path d="M530.7,996.9h5.4m135.9,0h21.5" class="g6_160"/>
+<path d="M304.6,321.2c0,0,-1.5,0,-1.5,1.5v14.2c0,0,0,1.5,1.5,1.5h14.1c0,0,1.6,0,1.6,-1.5V322.7c0,0,0,-1.5,-1.6,-1.5H304.6Zm0,400.5c0,0,-1.5,0,-1.5,1.6v14.1c0,0,0,1.5,1.5,1.5h14.1c0,0,1.6,0,1.6,-1.5V723.3c0,0,0,-1.6,-1.6,-1.6H304.6Z" class="g7_160"/>
+</svg>

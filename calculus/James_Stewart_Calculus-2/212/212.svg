@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 931 1096" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<clipPath id="c0_212"><path d="M596.8,704.2V675.4h77.6v28.8Z"/></clipPath>
+<clipPath id="c1_212"><path d="M578.9,984.8V952.5H692.2v32.3Z"/></clipPath>
+<clipPath id="c2_212"><path d="M182.2,993.1V964.3H300.6v28.8Z"/></clipPath>
+<style type="text/css"><![CDATA[
+.g0_212{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.687;
+stroke-miterlimit: 10;
+}
+.g1_212{
+fill: none;
+stroke: #00AEEF;
+stroke-width: 1.067;
+stroke-linejoin: round;
+}
+.g2_212{
+fill: #FFF;
+}
+.g3_212{
+fill: none;
+stroke: #00AEEF;
+stroke-width: 0.762;
+stroke-miterlimit: 3;
+}
+]]></style>
+</defs>
+<path d="M600.2,344.8H617m-13.1,77.9H624" class="g0_212"/>
+<path clip-path="url(#c0_212)" d="M658.8,690.1h15.9" class="g0_212"/>
+<path d="M563.3,859.7h19.4m86.2,0H699M579.2,968.1h17.2" class="g0_212"/>
+<path clip-path="url(#c1_212)" d="M662.5,968.1h30.1" class="g0_212"/>
+<path d="M230.2,155.5h14.1m-51.5,70.3h20.9m19.7,0h13.3" class="g0_212"/>
+<path d="M204.8,334.2h39m-38.6,74.2H173.4V334.2h31.8m31.1,74.2H204.8" class="g1_212"/>
+<path d="M234.2,408.4c0,-1.2,.9,-2.1,2,-2.1c1.2,0,2.1,.9,2.1,2.1c0,1.1,-.9,2,-2.1,2c-1.1,0,-2,-.9,-2,-2Z" class="g2_212"/>
+<path d="M234.2,408.4c0,-1.2,.9,-2.1,2,-2.1c1.2,0,2.1,.9,2.1,2.1c0,1.1,-.9,2,-2.1,2c-1.1,0,-2,-.9,-2,-2Z" class="g3_212"/>
+<path d="M165.2,369c0,-4.5,3.7,-8.2,8.2,-8.2c4.6,0,8.3,3.7,8.3,8.2c0,4.6,-3.7,8.3,-8.3,8.3c-4.5,0,-8.2,-3.7,-8.2,-8.3Z" class="g2_212"/>
+<path d="M165.2,369c0,-4.5,3.7,-8.2,8.2,-8.2c4.6,0,8.3,3.7,8.3,8.2c0,4.6,-3.7,8.3,-8.3,8.3c-4.5,0,-8.2,-3.7,-8.2,-8.3Zm118.7,39.4H267.4l-29.7,-9.7m45.9,-64.5h36.7v18.6l4.5,2.4l-9.5,5.6l9.5,5.7l-9.5,5.6l9.5,5.6l-9.5,5.7l5,3.5v21.5H283.6M247.9,334.2h36m-40.1,-5.4v10.9m4.1,-10.9v10.9" class="g1_212"/>
+<path d="M187.2,567.9h19.3m-24,410.9h17" class="g0_212"/>
+<path clip-path="url(#c2_212)" d="M245.8,978.8H301" class="g0_212"/>
+</svg>
