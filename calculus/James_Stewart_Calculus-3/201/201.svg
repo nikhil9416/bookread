@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 931 1096" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<clipPath id="c0_201"><path d="M0,1043.7V94.8H879.4v948.9Z"/></clipPath>
+<clipPath id="c1_201"><path d="M496.9,773V741.7H696.3V773Z"/></clipPath>
+<clipPath id="c2_201"><path d="M496.9,823.4V792.1H696.3v31.3Z"/></clipPath>
+<clipPath id="c3_201"><path d="M496.9,873.8V842.5H696.3v31.3Z"/></clipPath>
+<clipPath id="c4_201"><path d="M477.4,952.7V919.8H715.8v32.9Z"/></clipPath>
+<clipPath id="c5_201"><path d="M119.5,427.9V295.3H315.7V427.9Z"/></clipPath>
+<clipPath id="c6_201"><path d="M119.3,584.6v-139H313.5v139Z"/></clipPath>
+<clipPath id="c7_201"><path d="M119.5,276.3V143.7H313.8V276.3Z"/></clipPath>
+<style type="text/css"><![CDATA[
+.g0_201{
+fill: none;
+stroke: #008048;
+stroke-width: 3.055;
+stroke-miterlimit: 10;
+}
+.g1_201{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.687;
+stroke-miterlimit: 10;
+}
+]]></style>
+</defs>
+<image clip-path="url(#c0_201)" preserveAspectRatio="none" x="0" y="95" width="879" height="949" xlink:href="img/1.png"/>
+<path d="M108.5,133.6H864.7" class="g0_201"/>
+<path d="M613.6,360.1h62.1M435.4,590.8H560.5m49.3,0h89.9m49.3,0h54.6M497.2,757.3H615.5" class="g1_201"/>
+<path clip-path="url(#c1_201)" d="M635.2,757.3h61.5" class="g1_201"/>
+<path d="M532.5,807.7h83" class="g1_201"/>
+<path clip-path="url(#c2_201)" d="M635.2,807.7h61.5" class="g1_201"/>
+<path d="M567.7,858.1h47.8" class="g1_201"/>
+<path clip-path="url(#c3_201)" d="M635.2,858.1h61.5" class="g1_201"/>
+<path clip-path="url(#c4_201)" d="M478,936.1h43.6m19.7,0H716.1" class="g1_201"/>
+<image clip-path="url(#c5_201)" preserveAspectRatio="none" x="119" y="295" width="197" height="133" xlink:href="img/2.jpg"/>
+<image clip-path="url(#c6_201)" preserveAspectRatio="none" x="119" y="445" width="195" height="140" xlink:href="img/3.jpg"/>
+<image clip-path="url(#c7_201)" preserveAspectRatio="none" x="119" y="144" width="195" height="133" xlink:href="img/4.jpg"/>
+</svg>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 931 1096" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<clipPath id="c0_145"><path d="M107,439.5V405.9H880v33.6Z"/></clipPath>
+<clipPath id="c1_145"><path d="M666.3,544.8V516.4h48.5v28.4Z"/></clipPath>
+<clipPath id="c2_145"><path d="M668.9,1043.3v-28.8h43.4v28.8Z"/></clipPath>
+<style type="text/css"><![CDATA[
+.g0_145{
+fill: #F6FBF5;
+}
+.g1_145{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.381;
+stroke-miterlimit: 3;
+}
+.g2_145{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.687;
+stroke-miterlimit: 10;
+}
+]]></style>
+<path d="M185,458v71h901V458Z"
+id="f0_2"
+transform="scale(0.001,-0.001)"/>
+
+</defs>
+<image clip-path="url(#c0_145)" preserveAspectRatio="none" x="107" y="406" width="773" height="34" xlink:href="img/1.png"/>
+<path d="M154,988.7h45.8V878H154V988.7Z" class="g0_145"/>
+<path d="M154,878H475.2V848.6H154V878Z" class="g0_145"/>
+<g fill="#241F1F" >
+<use xlink:href="#f0_2" transform="matrix(8.3,0,0,8.3,209,897.1)"/>
+<use xlink:href="#f0_2" transform="matrix(8.3,0,0,8.3,209,924.6)"/>
+<use xlink:href="#f0_2" transform="matrix(8.3,0,0,8.3,209,952.1)"/>
+<use xlink:href="#f0_2" transform="matrix(8.3,0,0,8.3,209,979.6)"/>
+<use xlink:href="#f0_2" transform="matrix(8.3,0,0,8.3,254.9,897.1)"/>
+<use xlink:href="#f0_2" transform="matrix(8.3,0,0,8.3,254.9,924.6)"/>
+<use xlink:href="#f0_2" transform="matrix(8.3,0,0,8.3,254.9,952.1)"/>
+<use xlink:href="#f0_2" transform="matrix(8.3,0,0,8.3,254.9,979.7)"/>
+<use xlink:href="#f0_2" transform="matrix(8.3,0,0,8.3,300.7,897.2)"/>
+<use xlink:href="#f0_2" transform="matrix(8.3,0,0,8.3,300.7,924.7)"/>
+<use xlink:href="#f0_2" transform="matrix(8.3,0,0,8.3,300.7,952.2)"/>
+<use xlink:href="#f0_2" transform="matrix(8.3,0,0,8.3,300.7,979.7)"/>
+<use xlink:href="#f0_2" transform="matrix(8.3,0,0,8.3,346.5,897.2)"/>
+<use xlink:href="#f0_2" transform="matrix(8.3,0,0,8.3,346.5,924.7)"/>
+<use xlink:href="#f0_2" transform="matrix(8.3,0,0,8.3,346.5,952.2)"/>
+<use xlink:href="#f0_2" transform="matrix(8.3,0,0,8.3,346.5,979.7)"/>
+<use xlink:href="#f0_2" transform="matrix(8.3,0,0,8.3,392.4,897.2)"/>
+<use xlink:href="#f0_2" transform="matrix(8.3,0,0,8.3,392.4,924.7)"/>
+<use xlink:href="#f0_2" transform="matrix(8.3,0,0,8.3,392.4,952.2)"/>
+<use xlink:href="#f0_2" transform="matrix(8.3,0,0,8.3,392.4,979.7)"/>
+<use xlink:href="#f0_2" transform="matrix(8.3,0,0,8.3,163.2,897.2)"/>
+<use xlink:href="#f0_2" transform="matrix(8.3,0,0,8.3,163.2,924.7)"/>
+<use xlink:href="#f0_2" transform="matrix(8.3,0,0,8.3,163.2,952.2)"/>
+<use xlink:href="#f0_2" transform="matrix(8.3,0,0,8.3,163.2,979.7)"/>
+</g>
+<path d="M199.8,848.6V988.7M154,878H475.2M154,848.6L199.8,878M154,848.6H474.8V988.8H154Zm0,56.9H475.2m-92,-56.9V988.7M337.3,848.6V988.7M291.5,848.6V988.7M245.7,848.6V988.7M154,960.5H474.5M154,933H475.2" class="g1_145"/>
+<g fill="#241F1F" >
+<use xlink:href="#f0_2" transform="matrix(8.3,0,0,8.3,438.2,897.2)"/>
+<use xlink:href="#f0_2" transform="matrix(8.3,0,0,8.3,438.2,924.7)"/>
+<use xlink:href="#f0_2" transform="matrix(8.3,0,0,8.3,438.2,952.2)"/>
+<use xlink:href="#f0_2" transform="matrix(8.3,0,0,8.3,438.2,979.7)"/>
+</g>
+<path d="M429.8,848.6V988.7m45,-140.1V988.8" class="g1_145"/>
+<path clip-path="url(#c1_145)" d="M692.7,530.6h22.4" class="g2_145"/>
+<path d="M548.2,889.4h41.2V695.7H548.2V889.4Z" class="g0_145"/>
+<path d="M548.2,695.7h330V666.3h-330v29.4Z" class="g0_145"/>
+<path d="M548.2,666.3h330v223h-330Zm0,0l41.2,29.4m-41.2,0h330M589.4,666.3V889.4M548.2,723.2h330M630.7,666.3V889.4M671.9,666.3V889.4M713.2,666.3V889.4M754.4,666.3V889.4M548.2,750.7h330m-330,27.5h330M795.7,666.3V889.4M836.9,666.3V889.4M548.2,805.7h330m-330,27.5h330m-330,27.5h330" class="g1_145"/>
+<path clip-path="url(#c2_145)" d="M694.8,1029h17.8" class="g2_145"/>
+</svg>
