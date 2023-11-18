@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 931 1096" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<clipPath id="c0_409"><path d="M555.4,300.1V271.4h86.1v28.7Z"/></clipPath>
+<clipPath id="c1_409"><path d="M555.4,329.8V313.9H683v15.9Z"/></clipPath>
+<clipPath id="c2_409"><path d="M555.4,361.9v-16H637v16Z"/></clipPath>
+<clipPath id="c3_409"><path d="M555.4,487.3V448.6H676.1v38.7Z"/></clipPath>
+<clipPath id="c4_409"><path d="M737.9,486.4v-30H846.5v30Z"/></clipPath>
+<style type="text/css"><![CDATA[
+.g0_409{
+fill: none;
+stroke: #00AEEF;
+stroke-width: 0.763;
+stroke-miterlimit: 10;
+}
+.g1_409{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.687;
+stroke-miterlimit: 10;
+}
+.g2_409{
+fill: none;
+stroke: #EE008C;
+stroke-width: 0.915;
+stroke-linejoin: round;
+}
+.g3_409{
+fill: none;
+stroke: #89898B;
+stroke-width: 0.534;
+stroke-miterlimit: 3;
+}
+.g4_409{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.611;
+stroke-miterlimit: 3;
+}
+.g5_409{
+fill: #241F1F;
+}
+.g6_409{
+fill: #C1E2F7;
+}
+.g7_409{
+fill: none;
+stroke: #009CE0;
+stroke-width: 1.222;
+stroke-miterlimit: 3;
+}
+.g8_409{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.534;
+}
+.g9_409{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.611;
+}
+.ga_409{
+fill: #E8F6FE;
+}
+.gb_409{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.763;
+stroke-miterlimit: 10;
+}
+]]></style>
+</defs>
+<path d="M530.2,384.6H878.5M530.2,509.9H878.5" class="g0_409"/>
+<path clip-path="url(#c0_409)" d="M599.5,285.8h42.3" class="g1_409"/>
+<path clip-path="url(#c1_409)" d="M641,314.2h42.4" class="g1_409"/>
+<path clip-path="url(#c2_409)" d="M609.6,346.3h27.7" class="g1_409"/>
+<path d="M600.5,470.7h11m48.1,0h14.8" class="g1_409"/>
+<path clip-path="url(#c3_409)" d="M633.1,448.9h43.4" class="g1_409"/>
+<path d="M783.1,470.7h18.6" class="g1_409"/>
+<path clip-path="url(#c4_409)" d="M828.3,470.7h18.6" class="g1_409"/>
+<path d="M756.7,645.3h53.5M678.4,804.9h37.5m-39.6,129h37.5" class="g1_409"/>
+<path d="M194.7,294.6C219.2,225.3,308.8,180.2,377.8,180.2" class="g2_409"/>
+<path d="M377.8,161.1V294.6M408.3,161.1V294.6m-61,-133.5V294.6M194.7,218.3H408.3M194.7,275.5H408.3m-213.6,-19H408.3M194.7,237.4H408.3M225.2,161.1V294.6M255.7,161.1V294.6M316.8,161.1V294.6M286.3,161.1V294.6M194.7,161.1H408.3M194.7,180.2H408.3m-213.6,19H408.3" class="g3_409"/>
+<path d="M194.7,294.6H404.2" class="g4_409"/>
+<path fill-rule="evenodd" d="M404.2,294.6l-1.6,-2.4l6.5,2.4l-6.5,2.4Z" class="g5_409"/>
+<path d="M194.7,294.6V165.5" class="g4_409"/>
+<path fill-rule="evenodd" d="M194.7,165.5l-2.4,1.7l2.4,-6.6l2.4,6.6Z" class="g5_409"/>
+<path d="M199.3,726.1c13.4,-2.8,33.2,-5.9,42.8,-10.5c10.8,-5.1,23,-29.4,27.8,-40.7c4.7,-10.9,8.4,-32.6,10.2,-32.6l.7,83.8H199.3Z" class="g6_409"/>
+<path d="M199.3,726.3V595.6m0,130.5H375.6" class="g4_409"/>
+<path d="M199.3,726.1c13.4,-2.8,38.9,-6.5,48.3,-14.5c12.2,-10.6,17.6,-24.1,22.3,-36.7c5.2,-13.7,17.8,-66.3,23.7,-66.3c8.1,0,14.8,83.3,22.5,101.1c5.6,12.8,13.2,16,26.4,16" class="g7_409"/>
+<path d="M342.6,723v6.1" class="g8_409"/>
+<path d="M280.1,726.1V642.3" class="g9_409"/>
+<path d="M196.2,643.3h6.1" class="g8_409"/>
+<path fill-rule="evenodd" d="M199.3,596.5l-2.5,1.6l2.5,-6.5l2.4,6.5Z" class="g5_409"/>
+<path fill-rule="evenodd" d="M373.8,726.1l-1.6,-2.5l6.5,2.5l-6.5,2.4Z" class="g5_409"/>
+<path d="M127.6,862.7h67.2v27.5H127.6Zm67.2,0h94.7v27.5H194.8Zm94.7,0h4.6v27.5h-4.6Zm4.6,0h67.2v27.5H294.1Zm67.2,0h94.8v27.5H361.3Z" class="ga_409"/>
+<path d="M194.8,908.9V890.6m94.7,18.3V890.6m4.6,18.3V890.6m67.2,18.3V890.6m94.8,18.3V890.6M194.8,927.3V908.9m94.7,18.4V908.9m4.6,18.4V908.9m67.2,18.4V908.9m94.8,18.4V908.9M194.8,945.6V927.3m94.7,18.3V927.3m4.6,18.3V927.3m67.2,18.3V927.3m94.8,18.3V927.3M194.8,966.6v-21m94.7,21v-21m4.6,21v-21m67.2,21v-21m94.8,21v-21M194.8,890.2h94.7M194.8,862.7h94.7m4.6,0h67.2m0,0h95.1m-.3,27.1V863.1m-162,27.1h67.2m0,0h95.1m-95.1,-.4V863.1m-71.8,27.1h4.6m-4.6,-27.5h4.6m-4.6,27.1V863.1m4.6,26.7V863.1m-166.9,-.4h67.6m-67.2,27.1V863.1m67.2,26.7V863.1m-67.6,27.1h67.6m-67.2,76.4v-21m-.4,21.4h67.6m0,0h94.7m0,0h4.6m0,0h67.2m0,0h95.1M127.6,908.9V890.6m0,36.7V908.9m0,36.7V927.3" class="gb_409"/>
+</svg>

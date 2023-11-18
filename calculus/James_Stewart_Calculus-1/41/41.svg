@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 931 1096" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<clipPath id="c0_41"><path d="M106.2,1026.1V51.2H931.9v974.9Z"/></clipPath>
+<clipPath id="c1_41"><path d="M0,41.4V0H931.9V41.4Z"/></clipPath>
+<clipPath id="c2_41"><path d="M125.9,195.4V45.7H381V195.4Z"/></clipPath>
+<clipPath id="c3_41"><path d="M310.2,580.3v-385H878.5v385Z"/></clipPath>
+<clipPath id="c4_41"><path d="M351.6,791.3V626.5H878.5V791.3Z"/></clipPath>
+<style type="text/css"><![CDATA[
+.g0_41{
+fill: #D6D5D6;
+}
+.g1_41{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.611;
+stroke-miterlimit: 3;
+}
+.g2_41{
+fill: #241F1F;
+}
+.g3_41{
+fill: #FFF;
+}
+]]></style>
+</defs>
+<image clip-path="url(#c0_41)" preserveAspectRatio="none" x="106" y="51" width="847" height="975" xlink:href="img/1.png"/>
+<image clip-path="url(#c1_41)" preserveAspectRatio="none" x="0" y="-20" width="952" height="61" xlink:href="img/2.png"/>
+<image clip-path="url(#c2_41)" preserveAspectRatio="none" x="126" y="46" width="255" height="149" xlink:href="img/3.png"/>
+<path d="M310.2,580.3H878.5v-385H310.2v385Z" class="g0_41"/>
+<image clip-path="url(#c3_41)" preserveAspectRatio="none" x="310" y="195" width="569" height="385" xlink:href="img/4.jpg"/>
+<image clip-path="url(#c4_41)" preserveAspectRatio="none" x="352" y="626" width="527" height="165" xlink:href="img/5.jpg"/>
+<path d="M352.1,798.9H862" class="g1_41"/>
+<path fill-rule="evenodd" d="M352.1,619.6l-3.1,2.1l3.1,-8.4l3.2,8.4Z" class="g2_41"/>
+<path d="M352.2,798.8V619.5M465.6,790.9v7.9m124.7,-7.9v7.9M707,790.9v7.9m119.9,-7.9v7.9M352.1,649.5H360m-7.9,30.3H360m-7.9,60.4H360m-7.9,30.3H360" class="g1_41"/>
+<path d="M860.5,718.5l18,.1V702.7l-18,-.8Z" class="g3_41"/>
+<path d="M352.2,710.2H858.1" class="g1_41"/>
+<path fill-rule="evenodd" d="M858.1,710.2L856,707.1l8.3,3.1l-8.3,3.2Z" class="g2_41"/>
+</svg>

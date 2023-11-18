@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 931 1096" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<clipPath id="c0_250"><path d="M51.8,268.6V92.8H931.9V268.6Z"/></clipPath>
+<clipPath id="c1_250"><path d="M52,349.8V316.2H825v33.6Z"/></clipPath>
+<clipPath id="c2_250"><path d="M489.9,489.3v-32H622.3v32Z"/></clipPath>
+<clipPath id="c3_250"><path d="M481.6,683.4V651.3H630.7v32.1Z"/></clipPath>
+<clipPath id="c4_250"><path d="M510.3,796.4v-32H602v32Z"/></clipPath>
+<clipPath id="c5_250"><path d="M456.8,1040.9V1007H654v33.9Z"/></clipPath>
+<style type="text/css"><![CDATA[
+.g0_250{
+fill: none;
+stroke: #00AEEF;
+stroke-width: 1.145;
+}
+.g1_250{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.763;
+stroke-miterlimit: 10;
+}
+.g2_250{
+fill: none;
+stroke: #0079C2;
+stroke-width: 0.763;
+}
+.g3_250{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.687;
+stroke-miterlimit: 10;
+}
+]]></style>
+</defs>
+<image clip-path="url(#c0_250)" preserveAspectRatio="none" x="52" y="93" width="883" height="176" xlink:href="img/1.png"/>
+<image clip-path="url(#c1_250)" preserveAspectRatio="none" x="52" y="316" width="773" height="34" xlink:href="img/2.png"/>
+<path d="M307.7,464.5c0,0,-1.6,0,-1.6,1.5v14.2c0,0,0,1.5,1.6,1.5h14.1c0,0,1.5,0,1.5,-1.5V466c0,0,0,-1.5,-1.5,-1.5H307.7Z" class="g0_250"/>
+<path clip-path="url(#c2_250)" d="M490.3,473.5h20.5m72,0h39.9" class="g1_250"/>
+<path d="M552.9,618.6h20.5M482,667.5h20.5m21.8,0h44.9" class="g1_250"/>
+<path clip-path="url(#c3_250)" d="M591.1,667.5H631" class="g1_250"/>
+<path d="M307.7,771.6c0,0,-1.6,0,-1.6,1.5v14.1c0,0,0,1.6,1.6,1.6h14.1c0,0,1.5,0,1.5,-1.6V773.1c0,0,0,-1.5,-1.5,-1.5H307.7Z" class="g0_250"/>
+<path d="M510.6,780.6h20.5" class="g1_250"/>
+<path clip-path="url(#c4_250)" d="M590.2,780.6h12.2" class="g1_250"/>
+<path d="M457.1,977.6h19.7m21.9,0h19.9m3.8,0h19.8m21.9,0h12.2m3.8,0H600M502.5,1025h47" class="g1_250"/>
+<path clip-path="url(#c5_250)" d="M607.4,1025h46.9" class="g1_250"/>
+<path d="M447.4,445.4c0,0,-3,0,-3,3V502c0,0,0,3.1,3,3.1H665.1c0,0,3.1,0,3.1,-3.1V448.4c0,0,0,-3,-3.1,-3H447.4Z" class="g2_250"/>
+<path d="M113.6,612.9h17" class="g3_250"/>
+<path d="M470.3,751.2c0,0,-3,0,-3,3.1v53.6c0,0,0,3.1,3,3.1H642.2c0,0,3.1,0,3.1,-3.1V754.3c0,0,0,-3.1,-3.1,-3.1H470.3Z" class="g2_250"/>
+</svg>

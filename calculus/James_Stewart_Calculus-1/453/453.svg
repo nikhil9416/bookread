@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 931 1096" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<clipPath id="c0_453"><path d="M107.7,130.1V91.9H880.8v38.2Z"/></clipPath>
+<clipPath id="c1_453"><path d="M212.6,1001.5V962.7h164v38.8Z"/></clipPath>
+<clipPath id="c2_453"><path d="M532.4,1007.9V979.2h94.9v28.7Z"/></clipPath>
+<style type="text/css"><![CDATA[
+.g0_453{
+fill: none;
+stroke: #00AEEF;
+stroke-width: 0.763;
+stroke-miterlimit: 10;
+}
+.g1_453{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.687;
+stroke-miterlimit: 10;
+}
+]]></style>
+</defs>
+<image clip-path="url(#c0_453)" preserveAspectRatio="none" x="108" y="92" width="773" height="38" xlink:href="img/1.png"/>
+<path d="M107.7,169h770M108.5,551.8h770" class="g0_453"/>
+<path d="M238.5,976.6h24.3" class="g1_453"/>
+<path clip-path="url(#c1_453)" d="M318.6,963h58.3" class="g1_453"/>
+<path d="M631.8,692.7h57.9m-64,216.9h17.8m-90.9,84h15.8" class="g1_453"/>
+<path clip-path="url(#c2_453)" d="M616.7,993.6h10.9" class="g1_453"/>
+</svg>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 931 1096" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<clipPath id="c0_336"><path d="M510.1,701.7v-32h90.5v32Z"/></clipPath>
+<clipPath id="c1_336"><path d="M521.8,788.8v-32h67.1v32Z"/></clipPath>
+<clipPath id="c2_336"><path d="M526,934.1V897.7h58.8v36.4Z"/></clipPath>
+<clipPath id="c3_336"><path d="M384.5,1042v-36.5H726.2V1042Z"/></clipPath>
+<clipPath id="c4_336"><path d="M585.8,262V233.3H703.7V262Z"/></clipPath>
+<clipPath id="c5_336"><path d="M517.5,394.6V365.9h87.2v28.7Z"/></clipPath>
+<clipPath id="c6_336"><path d="M165.3,240.8V210.4H335.9v30.4Z"/></clipPath>
+<clipPath id="c7_336"><path d="M52,635.8V602.2H825v33.6Z"/></clipPath>
+<style type="text/css"><![CDATA[
+.g0_336{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.763;
+stroke-miterlimit: 10;
+}
+.g1_336{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.534;
+stroke-miterlimit: 10;
+}
+.g2_336{
+fill: none;
+stroke: #00AEEF;
+stroke-width: 1.145;
+}
+.g3_336{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.687;
+stroke-miterlimit: 10;
+}
+.g4_336{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.481;
+stroke-miterlimit: 10;
+}
+]]></style>
+</defs>
+<path clip-path="url(#c0_336)" d="M559.4,685.9H601" class="g0_336"/>
+<path clip-path="url(#c1_336)" d="M547.7,773h41.6" class="g0_336"/>
+<path d="M465.7,863h5.4" class="g1_336"/>
+<path clip-path="url(#c2_336)" d="M552.6,915h32.5" class="g0_336"/>
+<path d="M528.6,968.4H534" class="g1_336"/>
+<path d="M410.3,1023.5h47m47.3,0h99m47.3,0h41.6" class="g0_336"/>
+<path clip-path="url(#c3_336)" d="M714.4,1023.5h12.2" class="g0_336"/>
+<path d="M303.1,766.2c0,0,-1.5,0,-1.5,1.6v14.1c0,0,0,1.5,1.5,1.5h14.1c0,0,1.5,0,1.5,-1.5V767.8c0,0,0,-1.6,-1.5,-1.6H303.1Z" class="g2_336"/>
+<path clip-path="url(#c4_336)" d="M661.7,247.8H704" class="g3_336"/>
+<path clip-path="url(#c5_336)" d="M594.1,380.3h11" class="g3_336"/>
+<path d="M755.3,380.3h10.9m-70.4,47.1h11" class="g3_336"/>
+<path d="M272.9,161.5h4.7" class="g4_336"/>
+<path d="M248.8,226.6h15.8" class="g3_336"/>
+<path clip-path="url(#c6_336)" d="M320.4,226.6h15.8" class="g3_336"/>
+<image clip-path="url(#c7_336)" preserveAspectRatio="none" x="52" y="602" width="773" height="34" xlink:href="img/1.png"/>
+</svg>

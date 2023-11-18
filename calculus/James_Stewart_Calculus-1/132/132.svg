@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 931 1096" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<clipPath id="c0_132"><path d="M441.3,487.1V453.3H494v33.8Z"/></clipPath>
+<clipPath id="c1_132"><path d="M396.7,838.4V821.2h99v17.2Z"/></clipPath>
+<style type="text/css"><![CDATA[
+.g0_132{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.763;
+stroke-miterlimit: 10;
+}
+.g1_132{
+fill: none;
+stroke: #00AEEF;
+stroke-width: 0.916;
+stroke-linejoin: round;
+}
+.g2_132{
+fill: none;
+stroke: #00AEEF;
+stroke-width: 0.763;
+stroke-miterlimit: 3;
+}
+.g3_132{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.611;
+stroke-miterlimit: 3;
+}
+.g4_132{
+fill: #241F1F;
+}
+.g5_132{
+fill: #FFF;
+}
+.g6_132{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.432;
+stroke-miterlimit: 3;
+}
+.g7_132{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.687;
+stroke-miterlimit: 10;
+}
+.g8_132{
+fill: none;
+stroke: #00AEEF;
+stroke-width: 0.916;
+stroke-miterlimit: 3;
+}
+]]></style>
+</defs>
+<path clip-path="url(#c0_132)" d="M467.7,471.2h26.7" class="g0_132"/>
+<path d="M455.8,556.8h26.6m54.6,0h12.1m-93.3,53.5h26.6m54.6,0h24.1M535.4,739H574" class="g0_132"/>
+<path clip-path="url(#c1_132)" d="M456.6,821.5H496" class="g0_132"/>
+<path d="M546.4,858.2h39.4m33.1,-1.5h39.6" class="g0_132"/>
+<path d="M53.5,641.4h96.2m0,-55H246" class="g1_132"/>
+<path d="M148,641.4c0,-.9,.8,-1.7,1.7,-1.7c1,0,1.8,.8,1.8,1.7c0,1,-.8,1.8,-1.8,1.8c-.9,0,-1.7,-.8,-1.7,-1.8Zm0,-55c0,-.9,.8,-1.7,1.7,-1.7c1,0,1.8,.8,1.8,1.7c0,1,-.8,1.8,-1.8,1.8c-.9,0,-1.7,-.8,-1.7,-1.8Z" class="g2_132"/>
+<path d="M149.7,668.9v-110" class="g3_132"/>
+<path fill-rule="evenodd" d="M149.7,558.9l-2.4,1.7l2.4,-6.6l2.5,6.6Z" class="g4_132"/>
+<path d="M53.5,613.9H246" class="g3_132"/>
+<path fill-rule="evenodd" d="M246,613.9l-1.6,-2.4l6.5,2.4l-6.5,2.5Z" class="g4_132"/>
+<path d="M148.4,641.4c0,-.7,.6,-1.3,1.3,-1.3c.8,0,1.4,.6,1.4,1.3c0,.8,-.6,1.4,-1.4,1.4c-.7,0,-1.3,-.6,-1.3,-1.4Z" class="g5_132"/>
+<path d="M148.4,586.4c0,-.7,.6,-1.3,1.3,-1.3c.8,0,1.4,.6,1.4,1.3c0,.8,-.6,1.4,-1.4,1.4c-.7,0,-1.3,-.6,-1.3,-1.4Z" class="g5_132"/>
+<path d="M89.3,584.7h15.5" class="g6_132"/>
+<path d="M114.5,838h8.2" class="g7_132"/>
+<path d="M81,1017.4V916.6" class="g3_132"/>
+<path fill-rule="evenodd" d="M81,916.6l-2.5,1.6L81,911.7l2.4,6.5Z" class="g4_132"/>
+<path d="M53.5,989.9H264.3" class="g3_132"/>
+<path fill-rule="evenodd" d="M264.3,989.9l-1.6,-2.4l6.5,2.4l-6.5,2.4Z" class="g4_132"/>
+<path d="M98.9,916.6L136,989.9c0,-18.3,57.3,-46.6,123.7,-55" class="g8_132"/>
+<path d="M134.3,989.9c0,-.9,.7,-1.7,1.7,-1.7c.9,0,1.7,.8,1.7,1.7c0,1,-.8,1.7,-1.7,1.7c-1,0,-1.7,-.7,-1.7,-1.7Z" class="g5_132"/>
+<path d="M134.3,989.9c0,-.9,.7,-1.7,1.7,-1.7c.9,0,1.7,.8,1.7,1.7c0,1,-.8,1.7,-1.7,1.7c-1,0,-1.7,-.7,-1.7,-1.7Z" class="g2_132"/>
+<path d="M245.6,275.1l-95.9,95.8L53.9,275.1" class="g1_132"/>
+<path d="M53.5,370.9H246" class="g3_132"/>
+<path fill-rule="evenodd" d="M246,370.9l-1.6,-2.4l6.5,2.4l-6.5,2.4Z" class="g4_132"/>
+<path d="M149.8,393.5V270.1" class="g3_132"/>
+<path fill-rule="evenodd" d="M149.8,270.1l-2.4,1.6l2.4,-6.5l2.5,6.5Z" class="g4_132"/>
+</svg>

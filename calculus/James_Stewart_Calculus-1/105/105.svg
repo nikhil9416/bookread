@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 931 1096" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<clipPath id="c0_105"><path d="M0,1096.5V30.3H892.7V1096.5Z"/></clipPath>
+<clipPath id="c1_105"><path d="M557.4,825V794.7H692.1V825Z"/></clipPath>
+<style type="text/css"><![CDATA[
+.g0_105{
+fill: #EBEAEA;
+}
+.g1_105{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.534;
+stroke-miterlimit: 3;
+}
+.g2_105{
+fill: none;
+stroke: #EE008C;
+stroke-width: 0.916;
+stroke-linejoin: round;
+}
+.g3_105{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.534;
+stroke-miterlimit: 10;
+}
+.g4_105{
+fill: none;
+stroke: #00AEEF;
+stroke-width: 1.145;
+}
+.g5_105{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.687;
+stroke-miterlimit: 10;
+}
+.g6_105{
+fill: #5F2E91;
+}
+]]></style>
+</defs>
+<path d="M0,1096.5H951.8V-20H0V1096.5Z" class="g0_105"/>
+<image clip-path="url(#c0_105)" preserveAspectRatio="none" x="0" y="31" width="892" height="1066" xlink:href="img/1.png"/>
+<path d="M684.2,157.6v-9.1h9.1" class="g1_105"/>
+<path d="M510,157.6H693.3V84.3L510,157.6Z" class="g2_105"/>
+<path d="M546.1,330.6h5.3" class="g3_105"/>
+<path d="M348.9,395.8c0,0,-1.5,0,-1.5,1.5v14.2c0,0,0,1.5,1.5,1.5H363c0,0,1.6,0,1.6,-1.5V397.3c0,0,0,-1.5,-1.6,-1.5H348.9Zm0,27.5c0,0,-1.5,0,-1.5,1.5V439c0,0,0,1.5,1.5,1.5H363c0,0,1.6,0,1.6,-1.5V424.8c0,0,0,-1.5,-1.6,-1.5H348.9Z" class="g4_105"/>
+<path d="M601.2,432.9h5.3" class="g3_105"/>
+<path d="M348.9,450.8c0,0,-1.5,0,-1.5,1.5v14.2c0,0,0,1.5,1.5,1.5H363c0,0,1.6,0,1.6,-1.5V452.3c0,0,0,-1.5,-1.6,-1.5H348.9Z" class="g4_105"/>
+<path clip-path="url(#c1_105)" d="M634.8,810.9h57.6" class="g5_105"/>
+<path d="M108.5,70.5h15.3V58.3H108.5V70.5Z" class="g6_105"/>
+<path d="M108.5,200.6h15.3V188.4H108.5v12.2Z" class="g6_105"/>
+<path d="M108.5,231.2h15.3V218.9H108.5v12.3Z" class="g6_105"/>
+<path d="M108.5,535h15.3V522.7H108.5V535Z" class="g6_105"/>
+</svg>

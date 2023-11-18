@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 931 1096" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<clipPath id="c0_201"><path d="M0,1096.5V30.3H892.7V1096.5Z"/></clipPath>
+<clipPath id="c1_201"><path d="M487.3,227.4V191.7H604.8v35.7Z"/></clipPath>
+<clipPath id="c2_201"><path d="M568.6,361.5v-17h83.5v17Z"/></clipPath>
+<clipPath id="c3_201"><path d="M597.4,441.3v-34h76.8v34Z"/></clipPath>
+<clipPath id="c4_201"><path d="M495.6,545.5V508H725.1v37.5Z"/></clipPath>
+<clipPath id="c5_201"><path d="M485.4,708.2V672.3H735.3v35.9Z"/></clipPath>
+<clipPath id="c6_201"><path d="M425.5,982.6V945.4h72v37.2Z"/></clipPath>
+<style type="text/css"><![CDATA[
+.g0_201{
+fill: #EBEAEA;
+}
+.g1_201{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.763;
+stroke-miterlimit: 10;
+}
+.g2_201{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.687;
+stroke-miterlimit: 10;
+}
+]]></style>
+</defs>
+<path d="M0,1096.5H951.8V-20H0V1096.5Z" class="g0_201"/>
+<image clip-path="url(#c0_201)" preserveAspectRatio="none" x="0" y="31" width="892" height="1066" xlink:href="img/1.png"/>
+<path clip-path="url(#c1_201)" d="M527.4,192.1h46m-59.6,19.4h91.4" class="g1_201"/>
+<path clip-path="url(#c2_201)" d="M606.4,344.9h46.1" class="g1_201"/>
+<path clip-path="url(#c3_201)" d="M630.2,425.4h44.4" class="g1_201"/>
+<path clip-path="url(#c4_201)" d="M534.2,508.4h46.1M520.7,527h91.4m46,0h67.4" class="g1_201"/>
+<path d="M658.1,578.2h55.2M509.9,689.7h55.2" class="g1_201"/>
+<path clip-path="url(#c5_201)" d="M611.2,689.7H735.7" class="g1_201"/>
+<path d="M611.2,735.5h70.5m21.8,0h12.2" class="g1_201"/>
+<path d="M461.1,945.8h8.1" class="g2_201"/>
+<path clip-path="url(#c6_201)" d="M448.8,963.7h49.1" class="g2_201"/>
+<path d="M461,967.2h8.3m116.5,29h42.4m-54.5,17.9h83.1" class="g2_201"/>
+<path d="M113.1,954.7c0,0,-4.6,0,-4.6,4.5v9.2c0,0,0,4.6,4.6,4.6H323.9c0,0,4.6,0,4.6,-4.6v-9.2c0,0,0,-4.5,-4.6,-4.5Z" class="g0_201"/>
+</svg>

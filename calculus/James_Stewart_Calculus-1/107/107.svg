@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 931 1096" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<clipPath id="c0_107"><path d="M0,1096.5V30.3H892.7V1096.5Z"/></clipPath>
+<clipPath id="c1_107"><path d="M539.3,694.1v-31H679.6v31Z"/></clipPath>
+<clipPath id="c2_107"><path d="M541.3,789.6V758.5H679.4v31.1Z"/></clipPath>
+<clipPath id="c3_107"><path d="M432.3,946.1V872.3H843.4v73.8Z"/></clipPath>
+<style type="text/css"><![CDATA[
+.g0_107{
+fill: #EBEAEA;
+}
+.g1_107{
+fill: none;
+stroke: #241F1F;
+stroke-width: 0.763;
+stroke-miterlimit: 10;
+}
+.g2_107{
+fill: none;
+stroke: #00AEEF;
+stroke-width: 1.145;
+}
+.g3_107{
+fill: #5F2E91;
+}
+]]></style>
+</defs>
+<path d="M0,1096.5H951.8V-20H0V1096.5Z" class="g0_107"/>
+<image clip-path="url(#c0_107)" preserveAspectRatio="none" x="0" y="31" width="892" height="1066" xlink:href="img/1.png"/>
+<path d="M691.4,169.2h40.8M533.7,221.9h40.9m-57.9,21.4h74.9M519,264.7h40.8M620,221.9h40.8m-47.3,21.4h53.8m-51.5,21.4H665m24.2,-21.4h49.2m-45.5,77.9h49.2M533.7,374.7H583M516.7,396H600m-81,21.4h49.2m56,-42.7h49.2M621.9,396h53.8m-51.5,21.4h49.2M697.6,396H746m-53.1,78.7h48.5M533.7,527.4h48.5m-65.5,21.4h82.5M519,570.2h48.4m56.4,-42.8h48.5m-51.2,21.4h53.8m-51.5,21.4h49.2m24.2,-21.4H746" class="g1_107"/>
+<path d="M348.9,665.9c0,0,-1.5,0,-1.5,1.5v14.2c0,0,0,1.5,1.5,1.5H363c0,0,1.6,0,1.6,-1.5V667.4c0,0,0,-1.5,-1.6,-1.5H348.9Z" class="g2_107"/>
+<path clip-path="url(#c1_107)" d="M590.3,675.6H680" class="g1_107"/>
+<path clip-path="url(#c2_107)" d="M591.8,771.1h88" class="g1_107"/>
+<path d="M668.5,829.1h88M509.8,884.9h89.5M492.8,906.3H616.4M495,927.7h89.6m56,-42.8h89.5m-91.8,21.4h94.1m-91.5,21.4h88.8" class="g1_107"/>
+<path clip-path="url(#c3_107)" d="M754.3,906.3h89.5" class="g1_107"/>
+<path d="M108.5,122.8h15.3V110.5H108.5v12.3Z" class="g3_107"/>
+<path d="M108.5,553.3h15.3V541H108.5v12.3Z" class="g3_107"/>
+</svg>
