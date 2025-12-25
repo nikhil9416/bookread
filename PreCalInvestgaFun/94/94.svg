@@ -1,0 +1,23 @@
+<svg viewBox="0 0 935 1210" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="c0_94"><path d="M548.9 336.4V191.6H771.4V336.4Z"/></clipPath>
+<clipPath id="c1_94"><path d="M567.2 558.5V352.7H770.3V558.5Z"/></clipPath>
+<style>
+.g0_94{fill:#B84C10;}
+.g1_94{fill:none;stroke:#000;stroke-width:0.761;stroke-linecap:square;stroke-miterlimit:10;}
+.g2_94{fill:none;stroke:#000;stroke-width:0.921;stroke-linecap:square;stroke-miterlimit:10;}
+.g3_94{fill:none;stroke:#000;stroke-width:0.152;stroke-linecap:square;stroke-miterlimit:10;}
+.g4_94{fill:#000;}
+</style>
+</defs>
+<path fill-rule="evenodd" d="M107.7 156.7H772.3v-4.5H107.7v4.5Z" class="g0_94"/>
+<path d="M107.7 158.9H772.3v-1H107.7v1Z" class="g0_94"/>
+<path d="M206.2 446.2h9.9" class="g1_94"/>
+<path d="M199.4 500.7h9.9" class="g2_94"/>
+<path d="M187 506.4l1.8-2.3m0 0l4.5 16.9m0 0l5-44.6m0 0h24.4" class="g3_94"/>
+<path d="M192.9 521l-4.6-15.8l-1.1 1.3l-.4-.3l2.5-3.2l4 14.1l4.6-41.1h24.8v.9h-24L193.8 521Z" class="g4_94"/>
+<path fill-rule="evenodd" d="M107.7 705.5H772.3v-4.6H107.7v4.6Z" class="g0_94"/>
+<path d="M107.7 699.8H772.3v-1.1H107.7v1.1Z" class="g0_94"/>
+<image clip-path="url(#c0_94)" preserveAspectRatio="none" x="549" y="192" width="222" height="144" href="img/1.jpg"/>
+<image clip-path="url(#c1_94)" preserveAspectRatio="none" x="567" y="353" width="203" height="205" href="img/2.jpg"/>
+</svg>

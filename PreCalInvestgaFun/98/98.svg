@@ -1,0 +1,28 @@
+<svg viewBox="0 0 935 1210" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="c0_98"><path d="M137.2 313.8V109.7H342.9V313.8Z"/></clipPath>
+<clipPath id="c1_98"><path d="M462.6 313.8V109.7H667.4V313.8Z"/></clipPath>
+<style>
+.g0_98{fill:none;stroke:#000;stroke-width:0.152;stroke-linecap:square;stroke-miterlimit:10;}
+.g1_98{fill:#000;}
+.g2_98{fill:none;stroke:#000;stroke-width:0.76;stroke-linecap:square;stroke-miterlimit:10;}
+.g3_98{fill:none;stroke:#000;stroke-width:0.767;stroke-linecap:square;stroke-miterlimit:10;}
+.g4_98{fill:none;stroke:#000;stroke-width:0.771;stroke-linecap:square;stroke-miterlimit:10;}
+.g5_98{fill:none;stroke:#000;stroke-width:0.719;stroke-linecap:square;stroke-miterlimit:10;}
+.g6_98{fill:none;stroke:#000;stroke-width:0.759;stroke-linecap:square;stroke-miterlimit:10;}
+.g7_98{fill:none;stroke:#000;stroke-width:0.781;stroke-linecap:square;stroke-miterlimit:10;}
+</style>
+</defs>
+<path d="M247.4 408l1.8-1.1m0 0l4.4 7.5m0 0l4.8-19.9m0 0h10.9" class="g0_98"/>
+<path d="M253.2 414.4l-4.5-6.9l-1.2 .8l-.3-.6l2.5-1.4l3.9 6.2l4.5-18.4h11.2v.9H258.8l-4.7 19.4Z" class="g1_98"/>
+<path d="M248.8 444.6h11.3M164.6 751.8h9.9" class="g2_98"/>
+<path d="M439.9 751.8h10.3" class="g3_98"/>
+<path d="M195.1 884.5v22.3m13.2-22.3v22.3" class="g4_98"/>
+<path d="M718.5 896H729" class="g5_98"/>
+<path d="M194.3 957.1l1.9-1.1m0 0l4.4 7.6m0 0l4.9-19.9m0 0h10.9" class="g0_98"/>
+<path d="M200.2 963.6l-4.5-6.9l-1.2 .7l-.3-.5l2.5-1.4l4 6.1l4.4-18.4h11.3v.9H205.8l-4.7 19.5Z" class="g1_98"/>
+<path d="M193.8 1014.9h19.1" class="g6_98"/>
+<path d="M492.1 1014.9h10.1" class="g7_98"/>
+<image clip-path="url(#c0_98)" preserveAspectRatio="none" x="137" y="110" width="206" height="204" href="img/1.jpg"/>
+<image clip-path="url(#c1_98)" preserveAspectRatio="none" x="463" y="110" width="204" height="204" href="img/2.jpg"/>
+</svg>

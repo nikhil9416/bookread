@@ -1,0 +1,24 @@
+<svg viewBox="0 0 935 1210" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="c0_694"><path d="M164.7 321.6V133.9H352.3V321.6Z"/></clipPath>
+<clipPath id="c1_694"><path d="M164.7 536.9V349.3H352.3V536.9Z"/></clipPath>
+<clipPath id="c2_694"><path d="M169.3 972.4V784.8H356.9V972.4Z"/></clipPath>
+<style>
+.g0_694{fill:none;stroke:#000;stroke-width:0.152;stroke-linecap:square;stroke-miterlimit:10;}
+.g1_694{fill:#000;}
+.g2_694{fill:none;stroke:#000;stroke-width:0.77;stroke-linecap:square;stroke-miterlimit:10;}
+.g3_694{fill:none;stroke:#000;stroke-width:0.766;stroke-linecap:square;stroke-miterlimit:10;}
+</style>
+</defs>
+<path d="M282.2 772.7l1.9-1m0 0l4.5 7.2m0 0l5-19.2m0 0h10.9" class="g0_694"/>
+<path d="M288.2 778.9l-4.6-6.7l-1.3 .8l-.3-.5l2.6-1.4l4.1 5.9l4.6-17.7h11.2v.9H294l-4.9 18.7Z" class="g1_694"/>
+<path d="M494.3 772.7l1.9-1m0 0l4.6 7.2m0 0l5-19.2m0 0h10.9" class="g0_694"/>
+<path d="M500.3 778.9l-4.6-6.7l-1.2 .8l-.3-.5l2.6-1.4l4 5.9l4.6-17.7h11.3v.9H506.1l-4.8 18.7Z" class="g1_694"/>
+<path d="M200.3 1004.1h20.5m17.3 0h19.4" class="g2_694"/>
+<path d="M365.2 1004.1h20.4m17.3 0h20" class="g3_694"/>
+<path d="M530.3 1004.1h19.3m17.4 0h20.5m107.8 0h19.3m17.4 0h20.5" class="g2_694"/>
+<image clip-path="url(#c0_694)" preserveAspectRatio="none" x="165" y="134" width="198" height="198" href="img/1.jpg"/>
+<image clip-path="url(#c1_694)" preserveAspectRatio="none" x="165" y="350" width="187" height="187" href="img/2.jpg"/>
+<image preserveAspectRatio="none" x="170" y="565" width="187" height="187" href="img/3.jpg"/>
+<image clip-path="url(#c2_694)" preserveAspectRatio="none" x="170" y="785" width="187" height="187" href="img/4.jpg"/>
+</svg>

@@ -1,0 +1,44 @@
+<svg viewBox="0 0 935 1210" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="c0_598"><path d="M219.7 424.3V225.7H420.8V424.3Z"/></clipPath>
+<clipPath id="c1_598"><path d="M444.3 424.2V225.7H644.6V424.2Z"/></clipPath>
+<style>
+.g0_598{fill:#2F5496;}
+.g1_598{fill:#2D5191;}
+.g2_598{fill:none;stroke:#000;stroke-width:0.762;stroke-linecap:square;stroke-miterlimit:10;}
+.g3_598{fill:none;stroke:#000;stroke-width:0.757;stroke-linecap:square;stroke-miterlimit:10;}
+.g4_598{fill:#B84C10;}
+</style>
+</defs>
+<path d="M166.7 136.4h1.1V110h-1.1v26.4Z" class="g0_598"/>
+<path d="M166.7 162.8h1.1V136.4h-1.1v26.4Z" class="g0_598"/>
+<path d="M166.7 183.9h1.1V162.8h-1.1v21.1Z" class="g0_598"/>
+<path d="M166.7 205h1.1V183.9h-1.1V205Z" class="g0_598"/>
+<path d="M166.7 226.1h1.1V205h-1.1v21.1Z" class="g0_598"/>
+<path d="M166.7 424h1.1V226h-1.1V424Z" class="g0_598"/>
+<path fill-rule="evenodd" d="M162.8 489H827.2V466.2H162.8V489Z" class="g1_598"/>
+<path d="M166.7 510h1.1V489h-1.1v21Z" class="g0_598"/>
+<path d="M166.7 531.1h1.1V510h-1.1v21.1Z" class="g0_598"/>
+<path d="M166.7 552.2h1.1V531.1h-1.1v21.1Z" class="g0_598"/>
+<path d="M166.7 573.3h1.1V552.2h-1.1v21.1Z" class="g0_598"/>
+<path d="M656.7 602.2h55.7m17.4 0h57.1" class="g2_598"/>
+<path d="M166.7 624.8h1.1V573.3h-1.1v51.5Z" class="g0_598"/>
+<path d="M166.7 645.9h1.1V624.8h-1.1v21.1Z" class="g0_598"/>
+<path d="M166.7 667h1.1V645.9h-1.1V667Z" class="g0_598"/>
+<path d="M179.1 695.9h55.7m17.4 0h53.1" class="g2_598"/>
+<path d="M166.7 718.5h1.1V667h-1.1v51.5Z" class="g0_598"/>
+<path d="M179.1 747.4h54.7m17.3 0H299" class="g3_598"/>
+<path d="M166.7 770.2h1.1V718.5h-1.1v51.7Z" class="g0_598"/>
+<path d="M166.7 791.3h1.1V770.2h-1.1v21.1Z" class="g0_598"/>
+<path d="M521.8 820.1h55.6m17.5 0h53" class="g2_598"/>
+<path d="M166.7 842.8h1.1V791.3h-1.1v51.5Z" class="g0_598"/>
+<path d="M179.1 871.7h57.3m18.2 0h54.7" class="g2_598"/>
+<path d="M166.7 894.3h1.1V842.8h-1.1v51.5Z" class="g0_598"/>
+<path fill-rule="evenodd" d="M162.8 941.1H827.2v-4.6H162.8v4.6Z" class="g4_598"/>
+<path d="M162.8 943.2H827.2v-1.1H162.8v1.1Z" class="g4_598"/>
+<path d="M484.9 1016.1h56.7" class="g2_598"/>
+<path fill-rule="evenodd" d="M162.8 1047H827.2v-4.6H162.8v4.6Z" class="g4_598"/>
+<path d="M162.8 1041.3H827.2v-1.1H162.8v1.1Z" class="g4_598"/>
+<image clip-path="url(#c0_598)" preserveAspectRatio="none" x="220" y="226" width="200" height="198" href="img/1.jpg"/>
+<image clip-path="url(#c1_598)" preserveAspectRatio="none" x="445" y="226" width="199" height="198" href="img/2.jpg"/>
+</svg>

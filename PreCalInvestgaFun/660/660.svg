@@ -1,0 +1,28 @@
+<svg viewBox="0 0 935 1210" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="c0_660"><path d="M183 919.1V770.3H410.6V919.1Z"/></clipPath>
+<clipPath id="c1_660"><path d="M513 919.1V770.3H732.8V919.1Z"/></clipPath>
+<clipPath id="c2_660"><path d="M192.2 1075.2V925.6H416.3v149.6Z"/></clipPath>
+<clipPath id="c3_660"><path d="M522.2 1075.2V925.6H746.3v149.6Z"/></clipPath>
+<style>
+.g0_660{fill:none;stroke:#000;stroke-width:0.781;stroke-linecap:square;stroke-miterlimit:10;}
+.g1_660{fill:none;stroke:#000;stroke-width:0.77;stroke-linecap:square;stroke-miterlimit:10;}
+.g2_660{fill:none;stroke:#000;stroke-width:0.779;stroke-linecap:square;stroke-miterlimit:10;}
+.g3_660{fill:none;stroke:#000;stroke-width:0.762;stroke-linecap:square;stroke-miterlimit:10;}
+.g4_660{fill:none;stroke:#000;stroke-width:0.757;stroke-linecap:square;stroke-miterlimit:10;}
+.g5_660{fill:none;stroke:#000;stroke-width:0.765;stroke-linecap:square;stroke-miterlimit:10;}
+.g6_660{fill:none;stroke:#000;stroke-width:0.76;stroke-linecap:square;stroke-miterlimit:10;}
+</style>
+</defs>
+<path d="M208.6 289.6h10.2" class="g0_660"/>
+<path d="M470.7 289.6h11.1m208.9 0h11.1" class="g1_660"/>
+<path d="M226.4 462.1h10.4" class="g2_660"/>
+<path d="M732.1 462.1H742m29.2 0H788" class="g3_660"/>
+<path d="M499.3 512.2h11" class="g4_660"/>
+<path d="M235 647.3h10.6m33.3 0h27.4" class="g5_660"/>
+<path d="M493.4 647.3h10.5" class="g6_660"/>
+<image clip-path="url(#c0_660)" preserveAspectRatio="none" x="183" y="771" width="227" height="148" href="img/1.jpg"/>
+<image clip-path="url(#c1_660)" preserveAspectRatio="none" x="513" y="771" width="219" height="148" href="img/2.jpg"/>
+<image clip-path="url(#c2_660)" preserveAspectRatio="none" x="193" y="926" width="223" height="149" href="img/3.jpg"/>
+<image clip-path="url(#c3_660)" preserveAspectRatio="none" x="523" y="926" width="223" height="149" href="img/4.jpg"/>
+</svg>

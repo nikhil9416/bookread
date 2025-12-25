@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta charset="utf-8" />
+</head>
+
+<body style="margin: 0;">
+
+<div id="p570" style="overflow: hidden; position: relative; background-color: white; width: 811px; height: 1017px;">
+
+<!-- Begin shared CSS values -->
+<style class="shared-css" type="text/css" >
+.t {
+	transform-origin: bottom left;
+	z-index: 2;
+	position: absolute;
+	white-space: pre;
+	overflow: visible;
+	line-height: 1.5;
+}
+.text-container {
+	white-space: pre;
+}
+@supports (-webkit-touch-callout: none) {
+	.text-container {
+		white-space: normal;
+	}
+}
+</style>
+<!-- End shared CSS values -->
+
+
+<!-- Begin inline CSS -->
+<style type="text/css" >
+
+#t1_570{left:703px;bottom:960px;letter-spacing:-0.15px;}
+#t2_570{left:338px;bottom:960px;letter-spacing:-0.13px;word-spacing:0.01px;}
+#t3_570{left:101px;bottom:913px;letter-spacing:-0.56px;}
+#t4_570{left:156px;bottom:913px;letter-spacing:0.02px;word-spacing:0.01px;}
+#t5_570{left:156px;bottom:891px;letter-spacing:0.11px;word-spacing:1.35px;}
+#t6_570{left:156px;bottom:872px;letter-spacing:0.1px;word-spacing:0.76px;}
+#t7_570{left:156px;bottom:852px;letter-spacing:0.11px;word-spacing:2.31px;}
+#t8_570{left:156px;bottom:832px;letter-spacing:0.1px;word-spacing:0.01px;}
+#t9_570{left:180px;bottom:812px;letter-spacing:0.1px;word-spacing:1.24px;}
+#ta_570{left:156px;bottom:792px;letter-spacing:0.1px;word-spacing:1.27px;}
+#tb_570{left:156px;bottom:772px;letter-spacing:0.1px;word-spacing:0.03px;}
+#tc_570{left:156px;bottom:752px;letter-spacing:0.09px;}
+#td_570{left:179px;bottom:733px;letter-spacing:0.1px;word-spacing:0.49px;}
+#te_570{left:156px;bottom:713px;letter-spacing:0.1px;word-spacing:1.35px;}
+#tf_570{left:156px;bottom:693px;letter-spacing:0.09px;word-spacing:0.56px;}
+#tg_570{left:156px;bottom:673px;letter-spacing:0.1px;word-spacing:1.18px;}
+#th_570{left:156px;bottom:653px;letter-spacing:0.1px;word-spacing:0.02px;}
+
+.s0_570{font-size:14px;font-family:NewBaskerville-Bold_fi1;color:#000;}
+.s1_570{font-size:14px;font-family:NewBaskerville-BoldItalic_fhw;color:#000;}
+.s2_570{font-size:19px;font-family:FranklinGothic-DemiItal_fj0;color:#476B85;}
+.s3_570{font-size:15px;font-family:NewBaskerville-Roman_fix;color:#262626;}
+</style>
+<!-- End inline CSS -->
+
+<!-- Begin embedded font definitions -->
+<style id="fonts570" type="text/css" >
+
+@font-face {
+	font-family: FranklinGothic-DemiItal_fj0;
+	src: url("fonts/FranklinGothic-DemiItal_fj0.woff") format("woff");
+}
+
+@font-face {
+	font-family: NewBaskerville-BoldItalic_fhw;
+	src: url("fonts/NewBaskerville-BoldItalic_fhw.woff") format("woff");
+}
+
+@font-face {
+	font-family: NewBaskerville-Bold_fi1;
+	src: url("fonts/NewBaskerville-Bold_fi1.woff") format("woff");
+}
+
+@font-face {
+	font-family: NewBaskerville-Roman_fix;
+	src: url("fonts/NewBaskerville-Roman_fix.woff") format("woff");
+}
+
+</style>
+<!-- End embedded font definitions -->
+
+<!-- Begin page background -->
+<div id="pg570Overlay" style="width:100%; height:100%; position:absolute; z-index:1; background-color:rgba(0,0,0,0); -webkit-user-select: none;"></div>
+<div id="pg570" style="-webkit-user-select: none;"><object width="811" height="1017" data="570/570.svg" type="image/svg+xml" id="pdf570" style="width:811px; height:1017px; -moz-transform:scale(1); z-index: 0;"></object></div>
+<!-- End page background -->
+
+
+<!-- Begin text definitions (Positioned/styled in CSS) -->
+<div class="text-container"><span id="t1_570" class="t s0_570">537 </span><span id="t2_570" class="t s1_570">Performance considerations </span>
+<span id="t3_570" class="t s2_570">C.2 </span><span id="t4_570" class="t s2_570">Performance considerations </span>
+<span id="t5_570" class="t s3_570">For performance reasons you shouldn’t take for granted that this approach is more </span>
+<span id="t6_570" class="t s3_570">efficient than traversing the stream several times. The overhead caused by the use of </span>
+<span id="t7_570" class="t s3_570">the blocking queues can easily outweigh the advantages of executing the different </span>
+<span id="t8_570" class="t s3_570">operations in parallel when the stream is made of data that’s all in memory. </span>
+<span id="t9_570" class="t s3_570">Conversely, accessing the stream only once could be a winning choice when this </span>
+<span id="ta_570" class="t s3_570">involves some expensive I/O operations, such as when the source of the stream is a </span>
+<span id="tb_570" class="t s3_570">huge file; so (as usual) the only meaningful rule when optimizing the performance of </span>
+<span id="tc_570" class="t s3_570">your application is to “Just measure it!” </span>
+<span id="td_570" class="t s3_570">This example demonstrates how it can be possible to execute multiple operations </span>
+<span id="te_570" class="t s3_570">on the same stream in one shot. More importantly, we believe this proves that even </span>
+<span id="tf_570" class="t s3_570">when a specific feature isn’t provided by the native Java API, the flexibility of lambda </span>
+<span id="tg_570" class="t s3_570">expressions and a bit of creativity in reusing and combining what’s already available </span>
+<span id="th_570" class="t s3_570">can let you implement the missing feature on your own. </span></div>
+<!-- End text definitions -->
+
+
+</div>
+</body>
+</html>

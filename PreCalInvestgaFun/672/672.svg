@@ -1,0 +1,22 @@
+<svg viewBox="0 0 935 1210" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="c0_672"><path d="M183 374.4V258.5H356V374.4Z"/></clipPath>
+<clipPath id="c1_672"><path d="M467.2 374.4V254.2H646.3V374.4Z"/></clipPath>
+<clipPath id="c2_672"><path d="M192.2 499.6V377.7H374.7V499.6Z"/></clipPath>
+<clipPath id="c3_672"><path d="M467.2 499.6V377.7H649.7V499.6Z"/></clipPath>
+<style>
+.g0_672{fill:none;stroke:#000;stroke-width:0.768;stroke-linecap:square;stroke-miterlimit:10;}
+.g1_672{fill:none;stroke:#000;stroke-width:0.763;stroke-linecap:square;stroke-miterlimit:10;}
+.g2_672{fill:none;stroke:#000;stroke-width:0.762;stroke-linecap:square;stroke-miterlimit:10;}
+.g3_672{fill:none;stroke:#000;stroke-width:0.764;stroke-linecap:square;stroke-miterlimit:10;}
+</style>
+</defs>
+<path d="M295.9 209.7h9.9m129.8 0h10" class="g0_672"/>
+<path d="M221.1 528.1h45.6m245.5-.5h49.6" class="g1_672"/>
+<path d="M224.5 580.8h50.7" class="g2_672"/>
+<path d="M512.2 580.8h50" class="g3_672"/>
+<image clip-path="url(#c0_672)" preserveAspectRatio="none" x="180" y="255" width="179" height="122" href="img/1.jpg"/>
+<image clip-path="url(#c1_672)" preserveAspectRatio="none" x="468" y="255" width="178" height="119" href="img/2.jpg"/>
+<image clip-path="url(#c2_672)" preserveAspectRatio="none" x="193" y="378" width="181" height="121" href="img/3.jpg"/>
+<image clip-path="url(#c3_672)" preserveAspectRatio="none" x="468" y="378" width="181" height="121" href="img/4.jpg"/>
+</svg>

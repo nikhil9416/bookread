@@ -1,0 +1,26 @@
+<svg viewBox="0 0 935 1210" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="c0_170"><path d="M576.3 653.2V454.6H792.9V653.2Z"/></clipPath>
+<clipPath id="c1_170"><path d="M576.1 1062V863.3H778.3V1062Z"/></clipPath>
+<style>
+.g0_170{fill:#365F91;}
+.g1_170{fill:none;stroke:#000;stroke-width:0.395;stroke-linecap:square;stroke-miterlimit:10;}
+.g2_170{fill:#B84C10;}
+</style>
+</defs>
+<path d="M111.7 131.1h1.1V110h-1.1v21.1Z" class="g0_170"/>
+<path d="M111.7 157.5h1.1V131.1h-1.1v26.4Z" class="g0_170"/>
+<path d="M111.7 178.6h1.1V157.5h-1.1v21.1Z" class="g0_170"/>
+<path d="M111.7 199.6h1.1v-21h-1.1v21Z" class="g0_170"/>
+<path d="M111.7 225.9h1.1V199.7h-1.1v26.2Z" class="g0_170"/>
+<path d="M111.7 247h1.1V225.9h-1.1V247Z" class="g0_170"/>
+<path d="M111.7 268h1.1V247h-1.1v21Z" class="g0_170"/>
+<path d="M405.1 271.5l-3.5 10.2m110.5-10.2l-3.5 10.2" class="g1_170"/>
+<path d="M111.7 294.4h1.1V268h-1.1v26.4Z" class="g0_170"/>
+<path fill-rule="evenodd" d="M107.8 341.2H772.2v-4.6H107.8v4.6Z" class="g2_170"/>
+<path d="M107.8 343.4H772.2v-1.1H107.8v1.1Z" class="g2_170"/>
+<path fill-rule="evenodd" d="M107.8 395.6H772.2v-4.5H107.8v4.5Z" class="g2_170"/>
+<path d="M107.8 389.9H772.2v-1H107.8v1Z" class="g2_170"/>
+<image clip-path="url(#c0_170)" preserveAspectRatio="none" x="577" y="455" width="216" height="198" href="img/1.jpg"/>
+<image clip-path="url(#c1_170)" preserveAspectRatio="none" x="576" y="863" width="202" height="199" href="img/2.jpg"/>
+</svg>
